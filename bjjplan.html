@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2016-11-28 Mon 21:31 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title></title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Brian Cronmiller" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgab6ca5b">1. Guard</a>
+<ul>
+<li><a href="#org6b4cdf9">1.1. Top</a></li>
+<li><a href="#orgb7bbe29">1.2. Bottom</a></li>
+</ul>
+</li>
+<li><a href="#org3cf2b83">2. Half-Guard</a>
+<ul>
+<li><a href="#org1522367">2.1. Top</a></li>
+<li><a href="#org7f7bb6b">2.2. Bottom</a>
+<ul>
+<li><a href="#org01af260">2.2.1. Half-Guard roll from bottom to top (Roger Gracie Guard Study)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org58a8994">3. Side Control</a>
+<ul>
+<li><a href="#org010ab49">3.1. Top</a></li>
+<li><a href="#orge205a4e">3.2. Bottom</a>
+<ul>
+<li><a href="#org9e092f5">3.2.1. Stone Squirrel Posture VanGuard side contol escape system</a></li>
+<li><a href="#org963e364">3.2.2. Armpit/Prayer Posture (APP)</a></li>
+<li><a href="#org4f0d4dc">3.2.3. Hands in Front Posture</a></li>
+<li><a href="#org63960c2">3.2.4. Inside Arm Down Posture</a></li>
+<li><a href="#orgce117dd">3.2.5. Submissions from Bottom</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org93102e1">4. Scarf</a>
+<ul>
+<li><a href="#orga501e7f">4.1. Top</a></li>
+<li><a href="#org2a0b78d">4.2. Bottom</a></li>
+</ul>
+</li>
+<li><a href="#org32de07c">5. North/South</a>
+<ul>
+<li><a href="#orgb15c3fd">5.1. Top</a></li>
+<li><a href="#org46882c7">5.2. Bottom</a></li>
+</ul>
+</li>
+<li><a href="#org9176696">6. Knee on Belly</a>
+<ul>
+<li><a href="#org55b25ed">6.1. Top</a></li>
+<li><a href="#org2f1524e">6.2. Bottom</a></li>
+</ul>
+</li>
+<li><a href="#org88ac43b">7. Back</a>
+<ul>
+<li><a href="#org6b3cce9">7.1. Top</a></li>
+<li><a href="#org90d76b4">7.2. Bottom</a></li>
+</ul>
+</li>
+<li><a href="#orgfc1eaa0">8. Mount</a>
+<ul>
+<li><a href="#orgdd3a525">8.1. Top</a></li>
+<li><a href="#org24c6dac">8.2. Bottom</a></li>
+</ul>
+</li>
+<li><a href="#org2876127">9. Notes</a>
+<ul>
+<li><a href="#orgd13ccd4">9.1. Concepts</a>
+<ul>
+<li><a href="#org612710a">9.1.1. On a line</a></li>
+<li><a href="#org672f445">9.1.2. Hip Heist</a></li>
+<li><a href="#org117381c">9.1.3. Stone Squirrel</a></li>
+<li><a href="#orgbcb36ea">9.1.4. Top Single leg</a></li>
+<li><a href="#orga507a93">9.1.5. Bottom Single leg</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+Gameplan for bjj
+</p>
+
+<div id="outline-container-orgab6ca5b" class="outline-2">
+<h2 id="orgab6ca5b"><span class="section-number-2">1</span> Guard</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-org6b4cdf9" class="outline-3">
+<h3 id="org6b4cdf9"><span class="section-number-3">1.1</span> Top</h3>
+<div class="outline-text-3" id="text-1-1">
+</div><ol class="org-ol"><li><a id="orgc9451a0"></a>Open Guard<br  /><ol class="org-ol"><li><a id="org826bc53"></a><a href="https://www.youtube.com/watch?v=APzRFmKyIhQ">Passing Open Guard -josh robinson</a><br  /><div class="outline-text-7" id="text-1-1-0-0-1-1">
+<p>
+In this link from Ronin Submissions Josh Robinson, Josh explains how to establish a good position from open guard before allowing the opponent to control your hips or sleeves. Step one is to establish a knee ride on the thigh of the opponent and allow the knee shield. This immobilizes the hips and stops inversions. Step two is to connect your hands and arms under the thighs and pass to one side or the other.
+</p>
+</div></li></ol></li>
+<li><a id="org7572bc0"></a>Closed Guard Passing<br  /><ol class="org-ol"><li><a id="org216c918"></a><a href="https://www.youtube.com/watch?v=DZL7pmQjmyU&amp;list=PLLvUtPaoHJDIXWuF18ZKOC-HNdNhuMqks&amp;index=2">Basic Guard Passing System (VanGuard Gym Coach Doug)</a><br  /><ol class="org-ol"><li><a id="org9e4f547"></a>Basic Guard Break (Guard Break)<br  /><ol class="org-ol"><li><a id="org38a2b5e"></a>Double Meathead Pass<br  /><div class="outline-text-9" id="text-1-1-0-0-2-1-1-1">
+<p>
+After the Basic Guard break you have moved away from OPs hips. This allows OP to put his feet on your hips and create space and control.
+The Double Meathead Pass answers this problem. Your arms pummel under the OPs legs and you connect your hands in front of his hips.
+This pops OPs feet off of your hips.
+Next, pull OP up on your lap to isoloate OPs hips. Grab the far side lapel in the direction you want to pass.
+Stand up and drive into the legs as you walk around to the side.
+Drive your shoulder into the legs with good posture to pass.
+The far side lapel grip will prevent the OP from rolling away.
+</p>
+
+<p>
+Note: Doug recommends not grabbing the collar. (This is what I do most times). The collar grab opens you up to the elbow push escape while the lower lapel grip controls the hips better and is not as suseptable to the elbow push because your arm is not as extended.
+</p>
+</div></li>
+<li><a id="org04b281f"></a>Shoulder in Belly Pass (Over/Under pass)<br  /><div class="outline-text-9" id="text-1-1-0-0-2-1-1-2">
+<p>
+From the break, You grab one pant grip at OPs knee and the other arm underhooks the leg.
+Keep both grips while you drop your shoulder into OPs missection and walk around the guard.
+After your knee is established on the hip you are cleared to move the knee grip to a crossface control of the neck.
+After that is established you can release the underhook of the leg to secure side control.
+Note: You are on your toes and not your knees during this pass
+</p>
+</div></li></ol></li>
+<li><a id="org6ba896c"></a>Violator/Combat Knee Break<br  /><div class="outline-text-8" id="text-1-1-0-0-2-1-2">
+<p>
+From closed guard establish double bicep control on the OPs closed guard. Stand up and stack the OPs guard.
+While standing adjust your feet so that your knee is lined up on OPs centerline.
+Sit back into a combat base (forward leg knee up, back knee down)
+This will break the guard open and leave you in a good base situation.
+Depending on which way OPs shirmps or what side he leans to we will use either Knee Thru or Knee Slice Pass
+</p>
+</div>
+<ol class="org-ol"><li><a id="org979a4ed"></a>Knee Thru Pass<br  /><div class="outline-text-9" id="text-1-1-0-0-2-1-2-1">
+<p>
+Knee Thru means that we staple our knee over the OPs thigh on the same side (Right to Right, Left to Left)
+</p>
+<ol class="org-ol">
+<li>As OP shrimps we staple the leg with our forward knee</li>
+<li>At the same time, we reach for a crossface control of the neck and underhook OPs farside leg</li>
+<li>Pin your knee to control the near side hip</li>
+<li>Backstep with strong shoulder pressure and a deep crossface grabbing the back of the gi</li>
+</ol>
+<p>
+4a. Extend your hips into the armpit to dominate the side
+</p>
+<ol class="org-ol">
+<li>Replace your knee on the hip with your top side hand</li>
+<li>Switch your knee from the hip to the armpit while pressing OPs face away with shoulder pressure.</li>
+</ol>
+</div></li>
+<li><a id="orgd2b40b0"></a>Cross Knee Pass (Knee Slice Pass)<br  /><div class="outline-text-9" id="text-1-1-0-0-2-1-2-2">
+<p>
+Cross Knee means we are going from Right to Left or Left to Right with the knee across OPs hips. The key to this pass is to get the underhook on the same side as our knee is coming from to avoid a backtake.
+</p>
+<ol class="org-ol">
+<li>As OP shrimps we staple across to the opposite side of our knee.</li>
+<li>Underhook the far side armpit while pulling up on the near side sleeve</li>
+<li>Step around OPs bottom leg as you baseball slide into the pass with full pressure on your OP.</li>
+<li>End at <a href="#org6b4cdf9">Scarf Control Top</a></li>
+</ol>
+</div></li>
+<li><a id="orgb158e38"></a>Turk Pass (Leg Weave)<br  /><div class="outline-text-9" id="text-1-1-0-0-2-1-2-3">
+<p>
+From OPs scissor guard (open guard with a setup for a scissor sweep, knee sheild top leg with a bottom leg outside my legs.
+</p>
+<ol class="org-ol">
+<li>Weave your arm under the knee of the knee shield and grip on top of OPs bottom knee.</li>
+<li>Get to your feet and stack into OP</li>
+<li>Press forehead and shoulders down and forward to collapse OPs legs together</li>
+<li>As you press your shoulder into OP, spring up and hop around the legs.</li>
+</ol>
+<p>
+This kills OPs hips and limit his movement
+</p>
+<ol class="org-ol">
+<li>Turn the leg weave hand the other way to make room at OPs hips</li>
+<li>Place your bottom knee into the hip and finish the pass.</li>
+<li>If OP gets the top knee in between before you finish the pass. Use the leg weave hand to cup the top knee fast and pull it away while you replace your knee and finish the pass.</li>
+<li>If OPs legs are preventing the pass, keep the same grips and hop to the back side to finish the pass.</li>
+</ol>
+</div></li></ol></li></ol></li></ol></li></ol>
+</div>
+<div id="outline-container-orgb7bbe29" class="outline-3">
+<h3 id="orgb7bbe29"><span class="section-number-3">1.2</span> Bottom</h3>
+<div class="outline-text-3" id="text-1-2">
+</div><ol class="org-ol"><li><a id="org5156bf5"></a>Overhook Guard game<br  /><ol class="org-ol"><li><a id="orgd21596d"></a>Vale Tudo Guard<br  /><ol class="org-ol"><li><a id="org44ad605"></a><a href="https://www.youtube.com/watch?v=CGDdWRRtGDw">Vale Tudo Guard Vale Tudo Guard -josh robinson</a> (similar to my overhook game with a better setup)<br  /><div class="outline-text-8" id="text-1-2-0-0-1-1-1">
+<p>
+Josh explains that you would use your wrists connecting to the back of the neck to break posture instead of pulling collars. I like this because I am getting spiderguard fingers from pulling lapels so if I can be less dependant on those grips it will be better for my hands. I will be able to use my grips for chokes instead of breaking posture as well. It also has the benefit of being able to translate to a no-gi game.
+</p>
+</div></li>
+
+<li><a id="org1cf8a2b"></a><a href="https://www.youtube.com/watch?v=1t_0crasE_4">Vale Tudo Guard no-gi -josh robinson</a> (setup triangle, gogoplata and straight jacket)<br  /><div class="outline-text-8" id="text-1-2-0-0-1-1-2">
+<p>
+In this video Josh explains how to setup the Vale Tudo guard (from the hip instead of being flat on the back). Bicep control is better than wrist control. Feet on hips can be exchanged for a formal closed guard. The overhook keeps the posture broken with a collar tie at times. "Clear the head" means we get the forearm to the overhook side and the foot comes in front for a gogoplata. The triange is available because you are on your hip. The straightjacket submission follows the gogoplata setup when the arm defends the choke. The far arm is pulled through to increase pressure on the choke. This is similar to the collar choke with the far arm pulled across to allow the shoulder to finish the choke. This also leads to an omaplata choke.
+</p>
+</div></li>
+<li><a id="org2770fef"></a><a href="https://www.youtube.com/watch?v=X8Qhl-jmeNs">Closed Guard Arm-drag (Roger Gracie Guard Study)</a> (Arm-drag with 2 on 1 grip to setup, back-take, armbar or flower sweep)<br  /><div class="outline-text-8" id="text-1-2-0-0-1-1-3">
+<p>
+The guard is closed and you grab the ops sleve at the wrist and elbow. Using a bridge and a foot on the arm side hip, pull the elbow across your centerline to pin it the side. When the elbow is across teh centerline, three options are available depending on what the op does. 1. take the back 2. arm bar (scrambles into triangle, oomaplata etc) 3. sweep (flower sweep shown in the video)
+</p>
+</div>
+<ol class="org-ol"><li><a id="orge084c5c"></a>Back-Take<br  /><div class="outline-text-9" id="text-1-2-0-0-1-1-3-1">
+<p>
+The backtake is availble by pushing the arm away from your center line as you crawl to the back. Be careful to not fall too far forward. In the video, Roger uses an underhook on the legs and strong collar control to stay tight to the op. Roger also tries to hand off the sleeve grip to the far side hand from the armpit. This creates a strong "gift-wrap" style grip around the back and it helps the back take.
+</p>
+</div></li>
+<li><a id="org04620b7"></a>Arm Bar<br  /><div class="outline-text-9" id="text-1-2-0-0-1-1-3-2">
+<p>
+The op will raise the head to avoid the backtake. Additionally the op will extend thier neck and use head pressue to prevent the backtake. When this happens, it is possible to go for the armbar instead. If the armbar fails be ready to scramble into the sweep, triangle or oomaplata. Before transitioning from the back take to the armbar, it is nessesary to get your hips out to the side. Roger also sets up the armbar with a far side collar grip. This allows him to anchor and helps get the foot in front of the face. It may also be useful if an opportunity for a choke happens. Keep the back take threat alive while setting up the armbar.
+</p>
+
+<p>
+When Roger broke Jacare's arm he climbed his legs up into a high guard that covered the far side shoulder before he committed to the armbar. This allowed Jacare less time to react to the armbar before it was secured.
+</p>
+</div></li>
+<li><a id="org16e327f"></a>Flower-sweep<br  /><div class="outline-text-9" id="text-1-2-0-0-1-1-3-3">
+<p>
+The control of the arm that comes with the 2 on 1 sleeve grip will deprive op of base on that side. The example of Roger using the flower sweep in this video is the same climbing guard that Roger used to armbar Jacare. The op had nee raised on the same side as the 2 on 1 arm that Roger controlled. While climbing up and threatening the armbar, Roger used the movement to underhook the ops far side leg (opposite of the controlled arm) and swept to mount. This would have worked with a gi grip as well if he could not get the underhook on the leg.
+</p>
+</div></li></ol></li>
+<li><a id="org249863a"></a><a href="https://www.youtube.com/watch?v=FP-qEk83DdQ">Cross-side collar grip (Kron Gracie Guard Study) loopchoke, armbar, anklepick</a><br  /></li></ol></li></ol></li>
+<li><a id="orge945362"></a><a href="https://www.youtube.com/watch?annotation_id=annotation_263863977&amp;feature=iv&amp;src_vid=8F6meOljv-s&amp;v=tmGqgXnuNBE">Marcelo Garcia elbow push escape (Guard Retention)</a><br  /></li></ol>
+</div>
+</div>
+<div id="outline-container-org3cf2b83" class="outline-2">
+<h2 id="org3cf2b83"><span class="section-number-2">2</span> Half-Guard</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-org1522367" class="outline-3">
+<h3 id="org1522367"><span class="section-number-3">2.1</span> Top</h3>
+</div>
+<div id="outline-container-org7f7bb6b" class="outline-3">
+<h3 id="org7f7bb6b"><span class="section-number-3">2.2</span> Bottom</h3>
+<div class="outline-text-3" id="text-2-2">
+</div><div id="outline-container-org01af260" class="outline-4">
+<h4 id="org01af260"><span class="section-number-4">2.2.1</span> <a href="https://youtu.be/X8Qhl-jmeNs?t=8m34s">Half-Guard roll from bottom to top (Roger Gracie Guard Study)</a></h4>
+<div class="outline-text-4" id="text-2-2-1">
+</div><ol class="org-ol"><li><a id="org854b368"></a>From Bottom Half-Guard get perpendicular and reverse the position<br  /><div class="outline-text-5" id="text-2-2-1-1">
+<p>
+Roger gets an overhook on the trapped leg side from bottom half-guard. He is on his side with contol of the belt with his top hand and a unknown grip with his bottom hand. He could have the leg or hip. He plants his outside foot and upas hard while pulling up on the belt to get the ops weight foward while Roger gets his body perpendicular. He uses momentum before the upa to load the op and get him moving in the correct direction. Roger also uses the momentum from the upa to swing his outside leg up as he inverts into the roll.
+</p>
+</div></li></ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org58a8994" class="outline-2">
+<h2 id="org58a8994"><span class="section-number-2">3</span> Side Control</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-org010ab49" class="outline-3">
+<h3 id="org010ab49"><span class="section-number-3">3.1</span> Top</h3>
+</div>
+<div id="outline-container-orge205a4e" class="outline-3">
+<h3 id="orge205a4e"><span class="section-number-3">3.2</span> Bottom</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+<a href="https://www.youtube.com/watch?v=8F6meOljv-s&amp;index=1&amp;list=PLLvUtPaoHJDIXWuF18ZKOC-HNdNhuMqks">Side Control system from VanGuard Gym (Coach Doug Esposito)</a>
+It is easy to defend if you only try to re-guard. You need to have various options for different situations. This system will give you a plan for escapes.
+</p>
+</div>
+
+<div id="outline-container-org9e092f5" class="outline-4">
+<h4 id="org9e092f5"><span class="section-number-4">3.2.1</span> Stone Squirrel Posture <a href="https://www.youtube.com/watch?v=8F6meOljv-s&amp;index=1&amp;list=PLLvUtPaoHJDIXWuF18ZKOC-HNdNhuMqks">VanGuard side contol escape system</a></h4>
+<div class="outline-text-4" id="text-3-2-1">
+<p>
+The stone squirrel posture is a position from bottom side control. Your hands
+control the opponents shoulder and your forearms and elbows frame in between
+your chest and your opponent's chest. This frame allows you to raise your arms
+over your head (trash truck style) to bring your opponent away from your chest.
+Putting your forearms on the chest instead of on the neck gives you more
+control. When combined with a bridge space is created that can be used in the positions that follow.
+</p>
+</div>
+
+<ol class="org-ol"><li><a id="org5201a4a"></a>Re-Guard<br  /><div class="outline-text-5" id="text-3-2-1-1">
+<p>
+From Stone Squirrel, feet close to hips, bridge into op and lift op back with a
+frame. At the same time, shrimp to make room and insert a knee to take up the
+space you created. Hook behind the leg or under the leg for a butterfly to re-guard
+</p>
+</div>
+<ol class="org-ol"><li><a id="org0f9d9b2"></a>Sweep<br  /><div class="outline-text-7" id="text-3-2-1-1-0-1">
+<p>
+If you have the overhook control from the guard and the ops posture is broken, you can sweep from guard to mount.
+</p>
+</div></li>
+<li><a id="orgf350de8"></a>Armbar<br  /><div class="outline-text-7" id="text-3-2-1-1-0-2">
+<p>
+If you have a stong underhook on the other arm an armbar is available from the guard with your arm and head pinching the elbow of your opponent.
+</p>
+</div></li></ol></li>
+<li><a id="org6959612"></a>Bottom Single Leg to Side Control – Top/Offensive<br  /><div class="outline-text-5" id="text-3-2-1-2">
+<p>
+From Stone Squirrel, frame with your forearms and elbows and bridge. Ensure that
+your feet are not all the way into your hips, that space is needed to "hip
+heist". Hip Heist means you thread your nearside foot under your far side leg
+and turn belly down. At the same time, windshield wiper and pummel your far side arm to
+create an underhook
+</p>
+</div></li>
+
+<li><a id="org59352cb"></a>Bump and Roll to Side Control – Top/Offensive<br  /><div class="outline-text-5" id="text-3-2-1-3">
+<p>
+With one arm framed on the hip and the other arm under the chest in stone squirrel, lift and upa into the op to make room for your guard. The op is pressing back to flatten you out. Using this momentum, scoot your hips underneath your op with a hip shovel (do not just roll without getting under the op). The frame on the hip is key to making this work.
+</p>
+</div>
+<ol class="org-ol"><li><a id="org0721b16"></a>If OP posts on his hand<br  /><div class="outline-text-6" id="text-3-2-1-3-1">
+<p>
+The posting opens the OP up so that we can try to reguard or move into another transition. We have to drill all of these defenses so we can link one technique to the others in the system.
+</p>
+</div></li></ol></li>
+<li><a id="org9ec79a9"></a>Rainbow Roll to Side Control – Top/Offensive<br  /><div class="outline-text-5" id="text-3-2-1-4">
+<p>
+The crossface from side control gives us an opportnity to trap that arm. If we can get parrell to the OP we can roll to sweep to top side control from that posistion. This happens naturally when OP is going to <a href="#org32de07c">North/South</a>. If we feel the bottom arm transerring to 100 kilos that is a cue that OP is going to North/South. Otherwise, we can move ourselves into a North/South posture to get OP "on a line" by changing the angle. Our hand that is not trapping the crossface arm is going over OPs back to grab his belt. We have to shrimp away from OP and put your armpit on OPs shoulder.
+</p>
+</div></li></ol>
+</div>
+<div id="outline-container-org963e364" class="outline-4">
+<h4 id="org963e364"><span class="section-number-4">3.2.2</span> Armpit/Prayer Posture (APP)</h4>
+<div class="outline-text-4" id="text-3-2-2">
+<p>
+Armpit/Prayer Posture is similar to Stone Squirrel. The farside hand is in the armpit instead of being at the shoulder. This makes it harder to peek your elbow out for the far side underhook but it allows access to the top single leg. HipBump to move farside hand under the armpit.
+</p>
+</div>
+<ol class="org-ol"><li><a id="org46a2e14"></a>Top Leg Single to Side Control – Top/Offensive<br  /><div class="outline-text-5" id="text-3-2-2-1">
+<p>
+From APP, bump and shrimp to get rid of the crossface and make OP "float" on your forearms by lifting your forearms to fill the space you created with the bump.
+</p>
+</div></li>
+<li><a id="orge3b5da6"></a>Elbow Push to Open Guard<br  /></li>
+<li><a id="org808e4f3"></a>All Stone Squirrel Escapes<br  /></li></ol>
+</div>
+<div id="outline-container-org4f0d4dc" class="outline-4">
+<h4 id="org4f0d4dc"><span class="section-number-4">3.2.3</span> Hands in Front Posture</h4>
+<div class="outline-text-4" id="text-3-2-3">
+</div><ol class="org-ol"><li><a id="orga25c0ef"></a>Turn Away to Turtle 1 – Bottom/Defensive, sit thru to Turtle 2 – Top Offensive<br  /></li>
+<li><a id="org7763ee2"></a>Monkey or Granby Roll to <a href="#orgb7bbe29">Bottom Guard</a><br  /></li></ol>
+</div>
+<div id="outline-container-org63960c2" class="outline-4">
+<h4 id="org63960c2"><span class="section-number-4">3.2.4</span> Inside Arm Down Posture</h4>
+<div class="outline-text-4" id="text-3-2-4">
+</div><ol class="org-ol"><li><a id="orge0eb5a6"></a>Pant Grab to Guard or Half-Guard – Bottom<br  /></li>
+<li><a id="orgff54f08"></a>Jail Break to Butterfly Guard – Bottom<br  /></li>
+<li><a id="org0df7b58"></a>Ghost to Turtle 1 – Top/Offensive<br  /></li></ol>
+</div>
+<div id="outline-container-orgce117dd" class="outline-4">
+<h4 id="orgce117dd"><span class="section-number-4">3.2.5</span> Submissions from Bottom</h4>
+<div class="outline-text-4" id="text-3-2-5">
+</div><ol class="org-ol"><li><a id="org315c47a"></a><a href="https://www.youtube.com/watch?v=HLcM9pbELHk">no-gi baseballbat and ezekiel from bottom - josh robinson</a><br  /></li>
+<li><a id="org5308690"></a>Last resort&#xa0;&#xa0;&#xa0;<span class="tag"><span class="subs">subs</span>&#xa0;<span class="bottom">bottom</span></span><br  /><div class="outline-text-5" id="text-3-2-5-2">
+<p>
+You should try for escapes instead of submissions from inferior positions. We cannot assume that every encounter will be 1 on 1 in a controlled environment. Being in top position gives you a better chance to bail out and run if nessesary.
+</p>
+</div></li></ol>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org93102e1" class="outline-2">
+<h2 id="org93102e1"><span class="section-number-2">4</span> Scarf</h2>
+<div class="outline-text-2" id="text-4">
+</div><div id="outline-container-orga501e7f" class="outline-3">
+<h3 id="orga501e7f"><span class="section-number-3">4.1</span> Top</h3>
+</div>
+<div id="outline-container-org2a0b78d" class="outline-3">
+<h3 id="org2a0b78d"><span class="section-number-3">4.2</span> Bottom</h3>
+</div>
+</div>
+<div id="outline-container-org32de07c" class="outline-2">
+<h2 id="org32de07c"><span class="section-number-2">5</span> North/South</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-orgb15c3fd" class="outline-3">
+<h3 id="orgb15c3fd"><span class="section-number-3">5.1</span> Top</h3>
+</div>
+<div id="outline-container-org46882c7" class="outline-3">
+<h3 id="org46882c7"><span class="section-number-3">5.2</span> Bottom</h3>
+</div>
+</div>
+<div id="outline-container-org9176696" class="outline-2">
+<h2 id="org9176696"><span class="section-number-2">6</span> Knee on Belly</h2>
+<div class="outline-text-2" id="text-6">
+</div><div id="outline-container-org55b25ed" class="outline-3">
+<h3 id="org55b25ed"><span class="section-number-3">6.1</span> Top</h3>
+</div>
+<div id="outline-container-org2f1524e" class="outline-3">
+<h3 id="org2f1524e"><span class="section-number-3">6.2</span> Bottom</h3>
+</div>
+</div>
+<div id="outline-container-org88ac43b" class="outline-2">
+<h2 id="org88ac43b"><span class="section-number-2">7</span> Back</h2>
+<div class="outline-text-2" id="text-7">
+</div><div id="outline-container-org6b3cce9" class="outline-3">
+<h3 id="org6b3cce9"><span class="section-number-3">7.1</span> Top</h3>
+</div>
+<div id="outline-container-org90d76b4" class="outline-3">
+<h3 id="org90d76b4"><span class="section-number-3">7.2</span> Bottom</h3>
+</div>
+</div>
+<div id="outline-container-orgfc1eaa0" class="outline-2">
+<h2 id="orgfc1eaa0"><span class="section-number-2">8</span> Mount</h2>
+<div class="outline-text-2" id="text-8">
+</div><div id="outline-container-orgdd3a525" class="outline-3">
+<h3 id="orgdd3a525"><span class="section-number-3">8.1</span> Top</h3>
+</div>
+<div id="outline-container-org24c6dac" class="outline-3">
+<h3 id="org24c6dac"><span class="section-number-3">8.2</span> Bottom</h3>
+</div>
+</div>
+<div id="outline-container-org2876127" class="outline-2">
+<h2 id="org2876127"><span class="section-number-2">9</span> Notes</h2>
+<div class="outline-text-2" id="text-9">
+</div><div id="outline-container-orgd13ccd4" class="outline-3">
+<h3 id="orgd13ccd4"><span class="section-number-3">9.1</span> Concepts</h3>
+<div class="outline-text-3" id="text-9-1">
+</div><div id="outline-container-org612710a" class="outline-4">
+<h4 id="org612710a"><span class="section-number-4">9.1.1</span> On a line</h4>
+<div class="outline-text-4" id="text-9-1-1">
+<p>
+Coach Doug uses the term On a line in his side control series. This means that the OP is in a position that does not allow him to base on one side. In judo this can be called a dead angle.
+</p>
+</div>
+</div>
+<div id="outline-container-org672f445" class="outline-4">
+<h4 id="org672f445"><span class="section-number-4">9.1.2</span> Hip Heist</h4>
+</div>
+<div id="outline-container-org117381c" class="outline-4">
+<h4 id="org117381c"><span class="section-number-4">9.1.3</span> Stone Squirrel</h4>
+</div>
+<div id="outline-container-orgbcb36ea" class="outline-4">
+<h4 id="orgbcb36ea"><span class="section-number-4">9.1.4</span> Top Single leg</h4>
+<div class="outline-text-4" id="text-9-1-4">
+<p>
+Closest to your head instead of closest to your hips
+</p>
+</div>
+</div>
+<div id="outline-container-orga507a93" class="outline-4">
+<h4 id="orga507a93"><span class="section-number-4">9.1.5</span> Bottom Single leg</h4>
+<div class="outline-text-4" id="text-9-1-5">
+<p>
+Closest to your hips instead of your head. You need to hip heist to get this leg.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Brian Cronmiller</p>
+<p class="date">Created: 2016-11-28 Mon 21:31</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
