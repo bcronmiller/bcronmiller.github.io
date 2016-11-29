@@ -1,7 +1,7 @@
 #+TAGS: drill topguard bottomguard tophalfguard bottomhalfguard topside bottomside topns bottomns topkob bottomkob topback bottomback topmount bottommount
 The following is my current gameplan for bjj. This is mostly based on notes I have made from watching various youtube videos. My idea is to actually take the videos I watch seriously and drill those specific techniques instead of just collecting and forgetting move after move.
 
-* Guard
+* Testing change guard
 ** Top
 ***** Open Guard
 ****** [[https://www.youtube.com/watch?v=APzRFmKyIhQ][Passing Open Guard -josh robinson]]
