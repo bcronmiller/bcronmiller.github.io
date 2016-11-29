@@ -1,0 +1,198 @@
+#+TAGS: drill topguard bottomguard tophalfguard bottomhalfguard topside bottomside topns bottomns topkob bottomkob topback bottomback topmount bottommount
+The following is my current gameplan for bjj. This is mostly based on notes I have made from watching various youtube videos. My idea is to actually take the videos I watch seriously and drill those specific techniques instead of just collecting and forgetting move after move.
+
+* Guard
+** Top
+***** Open Guard
+****** [[https://www.youtube.com/watch?v=APzRFmKyIhQ][Passing Open Guard -josh robinson]]
+
+In this link from Ronin Submissions Josh Robinson, Josh explains how to establish a good position from open guard before allowing the opponent to control your hips or sleeves. Step one is to establish a knee ride on the thigh of the opponent and allow the knee shield. This immobilizes the hips and stops inversions. Step two is to connect your hands and arms under the thighs and pass to one side or the other.
+***** Closed Guard Passing
+****** [[https://www.youtube.com/watch?v=DZL7pmQjmyU&list=PLLvUtPaoHJDIXWuF18ZKOC-HNdNhuMqks&index=2][Basic Guard Passing System (VanGuard Gym Coach Doug)]]
+******* Basic Guard Break (Guard Break)
+******** Double Meathead Pass
+After the Basic Guard break you have moved away from OPs hips. This allows OP to put his feet on your hips and create space and control.
+The Double Meathead Pass answers this problem. Your arms pummel under the OPs legs and you connect your hands in front of his hips.
+This pops OPs feet off of your hips.
+Next, pull OP up on your lap to isoloate OPs hips. Grab the far side lapel in the direction you want to pass.
+Stand up and drive into the legs as you walk around to the side.
+Drive your shoulder into the legs with good posture to pass.
+The far side lapel grip will prevent the OP from rolling away.
+
+Note: Doug recommends not grabbing the collar. (This is what I do most times). The collar grab opens you up to the elbow push escape while the lower lapel grip controls the hips better and is not as suseptable to the elbow push because your arm is not as extended.
+******** Shoulder in Belly Pass (Over/Under pass)
+From the break, You grab one pant grip at OPs knee and the other arm underhooks the leg.
+Keep both grips while you drop your shoulder into OPs missection and walk around the guard.
+After your knee is established on the hip you are cleared to move the knee grip to a crossface control of the neck.
+After that is established you can release the underhook of the leg to secure side control.
+Note: You are on your toes and not your knees during this pass
+******* Violator/Combat Knee Break
+From closed guard establish double bicep control on the OPs closed guard. Stand up and stack the OPs guard.
+While standing adjust your feet so that your knee is lined up on OPs centerline.
+Sit back into a combat base (forward leg knee up, back knee down)
+This will break the guard open and leave you in a good base situation.
+Depending on which way OPs shirmps or what side he leans to we will use either Knee Thru or Knee Slice Pass
+******** Knee Thru Pass
+Knee Thru means that we staple our knee over the OPs thigh on the same side (Right to Right, Left to Left)
+1. As OP shrimps we staple the leg with our forward knee
+2. At the same time, we reach for a crossface control of the neck and underhook OPs farside leg
+3. Pin your knee to control the near side hip
+4. Backstep with strong shoulder pressure and a deep crossface grabbing the back of the gi
+4a. Extend your hips into the armpit to dominate the side
+5. Replace your knee on the hip with your top side hand
+6. Switch your knee from the hip to the armpit while pressing OPs face away with shoulder pressure.
+******** Cross Knee Pass (Knee Slice Pass)
+Cross Knee means we are going from Right to Left or Left to Right with the knee across OPs hips. The key to this pass is to get the underhook on the same side as our knee is coming from to avoid a backtake.
+1. As OP shrimps we staple across to the opposite side of our knee.
+2. Underhook the far side armpit while pulling up on the near side sleeve
+3. Step around OPs bottom leg as you baseball slide into the pass with full pressure on your OP.
+4. End at [[*Top][Scarf Control Top]]
+******** Turk Pass (Leg Weave)
+From OPs scissor guard (open guard with a setup for a scissor sweep, knee sheild top leg with a bottom leg outside my legs.
+1. Weave your arm under the knee of the knee shield and grip on top of OPs bottom knee.
+2. Get to your feet and stack into OP
+3. Press forehead and shoulders down and forward to collapse OPs legs together
+4. As you press your shoulder into OP, spring up and hop around the legs.
+This kills OPs hips and limit his movement
+5. Turn the leg weave hand the other way to make room at OPs hips
+6. Place your bottom knee into the hip and finish the pass.
+7. If OP gets the top knee in between before you finish the pass. Use the leg weave hand to cup the top knee fast and pull it away while you replace your knee and finish the pass.
+8. If OPs legs are preventing the pass, keep the same grips and hop to the back side to finish the pass.
+** Bottom
+***** Overhook Guard game
+****** Vale Tudo Guard
+******* [[https://www.youtube.com/watch?v=CGDdWRRtGDw][Vale Tudo Guard Vale Tudo Guard -josh robinson]] (similar to my overhook game with a better setup)
+
+Josh explains that you would use your wrists connecting to the back of the neck to break posture instead of pulling collars. I like this because I am getting spiderguard fingers from pulling lapels so if I can be less dependant on those grips it will be better for my hands. I will be able to use my grips for chokes instead of breaking posture as well. It also has the benefit of being able to translate to a no-gi game.
+
+******* [[https://www.youtube.com/watch?v=1t_0crasE_4][Vale Tudo Guard no-gi -josh robinson]] (setup triangle, gogoplata and straight jacket)
+
+In this video Josh explains how to setup the Vale Tudo guard (from the hip instead of being flat on the back). Bicep control is better than wrist control. Feet on hips can be exchanged for a formal closed guard. The overhook keeps the posture broken with a collar tie at times. "Clear the head" means we get the forearm to the overhook side and the foot comes in front for a gogoplata. The triange is available because you are on your hip. The straightjacket submission follows the gogoplata setup when the arm defends the choke. The far arm is pulled through to increase pressure on the choke. This is similar to the collar choke with the far arm pulled across to allow the shoulder to finish the choke. This also leads to an omaplata choke.
+******* [[https://www.youtube.com/watch?v=X8Qhl-jmeNs][Closed Guard Arm-drag (Roger Gracie Guard Study)]] (Arm-drag with 2 on 1 grip to setup, back-take, armbar or flower sweep)
+The guard is closed and you grab the ops sleve at the wrist and elbow. Using a bridge and a foot on the arm side hip, pull the elbow across your centerline to pin it the side. When the elbow is across teh centerline, three options are available depending on what the op does. 1. take the back 2. arm bar (scrambles into triangle, oomaplata etc) 3. sweep (flower sweep shown in the video)
+******** Back-Take
+The backtake is availble by pushing the arm away from your center line as you crawl to the back. Be careful to not fall too far forward. In the video, Roger uses an underhook on the legs and strong collar control to stay tight to the op. Roger also tries to hand off the sleeve grip to the far side hand from the armpit. This creates a strong "gift-wrap" style grip around the back and it helps the back take.
+******** Arm Bar
+The op will raise the head to avoid the backtake. Additionally the op will extend thier neck and use head pressue to prevent the backtake. When this happens, it is possible to go for the armbar instead. If the armbar fails be ready to scramble into the sweep, triangle or oomaplata. Before transitioning from the back take to the armbar, it is nessesary to get your hips out to the side. Roger also sets up the armbar with a far side collar grip. This allows him to anchor and helps get the foot in front of the face. It may also be useful if an opportunity for a choke happens. Keep the back take threat alive while setting up the armbar.
+
+When Roger broke Jacare's arm he climbed his legs up into a high guard that covered the far side shoulder before he committed to the armbar. This allowed Jacare less time to react to the armbar before it was secured.
+******** Flower-sweep
+The control of the arm that comes with the 2 on 1 sleeve grip will deprive op of base on that side. The example of Roger using the flower sweep in this video is the same climbing guard that Roger used to armbar Jacare. The op had nee raised on the same side as the 2 on 1 arm that Roger controlled. While climbing up and threatening the armbar, Roger used the movement to underhook the ops far side leg (opposite of the controlled arm) and swept to mount. This would have worked with a gi grip as well if he could not get the underhook on the leg.
+******* [[https://www.youtube.com/watch?v=FP-qEk83DdQ][Cross-side collar grip (Kron Gracie Guard Study) loopchoke, armbar, anklepick]]
+***** [[https://www.youtube.com/watch?annotation_id=annotation_263863977&feature=iv&src_vid=8F6meOljv-s&v=tmGqgXnuNBE][Marcelo Garcia elbow push escape (Guard Retention)]]
+* Half-Guard
+** Top
+** Bottom
+*** [[https://youtu.be/X8Qhl-jmeNs?t=8m34s][Half-Guard roll from bottom to top (Roger Gracie Guard Study)]]
+**** From Bottom Half-Guard get perpendicular and reverse the position
+Roger gets an overhook on the trapped leg side from bottom half-guard. He is on his side with contol of the belt with his top hand and a unknown grip with his bottom hand. He could have the leg or hip. He plants his outside foot and upas hard while pulling up on the belt to get the ops weight foward while Roger gets his body perpendicular. He uses momentum before the upa to load the op and get him moving in the correct direction. Roger also uses the momentum from the upa to swing his outside leg up as he inverts into the roll.
+* Side Control
+** Top
+** Bottom
+[[https://www.youtube.com/watch?v=8F6meOljv-s&index=1&list=PLLvUtPaoHJDIXWuF18ZKOC-HNdNhuMqks][Side Control system from VanGuard Gym (Coach Doug Esposito)]]
+It is easy to defend if you only try to re-guard. You need to have various options for different situations. This system will give you a plan for escapes.
+
+*** Stone Squirrel Posture [[https://www.youtube.com/watch?v=8F6meOljv-s&index=1&list=PLLvUtPaoHJDIXWuF18ZKOC-HNdNhuMqks][VanGuard side contol escape system]]
+
+The stone squirrel posture is a position from bottom side control. Your hands
+control the opponents shoulder and your forearms and elbows frame in between
+your chest and your opponent's chest. This frame allows you to raise your arms
+over your head (trash truck style) to bring your opponent away from your chest.
+Putting your forearms on the chest instead of on the neck gives you more
+control. When combined with a bridge space is created that can be used in the positions that follow.
+
+**** Re-Guard
+
+From Stone Squirrel, feet close to hips, bridge into op and lift op back with a
+frame. At the same time, shrimp to make room and insert a knee to take up the
+space you created. Hook behind the leg or under the leg for a butterfly to re-guard
+****** Sweep
+If you have the overhook control from the guard and the ops posture is broken, you can sweep from guard to mount.
+****** Armbar
+If you have a stong underhook on the other arm an armbar is available from the guard with your arm and head pinching the elbow of your opponent.
+**** Bottom Single Leg to Side Control – Top/Offensive
+
+From Stone Squirrel, frame with your forearms and elbows and bridge. Ensure that
+your feet are not all the way into your hips, that space is needed to "hip
+heist". Hip Heist means you thread your nearside foot under your far side leg
+and turn belly down. At the same time, windshield wiper and pummel your far side arm to
+create an underhook
+
+**** Bump and Roll to Side Control – Top/Offensive
+With one arm framed on the hip and the other arm under the chest in stone squirrel, lift and upa into the op to make room for your guard. The op is pressing back to flatten you out. Using this momentum, scoot your hips underneath your op with a hip shovel (do not just roll without getting under the op). The frame on the hip is key to making this work.
+***** If OP posts on his hand
+The posting opens the OP up so that we can try to reguard or move into another transition. We have to drill all of these defenses so we can link one technique to the others in the system.
+**** Rainbow Roll to Side Control – Top/Offensive
+The crossface from side control gives us an opportnity to trap that arm. If we can get parrell to the OP we can roll to sweep to top side control from that posistion. This happens naturally when OP is going to [[*North/South][North/South]]. If we feel the bottom arm transerring to 100 kilos that is a cue that OP is going to North/South. Otherwise, we can move ourselves into a North/South posture to get OP "on a line" by changing the angle. Our hand that is not trapping the crossface arm is going over OPs back to grab his belt. We have to shrimp away from OP and put your armpit on OPs shoulder.
+*** Armpit/Prayer Posture (APP)
+Armpit/Prayer Posture is similar to Stone Squirrel. The farside hand is in the armpit instead of being at the shoulder. This makes it harder to peek your elbow out for the far side underhook but it allows access to the top single leg. HipBump to move farside hand under the armpit.
+**** Top Leg Single to Side Control – Top/Offensive
+From APP, bump and shrimp to get rid of the crossface and make OP "float" on your forearms by lifting your forearms to fill the space you created with the bump.
+**** Elbow Push to Open Guard
+**** All Stone Squirrel Escapes
+*** Hands in Front Posture
+**** Turn Away to Turtle 1 – Bottom/Defensive, sit thru to Turtle 2 – Top Offensive
+**** Monkey or Granby Roll to [[*Bottom][Bottom Guard]]
+*** Inside Arm Down Posture
+**** Pant Grab to Guard or Half-Guard – Bottom
+**** Jail Break to Butterfly Guard – Bottom
+**** Ghost to Turtle 1 – Top/Offensive
+*** Submissions from Bottom
+**** [[https://www.youtube.com/watch?v=HLcM9pbELHk][no-gi baseballbat and ezekiel from bottom - josh robinson]]
+**** Last resort                                                :subs:bottom:
+SCHEDULED: <2016-11-26 Sat>
+:PROPERTIES:
+:CREATED:  [2016-11-26 Sat 17:14]
+:END:
+
+You should try for escapes instead of submissions from inferior positions. We cannot assume that every encounter will be 1 on 1 in a controlled environment. Being in top position gives you a better chance to bail out and run if nessesary.
+
+* Scarf
+** Top
+** Bottom
+* North/South
+** Top
+** Bottom
+* Knee on Belly
+** Top
+** Bottom
+* Back
+** Top
+** Bottom
+* Mount
+** Top
+** Bottom
+* Notes
+** Concepts
+*** On a line
+Coach Doug uses the term On a line in his side control series. This means that the OP is in a position that does not allow him to base on one side. In judo this can be called a dead angle.
+*** Hip Heist
+*** Stone Squirrel
+*** Top Single leg
+Closest to your head instead of closest to your hips
+*** Bottom Single leg
+Closest to your hips instead of your head. You need to hip heist to get this leg.
+** Styles
+*** [[https://www.jiujitsutimes.com/purple-belt-k-rolling-belt/][How to Roll as a purple belt]] by Eddie Fyvie
+**** Crush you opponents: Focus on using heavy weight and really “crushing” on top.
+**** Don’t finish anyone: Try to roll in a way where you catch and release submissions. Focus mainly on positions.
+**** Don’t give anything: Don’t give an inch to anyone.
+**** Keep it playful, but with a purpose: Keep it playful, but adhere to the principles and pick a goal.
+**** Float: Don’t hold positions long; hop around and move quickly.
+**** Allow bad positions, but with a purpose: Allow bad positions with the purpose of escaping and defending. Find comfort in discomfort.
+**** Go for a “marathon round”: Just roll. Roll so long you have to change your attire. Time limits = sport. No time limits = life
+**** Trade moves for concepts
+
+You should be utilizing the principles and concepts passed down by our BJJ forefathers from DAY ONE of your training!
+
+However, at the purple belt, it is time to kick your understanding of concepts into high gear.
+
+Imagine it like art; white belt and blue belt are learning how the artists’ tools work. You learn how to draw, paint, sketch, and at the end of blue belt, you have picked your “style” of art. The white belt and blue belt level doesn’t allow much room for personal thought. You need a concrete foundation and must master the artists’ tools!
+
+When you reach purple belt, you have earned the right to start exploring the “abstract”. You should always experiment and stay fascinated by the difficulty!
+
+“You can listen to me now or wait until you are 65.” – Frank Popolizio
+
+You are now freeing yourself from the stress of mastering the basics and can start opening up and allowing the abstract form of rolling to take shape. You should be seeing the “big picture” of jiu-jitsu much more clearly and have blended the hundreds of techniques you know into concepts that allow you to start applying them rapidly. You must see the “blend” of techniques in the various situations.
+
+The figurative samurai sword has been sharpened once you hit black belt. The purple belt has acquired the sword and has the skills, but still needs to smooth out the blade for extreme precision.
