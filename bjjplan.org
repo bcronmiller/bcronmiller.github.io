@@ -1,4 +1,3 @@
-#+TAGS: drill topguard bottomguard tophalfguard bottomhalfguard topside bottomside topns bottomns topkob bottomkob topback bottomback topmount bottommount
 The following is my current gameplan for bjj. This is mostly based on notes I have made from watching various youtube videos. My idea is to actually take the videos I watch seriously and drill those specific techniques instead of just collecting and forgetting move after move.
 
 I use the term OP and OPs for opponent for shorthand. I am not sure if my notes make sense to anyone but me, but you are free to use what is useful.
@@ -50,7 +49,7 @@ Cross Knee means we are going from Right to Left or Left to Right with the knee 
 1. As OP shrimps we staple across to the opposite side of our knee.
 2. Underhook the far side armpit while pulling up on the near side sleeve
 3. Step around OPs bottom leg as you baseball slide into the pass with full pressure on your OP.
-4. End at [[*Top][Scarf Control Top]]
+4. End at [[*Top][Scarf Control Top]
 ******** Turk Pass (Leg Weave)
 From OPs scissor guard (open guard with a setup for a scissor sweep, knee sheild top leg with a bottom leg outside my legs.
 1. Weave your arm under the knee of the knee shield and grip on top of OPs bottom knee.
@@ -147,7 +146,7 @@ From APP, bump and shrimp to get rid of the crossface and make OP "float" on you
 **** All Stone Squirrel Escapes
 **** Hands in Front Posture
 **** Turn Away to Turtle 1 – Bottom/Defensive, sit thru to Turtle 2 – Top Offensive
-**** Monkey or Granby Roll to [[*Bottom][Bottom Guard]]
+**** Monkey or Granby Roll to [[*Bottom][Bottom Guard]
 **** Inside Arm Down Posture
 **** Pant Grab to Guard or Half-Guard – Bottom
 **** Jail Break to Butterfly Guard – Bottom
@@ -258,3 +257,60 @@ I had to stop the video [[https://youtu.be/PJTrJjIV-CM?t=6m49s][here]] on 12/3 s
 *** [[https://www.youtube.com/watch?v=sm8NKHFlPNI][TD Brownbelt Series Part 6]]
 *** [[https://www.youtube.com/watch?v=MtPki5X7mrU][TD Brownbelt Series Part 7]]
 *** [[https://www.youtube.com/watch?v=L19elzK79hw][TD Brownbelt Series Part 8]]
+* Class Notes
+** Topic taught Passing 93 Guard (halfguard with knee-sheild)         :TOPIC:
+   :LOGBOOK:
+   CLOCK: [2016-12-04 Sun 19:07]--[2016-12-04 Sun 19:08] =>  0:01
+   :END:
+ [2016-12-03 Sat 11:07]
+ In this class, I took notes and I will type them in later...
+** Topic taught Chokes from TopBack/Escape from BottomBack            :TOPIC:
+   :LOGBOOK:
+   CLOCK: [2016-12-05 Mon 20:47]--[2016-12-05 Mon 21:48] =>  1:01
+   :END:
+ Chokes from Back - From Back control with over/under keep the bottom hand covering the top. Get a collar grip with the choking hand and use one of the following options for the other hand.
+ 1. Grab the lower lapel and complete the classic collar choke
+ 2. Switch to an eziekiel (spelling?) choke by bringing the non-choking hand behind the head and grabbing the sleeve
+ 3. If you have the collar grip, switch to the leg for the bow and arrow choke
+ 4. From bow and arrow, switch to moving the arm behind the arm/head to finish the choke
+ 5. Feed your Gi lapel from under OPs armpit to the choking hand - setup the same bow and arrow choke or under arm finish.
+
+ Escape from Back Control
+ 1. Turn torward the choking arm and post on your hand to get to turtle
+ 2. Raise your hips to try to make OP post a hand.
+ 3. Grab the hand and move push it to the other side of you head
+ 4. Roll to the side away from OP to get your shoulders on the mat
+ 5. Grab OPs knee with both hands to prevent the mount and get top position
+ 6. Underhook the leg while allowing mount to sneak out of the back door (so to speak)
+
+ No rolling today, Just positional sparring from positions
+
+ Drilling:
+ Drilled Roger Gracie Guard and Vale Tudo Gaurd together. If I cannot get the Vale Tudo setup I try to drag the arm across for the Roger Gracie setup and that ususally leads to a scramble that allows the Vale Tudo setup. The constant work makes it hard for OP to work on thier game.
+
+ Drilled Stone Squirrel w/Mac
+ Worked with light resistance and worked on several options
+ Sucessfully framed up into Stone Squirrel by bumping and raising my arms up.
+ Try to get my knee in to re-guard
+ Roll for the hip heist or high single depending on where OP goes
+
+ I was able to work and chain together some escapes but I did not have heavy resistance
+
+ Drilled DLR pass w/Isaac
+ 1. Starting from DLR
+ 2. Get knee grip and lapel grip
+ 3. Stepback bringing the knee grip with me to turn OP
+ 4. Turn back in to lose the DLR hook and setup Mission Control
+ 5. Control "hike" the top leg for control
+ 6. Swim down to establish a knee ride on the bottom thigh and pressure the top leg
+ 7. Get a back grip and collar grip
+ 8. Switch the knee ride from one to the other and post out the far leg
+ 9. Pin the top leg at the calf with the posted leg
+ 10. Switch hips to setup the hop to the far side
+ 11. Hop to the far side and end with KOB or hip
+ 12. Be ready to switch if OP shrimps
+
+ There is a lot of details but it started to make sense as I worked through some reps. I need to get this practice in every week/day
+
+
+ [2016-12-05 Mon 20:47]
