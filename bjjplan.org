@@ -105,52 +105,6 @@ Roger gets an overhook on the trapped leg side from bottom half-guard. He is on 
 ** Bottom Side
 *** [[https://www.youtube.com/watch?v=8F6meOljv-s&index=1&list=PLLvUtPaoHJDIXWuF18ZKOC-HNdNhuMqks][VanGuard Gym Side Control Escape System]]
 It is easy to defend if you only try to re-guard. You need to have various options for different situations. This system will give you a plan for escapes.
-
-**** Stone Squirrel Posture [[https://www.youtube.com/watch?v=8F6meOljv-s&index=1&list=PLLvUtPaoHJDIXWuF18ZKOC-HNdNhuMqks][VanGuard side contol escape system]]
-
-The stone squirrel posture is a position from bottom side control. Your hands
-control the opponents shoulder and your forearms and elbows frame in between
-your chest and your opponent's chest. This frame allows you to raise your arms
-over your head (trash truck style) to bring your opponent away from your chest.
-Putting your forearms on the chest instead of on the neck gives you more
-control. When combined with a bridge space is created that can be used in the positions that follow.
-
-**** Re-Guard
-
-From Stone Squirrel, feet close to hips, bridge into op and lift op back with a
-frame. At the same time, shrimp to make room and insert a knee to take up the
-space you created. Hook behind the leg or under the leg for a butterfly to re-guard
-****** Sweep
-If you have the overhook control from the guard and the ops posture is broken, you can sweep from guard to mount.
-****** Armbar
-If you have a stong underhook on the other arm an armbar is available from the guard with your arm and head pinching the elbow of your opponent.
-**** Bottom Single Leg to Side Control – Top/Offensive
-
-From Stone Squirrel, frame with your forearms and elbows and bridge. Ensure that
-your feet are not all the way into your hips, that space is needed to "hip
-heist". Hip Heist means you thread your nearside foot under your far side leg
-and turn belly down. At the same time, windshield wiper and pummel your far side arm to
-create an underhook
-
-**** Bump and Roll to Side Control – Top/Offensive
-With one arm framed on the hip and the other arm under the chest in stone squirrel, lift and upa into the op to make room for your guard. The op is pressing back to flatten you out. Using this momentum, scoot your hips underneath your op with a hip shovel (do not just roll without getting under the op). The frame on the hip is key to making this work.
-***** If OP posts on his hand
-The posting opens the OP up so that we can try to reguard or move into another transition. We have to drill all of these defenses so we can link one technique to the others in the system.
-**** Rainbow Roll to Side Control – Top/Offensive
-The crossface from side control gives us an opportnity to trap that arm. If we can get parrell to the OP we can roll to sweep to top side control from that posistion. This happens naturally when OP is going to [[*North/South][North/South]]. If we feel the bottom arm transerring to 100 kilos that is a cue that OP is going to North/South. Otherwise, we can move ourselves into a North/South posture to get OP "on a line" by changing the angle. Our hand that is not trapping the crossface arm is going over OPs back to grab his belt. We have to shrimp away from OP and put your armpit on OPs shoulder.
-**** Armpit/Prayer Posture (APP)
-Armpit/Prayer Posture is similar to Stone Squirrel. The farside hand is in the armpit instead of being at the shoulder. This makes it harder to peek your elbow out for the far side underhook but it allows access to the top single leg. HipBump to move farside hand under the armpit.
-**** Top Leg Single to Side Control – Top/Offensive
-From APP, bump and shrimp to get rid of the crossface and make OP "float" on your forearms by lifting your forearms to fill the space you created with the bump.
-**** Elbow Push to Open Guard
-**** All Stone Squirrel Escapes
-**** Hands in Front Posture
-**** Turn Away to Turtle 1 – Bottom/Defensive, sit thru to Turtle 2 – Top Offensive
-**** Monkey or Granby Roll to [[*Bottom][Bottom Guard]
-**** Inside Arm Down Posture
-**** Pant Grab to Guard or Half-Guard – Bottom
-**** Jail Break to Butterfly Guard – Bottom
-**** Ghost to Turtle 1 – Top/Offensive
 *** Submissions from Bottom
 **** [[https://www.youtube.com/watch?v=HLcM9pbELHk][no-gi baseballbat and ezekiel from bottom - josh robinson]]
 **** Last resort                                                :subs:bottom:
@@ -160,10 +114,22 @@ SCHEDULED: <2016-11-26 Sat>
 :END:
 
 You should try for escapes instead of submissions from inferior positions. We cannot assume that every encounter will be 1 on 1 in a controlled environment. Being in top position gives you a better chance to bail out and run if nessesary.
-
 * Scarf
 ** Top Scarf
+**** TODO [[https://www.youtube.com/watch?v=efox3xBLk50][Josh Robinson Side Control flow from Kesa Katame (with underhook)]] (Stopped at 3:56 on notes - pick up from here)
+From side control immediately sit through to the underhook Kesa Katame (scarf hold) with or without the underhook
+Staying in side control will be met with a lot of squirming so scarf hold is better
+***** Modified Kesa Katame (with underhook)
+1. Step over the head right away and look for the armpit armbar on the near side arm In order to sit through, post on your far elbow and pull under his near side elbow to get him to turn. This makes your legs light enought to step over the head. The sitthrough and stepover should be a one two punch.
+2. Op pushes the leg away
+3. Step back while following the arm to setup a modified gift wrap (Big Rich style) apply pressure for a choke. (similar to the arm triangle)
+4. From Big Rich gift wrap, place your bottom side arm on the other side of OPs face to setup the straight armbar
+5. Setup the wrist lock from here
+6. If OP fights that off, follow the wrist to to setup the keylock (americana arm lock) Make sure to step over the shoulder for the americana, do not stay flat.
+***** Kesa Katame (judo style without underhook)
+
 ** Bottom Scarf
+
 * North/South
 ** Top NS
 ** Bottom NS
@@ -176,6 +142,20 @@ You should try for escapes instead of submissions from inferior positions. We ca
 * Mount
 ** Top Mount
 ** Bottom Mount
+* CACC Notes
+** From Billy Riley documentary [[https://youtu.be/wqq_LWudBek?t=4m23s][Billy Riley teaches turtle attack]]
+From Turtle with a forearm on the ground.
+1. Grab the far arm from under the armpit to control that side
+2. With the other hand, push OPs head down to the ground
+3. Swing your topside leg over the head and pull as you fall to that side
+4. Post on the far arm as you fall so you do not flop to your side but you are upright and ready
+5. This will roll OP over and you still have the arm
+6. This can lead to topside position or a reverse triangle based on having the head and arm trapped.
+
+Later in the same video is a good fireman throw followed through to side control
+** TODO Eric Paulson [[https://www.youtube.com/watch?v=Y_B7Wd4LF28&feature=youtu.be][4 Catch Wrestling Moves]]
+   Add notes later
+
 * Notes
 ** Concepts
 *** On a line
@@ -332,3 +312,25 @@ I had to stop the video [[https://youtu.be/PJTrJjIV-CM?t=6m49s][here]] on 12/3 s
  From guard I was able to pull the arm across to take the back with white belts. I had a harder time getting into Vale Tudo Guard and the Roger Gracie guard setup. I was able to keep my guard and threaten but I think I needed to push harder on my first move to setup my second and third moves. I show the sweep attempt too much before I go for it and I need to get them moving so I will have momentum to use.
 
  [2016-12-07 Wed 22:07]
+** Topic taught Arm drag from closed guard with lapel over arm grip - Julio's class :TOPIC:
+   :LOGBOOK:
+   CLOCK: [2016-12-12 Mon 20:52]--[2016-12-12 Mon 21:16] =>  0:24
+   :END:
+ Lesson
+ 1. From closed guard, open the lapel and get a cross grip over OPs arm with a thumb up grip.
+ 2. Grab the wrist of the same arm with your same side hand
+ 3. Bridge and break the grip while straigtening you arm
+ 4. Pull the arm to the side while using your legs to break his posture to the side
+ 5. Shrimp out and reach over OPs head and hand yourself the lapel
+ Options:
+ 1. Reach behind the other arm to finish the choke
+ 2. Underhook the leg to get the flower sweep
+ 3. Climb the guard high and setup the armbar
+
+ Drilling:
+ Drilled [[file:bjjplan.org::*%5B%5Bhttps:/www.youtube.com/watch?v=8F6meOljv-s&index=1&list=PLLvUtPaoHJDIXWuF18ZKOC-HNdNhuMqks%5D%5BVanGuard%20Gym%20Side%20Control%20Escape%20System%5D%5D][VanGuard Gym Side Control Escape System]] with Kyle. I got reps in with the stone squirrel to guard recovery and to hip heist single leg. When drilling it live I had a real hard time. Kyle would sit through to Kesa with a grip on my shoulder. I would need to switch to the armpit push escape but Kyle would step over my head and work the inverted triangle.
+ Kyle showed me a good concept to work that was very helpful. ** I need to work to get a same side sleeve grip. I started drilling with this and it made everything much easier. In order to set up the grip I am gripping the elbow while working the other escapes. If that arm moves I need to double up on that grip and push while I shrimp.
+ I was able to get one reversal completed from that position when fighting for the sleeve everything else opened up.
+
+ I drilled the Vale Tudo Guard / RG guard but only one or two reps and today's class was good practice for this same type of work.
+ [2016-12-12 Mon 20:52]

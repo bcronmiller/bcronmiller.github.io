@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2016-12-12 Mon 16:51 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title></title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Brian Cronmiller" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orga13fe74">1. Guard</a>
+<ul>
+<li><a href="#org2353cb2">1.1. Top Guard</a></li>
+<li><a href="#orge702eb2">1.2. Bottom Guard</a></li>
+</ul>
+</li>
+<li><a href="#org4829aff">2. Half-Guard</a>
+<ul>
+<li><a href="#org65951af">2.1. Top Half</a></li>
+<li><a href="#orgffc1d85">2.2. Bottom Half</a>
+<ul>
+<li><a href="#org774dad1">2.2.1. Half-Guard roll from bottom to top (Roger Gracie Guard Study)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org89bb314">3. Side Control</a>
+<ul>
+<li><a href="#org0dbcad2">3.1. Top Side</a>
+<ul>
+<li><a href="#orgbb4967d">3.1.1. Rafael Lovato Jr's Kimura Secrets (Thanks Phil)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bottomside">bottomside</span></span></a></li>
+</ul>
+</li>
+<li><a href="#orga69aad5">3.2. Bottom Side</a>
+<ul>
+<li><a href="#orge0fd087">3.2.1. VanGuard Gym Side Control Escape System</a></li>
+<li><a href="#orgd65b64a">3.2.2. Submissions from Bottom</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org77d14bd">4. Scarf</a>
+<ul>
+<li><a href="#org46e6158">4.1. Top Scarf</a></li>
+<li><a href="#org77aa342">4.2. Bottom Scarf</a></li>
+</ul>
+</li>
+<li><a href="#orga753a43">5. North/South</a>
+<ul>
+<li><a href="#orga69cb63">5.1. Top NS</a></li>
+<li><a href="#org23895b6">5.2. Bottom NS</a></li>
+</ul>
+</li>
+<li><a href="#orgfdcf227">6. Knee on Belly</a>
+<ul>
+<li><a href="#org4ec668c">6.1. Top KOB</a></li>
+<li><a href="#org1c58abd">6.2. Bottom KOB</a></li>
+</ul>
+</li>
+<li><a href="#org87ce519">7. Back</a>
+<ul>
+<li><a href="#org07e2325">7.1. Top Back</a></li>
+<li><a href="#org758afa9">7.2. Bottom Back</a></li>
+</ul>
+</li>
+<li><a href="#orgf894b8a">8. Mount</a>
+<ul>
+<li><a href="#org2d13b5f">8.1. Top Mount</a></li>
+<li><a href="#org412b70c">8.2. Bottom Mount</a></li>
+</ul>
+</li>
+<li><a href="#orgb88027e">9. CACC Notes</a>
+<ul>
+<li><a href="#org02771df">9.1. From Billy Riley documentary Billy Riley teaches turtle attack</a></li>
+<li><a href="#org41c86aa">9.2. <span class="todo TODO">TODO</span> Eric Paulson 4 Catch Wrestling Moves</a></li>
+</ul>
+</li>
+<li><a href="#org4414b09">10. Notes</a>
+<ul>
+<li><a href="#orge8bd0d5">10.1. Concepts</a>
+<ul>
+<li><a href="#org3ff2947">10.1.1. On a line</a></li>
+<li><a href="#org9cd0d47">10.1.2. Hip Heist</a></li>
+<li><a href="#orgb641de4">10.1.3. Stone Squirrel</a></li>
+<li><a href="#org455c7fa">10.1.4. Top Single leg</a></li>
+<li><a href="#org50d18c8">10.1.5. Bottom Single leg</a></li>
+</ul>
+</li>
+<li><a href="#orgab44b27">10.2. Styles</a>
+<ul>
+<li><a href="#org7036a9f">10.2.1. How to Roll as a purple belt by Eddie Fyvie</a></li>
+</ul>
+</li>
+<li><a href="#org3077efc">10.3. TrumpetDan Brownbelt Series</a>
+<ul>
+<li><a href="#org99226e4">10.3.1. TD Brownbelt Series Part 1</a></li>
+<li><a href="#org3e8119d">10.3.2. TD Brownbelt Series Part 2</a></li>
+<li><a href="#org7cda9c2">10.3.3. TD Brownbelt Series Part 3</a></li>
+<li><a href="#org2354faf">10.3.4. TD Brownbelt Series Part 4</a></li>
+<li><a href="#orgd1105d4">10.3.5. TD Brownbelt Series Part 5</a></li>
+<li><a href="#org8507a27">10.3.6. TD Brownbelt Series Part 6</a></li>
+<li><a href="#org0254437">10.3.7. TD Brownbelt Series Part 7</a></li>
+<li><a href="#org4cf9ac9">10.3.8. TD Brownbelt Series Part 8</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org708312f">11. Class Notes</a>
+<ul>
+<li><a href="#orgcbc9953">11.1. Topic taught Passing 93 Guard (halfguard with knee-sheild)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></a></li>
+<li><a href="#org89710b0">11.2. Topic taught Chokes from TopBack/Escape from BottomBack&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></a></li>
+<li><a href="#orgc72c79c">11.3. Topic taught Passing Scissor Guard with leg weave and pressure&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></a>
+<ul>
+<li><a href="#org558ac9d">11.3.1. Steps</a></li>
+<li><a href="#org06b7421">11.3.2. Drilling:</a></li>
+<li><a href="#orgeae6d81">11.3.3. Rolling</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+The following is my current gameplan for bjj. This is mostly based on notes I have made from watching various youtube videos. My idea is to actually take the videos I watch seriously and drill those specific techniques instead of just collecting and forgetting move after move.
+</p>
+
+<p>
+I use the term OP and OPs for opponent for shorthand. I am not sure if my notes make sense to anyone but me, but you are free to use what is useful.
+</p>
+
+<p>
+This page is written in <a href="https://www.gnu.org/software/emacs/">GNU Emacs</a> and <a href="http://orgmode.org/">Org-Mode</a> and it is a way to combine two of my hobbies/obsessions. The html for this site is auto generated as I update my notes.
+</p>
+
+<div id="outline-container-orga13fe74" class="outline-2">
+<h2 id="orga13fe74"><span class="section-number-2">1</span> Guard</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-org2353cb2" class="outline-3">
+<h3 id="org2353cb2"><span class="section-number-3">1.1</span> Top Guard</h3>
+<div class="outline-text-3" id="text-1-1">
+</div><ol class="org-ol"><li><a id="org71c91d4"></a>Open Guard<br  /><ol class="org-ol"><li><a id="org7fa4abd"></a><a href="https://www.youtube.com/watch?v=APzRFmKyIhQ">Passing Open Guard -josh robinson</a><br  /><div class="outline-text-7" id="text-1-1-0-0-1-1">
+<p>
+In this link from Ronin Submissions Josh Robinson, Josh explains how to establish a good position from open guard before allowing the opponent to control your hips or sleeves. Step one is to establish a knee ride on the thigh of the opponent and allow the knee shield. This immobilizes the hips and stops inversions. Step two is to connect your hands and arms under the thighs and pass to one side or the other.
+</p>
+</div></li></ol></li>
+<li><a id="orgdfa4e06"></a>Closed Guard Passing<br  /><ol class="org-ol"><li><a id="orgb27c841"></a><a href="https://www.youtube.com/watch?v=DZL7pmQjmyU&amp;list=PLLvUtPaoHJDIXWuF18ZKOC-HNdNhuMqks&amp;index=2">Basic Guard Passing System (VanGuard Gym Coach Doug)</a><br  /><ol class="org-ol"><li><a id="orge48b077"></a>Basic Guard Break (Guard Break)<br  /><ol class="org-ol"><li><a id="orge5d30aa"></a>Double Meathead Pass<br  /><div class="outline-text-9" id="text-1-1-0-0-2-1-1-1">
+<p>
+After the Basic Guard break you have moved away from OPs hips. This allows OP to put his feet on your hips and create space and control.
+The Double Meathead Pass answers this problem. Your arms pummel under the OPs legs and you connect your hands in front of his hips.
+This pops OPs feet off of your hips.
+Next, pull OP up on your lap to isoloate OPs hips. Grab the far side lapel in the direction you want to pass.
+Stand up and drive into the legs as you walk around to the side.
+Drive your shoulder into the legs with good posture to pass.
+The far side lapel grip will prevent the OP from rolling away.
+</p>
+
+<p>
+Note: Doug recommends not grabbing the collar. (This is what I do most times). The collar grab opens you up to the elbow push escape while the lower lapel grip controls the hips better and is not as suseptable to the elbow push because your arm is not as extended.
+</p>
+</div></li>
+<li><a id="org963a816"></a>Shoulder in Belly Pass (Over/Under pass)<br  /><div class="outline-text-9" id="text-1-1-0-0-2-1-1-2">
+<p>
+From the break, You grab one pant grip at OPs knee and the other arm underhooks the leg.
+Keep both grips while you drop your shoulder into OPs missection and walk around the guard.
+After your knee is established on the hip you are cleared to move the knee grip to a crossface control of the neck.
+After that is established you can release the underhook of the leg to secure side control.
+Note: You are on your toes and not your knees during this pass
+</p>
+</div></li></ol></li>
+<li><a id="org7116da0"></a>Violator/Combat Knee Break<br  /><div class="outline-text-8" id="text-1-1-0-0-2-1-2">
+<p>
+From closed guard establish double bicep control on the OPs closed guard. Stand up and stack the OPs guard.
+While standing adjust your feet so that your knee is lined up on OPs centerline.
+Sit back into a combat base (forward leg knee up, back knee down)
+This will break the guard open and leave you in a good base situation.
+Depending on which way OPs shirmps or what side he leans to we will use either Knee Thru or Knee Slice Pass
+</p>
+</div>
+<ol class="org-ol"><li><a id="org603a26b"></a>Knee Thru Pass<br  /><div class="outline-text-9" id="text-1-1-0-0-2-1-2-1">
+<p>
+Knee Thru means that we staple our knee over the OPs thigh on the same side (Right to Right, Left to Left)
+</p>
+<ol class="org-ol">
+<li>As OP shrimps we staple the leg with our forward knee</li>
+<li>At the same time, we reach for a crossface control of the neck and underhook OPs farside leg</li>
+<li>Pin your knee to control the near side hip</li>
+<li>Backstep with strong shoulder pressure and a deep crossface grabbing the back of the gi</li>
+</ol>
+<p>
+4a. Extend your hips into the armpit to dominate the side
+</p>
+<ol class="org-ol">
+<li>Replace your knee on the hip with your top side hand</li>
+<li>Switch your knee from the hip to the armpit while pressing OPs face away with shoulder pressure.</li>
+</ol>
+</div></li>
+<li><a id="org82f16e6"></a>Cross Knee Pass (Knee Slice Pass)<br  /><div class="outline-text-9" id="text-1-1-0-0-2-1-2-2">
+<p>
+Cross Knee means we are going from Right to Left or Left to Right with the knee across OPs hips. The key to this pass is to get the underhook on the same side as our knee is coming from to avoid a backtake.
+</p>
+<ol class="org-ol">
+<li>As OP shrimps we staple across to the opposite side of our knee.</li>
+<li>Underhook the far side armpit while pulling up on the near side sleeve</li>
+<li>Step around OPs bottom leg as you baseball slide into the pass with full pressure on your OP.</li>
+<li>End at [[*Top][Scarf Control Top]</li>
+</ol>
+</div></li>
+<li><a id="orge85ad1c"></a>Turk Pass (Leg Weave)<br  /><div class="outline-text-9" id="text-1-1-0-0-2-1-2-3">
+<p>
+From OPs scissor guard (open guard with a setup for a scissor sweep, knee sheild top leg with a bottom leg outside my legs.
+</p>
+<ol class="org-ol">
+<li>Weave your arm under the knee of the knee shield and grip on top of OPs bottom knee.</li>
+<li>Get to your feet and stack into OP</li>
+<li>Press forehead and shoulders down and forward to collapse OPs legs together</li>
+<li>As you press your shoulder into OP, spring up and hop around the legs.</li>
+</ol>
+<p>
+This kills OPs hips and limit his movement
+</p>
+<ol class="org-ol">
+<li>Turn the leg weave hand the other way to make room at OPs hips</li>
+<li>Place your bottom knee into the hip and finish the pass.</li>
+<li>If OP gets the top knee in between before you finish the pass. Use the leg weave hand to cup the top knee fast and pull it away while you replace your knee and finish the pass.</li>
+<li>If OPs legs are preventing the pass, keep the same grips and hop to the back side to finish the pass.</li>
+</ol>
+</div></li></ol></li></ol></li></ol></li></ol>
+</div>
+<div id="outline-container-orge702eb2" class="outline-3">
+<h3 id="orge702eb2"><span class="section-number-3">1.2</span> Bottom Guard</h3>
+<div class="outline-text-3" id="text-1-2">
+</div><ol class="org-ol"><li><a id="orgac14578"></a>Overhook Guard game<br  /><ol class="org-ol"><li><a id="orga9391bf"></a>Vale Tudo Guard<br  /><ol class="org-ol"><li><a id="orgb279360"></a><a href="https://www.youtube.com/watch?v=CGDdWRRtGDw">Vale Tudo Guard Vale Tudo Guard -josh robinson</a> (similar to my overhook game with a better setup)<br  /><div class="outline-text-8" id="text-1-2-0-0-1-1-1">
+<p>
+Josh explains that you would use your wrists connecting to the back of the neck to break posture instead of pulling collars. I like this because I am getting spiderguard fingers from pulling lapels so if I can be less dependant on those grips it will be better for my hands. I will be able to use my grips for chokes instead of breaking posture as well. It also has the benefit of being able to translate to a no-gi game.
+</p>
+</div></li>
+
+<li><a id="org0e5ad16"></a><a href="https://www.youtube.com/watch?v=1t_0crasE_4">Vale Tudo Guard no-gi -josh robinson</a> (setup triangle, gogoplata and straight jacket)<br  /><div class="outline-text-8" id="text-1-2-0-0-1-1-2">
+<p>
+In this video Josh explains how to setup the Vale Tudo guard (from the hip instead of being flat on the back). Bicep control is better than wrist control. Feet on hips can be exchanged for a formal closed guard. The overhook keeps the posture broken with a collar tie at times. "Clear the head" means we get the forearm to the overhook side and the foot comes in front for a gogoplata. The triange is available because you are on your hip. The straightjacket submission follows the gogoplata setup when the arm defends the choke. The far arm is pulled through to increase pressure on the choke. This is similar to the collar choke with the far arm pulled across to allow the shoulder to finish the choke. This also leads to an omaplata choke.
+</p>
+</div></li>
+<li><a id="org4b386b3"></a><a href="https://www.youtube.com/watch?v=X8Qhl-jmeNs">Closed Guard Arm-drag (Roger Gracie Guard Study)</a> (Arm-drag with 2 on 1 grip to setup, back-take, armbar or flower sweep)<br  /><div class="outline-text-8" id="text-1-2-0-0-1-1-3">
+<p>
+The guard is closed and you grab the ops sleve at the wrist and elbow. Using a bridge and a foot on the arm side hip, pull the elbow across your centerline to pin it the side. When the elbow is across teh centerline, three options are available depending on what the op does. 1. take the back 2. arm bar (scrambles into triangle, oomaplata etc) 3. sweep (flower sweep shown in the video)
+</p>
+</div>
+<ol class="org-ol"><li><a id="org9d1466e"></a>Back-Take<br  /><div class="outline-text-9" id="text-1-2-0-0-1-1-3-1">
+<p>
+The backtake is availble by pushing the arm away from your center line as you crawl to the back. Be careful to not fall too far forward. In the video, Roger uses an underhook on the legs and strong collar control to stay tight to the op. Roger also tries to hand off the sleeve grip to the far side hand from the armpit. This creates a strong "gift-wrap" style grip around the back and it helps the back take.
+</p>
+</div></li>
+<li><a id="org8a2e159"></a>Arm Bar<br  /><div class="outline-text-9" id="text-1-2-0-0-1-1-3-2">
+<p>
+The op will raise the head to avoid the backtake. Additionally the op will extend thier neck and use head pressue to prevent the backtake. When this happens, it is possible to go for the armbar instead. If the armbar fails be ready to scramble into the sweep, triangle or oomaplata. Before transitioning from the back take to the armbar, it is nessesary to get your hips out to the side. Roger also sets up the armbar with a far side collar grip. This allows him to anchor and helps get the foot in front of the face. It may also be useful if an opportunity for a choke happens. Keep the back take threat alive while setting up the armbar.
+</p>
+
+<p>
+When Roger broke Jacare's arm he climbed his legs up into a high guard that covered the far side shoulder before he committed to the armbar. This allowed Jacare less time to react to the armbar before it was secured.
+</p>
+</div></li>
+<li><a id="orgc9570f5"></a>Flower-sweep<br  /><div class="outline-text-9" id="text-1-2-0-0-1-1-3-3">
+<p>
+The control of the arm that comes with the 2 on 1 sleeve grip will deprive op of base on that side. The example of Roger using the flower sweep in this video is the same climbing guard that Roger used to armbar Jacare. The op had nee raised on the same side as the 2 on 1 arm that Roger controlled. While climbing up and threatening the armbar, Roger used the movement to underhook the ops far side leg (opposite of the controlled arm) and swept to mount. This would have worked with a gi grip as well if he could not get the underhook on the leg.
+</p>
+</div></li></ol></li>
+<li><a id="org4866f1a"></a><a href="https://www.youtube.com/watch?v=FP-qEk83DdQ">Cross-side collar grip (Kron Gracie Guard Study) loopchoke, armbar, anklepick</a><br  /></li></ol></li></ol></li>
+<li><a id="org88148bf"></a><a href="https://www.youtube.com/watch?annotation_id=annotation_263863977&amp;feature=iv&amp;src_vid=8F6meOljv-s&amp;v=tmGqgXnuNBE">Marcelo Garcia elbow push escape (Guard Retention)</a><br  /></li></ol>
+</div>
+</div>
+<div id="outline-container-org4829aff" class="outline-2">
+<h2 id="org4829aff"><span class="section-number-2">2</span> Half-Guard</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-org65951af" class="outline-3">
+<h3 id="org65951af"><span class="section-number-3">2.1</span> Top Half</h3>
+</div>
+<div id="outline-container-orgffc1d85" class="outline-3">
+<h3 id="orgffc1d85"><span class="section-number-3">2.2</span> Bottom Half</h3>
+<div class="outline-text-3" id="text-2-2">
+</div><div id="outline-container-org774dad1" class="outline-4">
+<h4 id="org774dad1"><span class="section-number-4">2.2.1</span> <a href="https://youtu.be/X8Qhl-jmeNs?t=8m34s">Half-Guard roll from bottom to top (Roger Gracie Guard Study)</a></h4>
+<div class="outline-text-4" id="text-2-2-1">
+</div><ol class="org-ol"><li><a id="orgda6b79f"></a>From Bottom Half-Guard get perpendicular and reverse the position<br  /><div class="outline-text-5" id="text-2-2-1-1">
+<p>
+Roger gets an overhook on the trapped leg side from bottom half-guard. He is on his side with contol of the belt with his top hand and a unknown grip with his bottom hand. He could have the leg or hip. He plants his outside foot and upas hard while pulling up on the belt to get the ops weight foward while Roger gets his body perpendicular. He uses momentum before the upa to load the op and get him moving in the correct direction. Roger also uses the momentum from the upa to swing his outside leg up as he inverts into the roll
+</p>
+</div></li></ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org89bb314" class="outline-2">
+<h2 id="org89bb314"><span class="section-number-2">3</span> Side Control</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-org0dbcad2" class="outline-3">
+<h3 id="org0dbcad2"><span class="section-number-3">3.1</span> Top Side</h3>
+<div class="outline-text-3" id="text-3-1">
+</div><div id="outline-container-orgbb4967d" class="outline-4">
+<h4 id="orgbb4967d"><span class="section-number-4">3.1.1</span> <a href="https://www.youtube.com/watch?v=S1NpPbMGJ6I&amp;feature=youtu.be">Rafael Lovato Jr's Kimura Secrets</a> (Thanks Phil)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bottomside">bottomside</span></span></h4>
+<div class="outline-text-4" id="text-3-1-1">
+</div><ol class="org-ol"><li><a id="org05562c7"></a>Notes<br  /><div class="outline-text-5" id="text-3-1-1-1">
+<p>
+From Side Control Top with an Underhook on the far arm
+</p>
+<ol class="org-ol">
+<li>Pin the near arm under your shin by first pushing the arm down</li>
+<li>Windshield Wiper your legs to switch to your other leg and begin to move to North/South</li>
+<li>Step over and pull OP to his side to setup the North/South position</li>
+<li>Keep a strong underhook on the far arm and put weight on the arm</li>
+<li>Step over and settle into the North/South</li>
+<li>Use a "mouse trap" move to switch the grip for the Kimura and use the grip at the hand so the wrist lock is available. Make sure you use a no thumb "monkey grip". Using thumbs makes is possible to lose the arm. (I like the wrist lock option to help break the grip)</li>
+<li>Lean forward to setup the grip break instead of just using your arms. Use the torso turn to break the grip and move the arm instead of using your arms</li>
+<li>Move the arm away up and then behind the back to finish the submission.</li>
+</ol>
+</div></li></ol>
+</div>
+</div>
+<div id="outline-container-orga69aad5" class="outline-3">
+<h3 id="orga69aad5"><span class="section-number-3">3.2</span> Bottom Side</h3>
+<div class="outline-text-3" id="text-3-2">
+</div><div id="outline-container-orge0fd087" class="outline-4">
+<h4 id="orge0fd087"><span class="section-number-4">3.2.1</span> <a href="https://www.youtube.com/watch?v=8F6meOljv-s&amp;index=1&amp;list=PLLvUtPaoHJDIXWuF18ZKOC-HNdNhuMqks">VanGuard Gym Side Control Escape System</a></h4>
+<div class="outline-text-4" id="text-3-2-1">
+<p>
+It is easy to defend if you only try to re-guard. You need to have various options for different situations. This system will give you a plan for escapes.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd65b64a" class="outline-4">
+<h4 id="orgd65b64a"><span class="section-number-4">3.2.2</span> Submissions from Bottom</h4>
+<div class="outline-text-4" id="text-3-2-2">
+</div><ol class="org-ol"><li><a id="org7b22be8"></a><a href="https://www.youtube.com/watch?v=HLcM9pbELHk">no-gi baseballbat and ezekiel from bottom - josh robinson</a><br  /></li>
+<li><a id="org6f62e43"></a>Last resort&#xa0;&#xa0;&#xa0;<span class="tag"><span class="subs">subs</span>&#xa0;<span class="bottom">bottom</span></span><br  /><div class="outline-text-5" id="text-3-2-2-2">
+<p>
+You should try for escapes instead of submissions from inferior positions. We cannot assume that every encounter will be 1 on 1 in a controlled environment. Being in top position gives you a better chance to bail out and run if nessesary.
+</p>
+</div></li></ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org77d14bd" class="outline-2">
+<h2 id="org77d14bd"><span class="section-number-2">4</span> Scarf</h2>
+<div class="outline-text-2" id="text-4">
+</div><div id="outline-container-org46e6158" class="outline-3">
+<h3 id="org46e6158"><span class="section-number-3">4.1</span> Top Scarf</h3>
+<div class="outline-text-3" id="text-4-1">
+</div><ol class="org-ol"><li><a id="org3b33e15"></a><span class="todo TODO">TODO</span> <a href="https://www.youtube.com/watch?v=efox3xBLk50">Josh Robinson Side Control flow from Kesa Katame (with underhook)</a> (Stopped at 3:56 on notes - pick up from here)<br  /><div class="outline-text-5" id="text-4-1-0-1">
+<p>
+From side control immediately sit through to the underhook Kesa Katame (scarf hold) with or without the underhook
+Staying in side control will be met with a lot of squirming so scarf hold is better
+</p>
+</div>
+<ol class="org-ol"><li><a id="org526dc0d"></a>Modified Kesa Katame (with underhook)<br  /><div class="outline-text-6" id="text-4-1-0-1-1">
+<ol class="org-ol">
+<li>Step over the head right away and look for the armpit armbar on the near side arm In order to sit through, post on your far elbow and pull under his near side elbow to get him to turn. This makes your legs light enought to step over the head. The sitthrough and stepover should be a one two punch.</li>
+<li>Op pushes the leg away</li>
+<li>Step back while following the arm to setup a modified gift wrap (Big Rich style) apply pressure for a choke. (similar to the arm triangle)</li>
+<li>From Big Rich gift wrap, place your bottom side arm on the other side of OPs face to setup the straight armbar</li>
+<li>Setup the wrist lock from here</li>
+<li>If OP fights that off, follow the wrist to to setup the keylock (americana arm lock) Make sure to step over the shoulder for the americana, do not stay flat.</li>
+</ol>
+</div></li>
+<li><a id="orge287acf"></a>Kesa Katame (judo style without underhook)<br  /></li></ol></li></ol>
+</div>
+
+<div id="outline-container-org77aa342" class="outline-3">
+<h3 id="org77aa342"><span class="section-number-3">4.2</span> Bottom Scarf</h3>
+</div>
+</div>
+
+<div id="outline-container-orga753a43" class="outline-2">
+<h2 id="orga753a43"><span class="section-number-2">5</span> North/South</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-orga69cb63" class="outline-3">
+<h3 id="orga69cb63"><span class="section-number-3">5.1</span> Top NS</h3>
+</div>
+<div id="outline-container-org23895b6" class="outline-3">
+<h3 id="org23895b6"><span class="section-number-3">5.2</span> Bottom NS</h3>
+</div>
+</div>
+<div id="outline-container-orgfdcf227" class="outline-2">
+<h2 id="orgfdcf227"><span class="section-number-2">6</span> Knee on Belly</h2>
+<div class="outline-text-2" id="text-6">
+</div><div id="outline-container-org4ec668c" class="outline-3">
+<h3 id="org4ec668c"><span class="section-number-3">6.1</span> Top KOB</h3>
+</div>
+<div id="outline-container-org1c58abd" class="outline-3">
+<h3 id="org1c58abd"><span class="section-number-3">6.2</span> Bottom KOB</h3>
+</div>
+</div>
+<div id="outline-container-org87ce519" class="outline-2">
+<h2 id="org87ce519"><span class="section-number-2">7</span> Back</h2>
+<div class="outline-text-2" id="text-7">
+</div><div id="outline-container-org07e2325" class="outline-3">
+<h3 id="org07e2325"><span class="section-number-3">7.1</span> Top Back</h3>
+</div>
+<div id="outline-container-org758afa9" class="outline-3">
+<h3 id="org758afa9"><span class="section-number-3">7.2</span> Bottom Back</h3>
+</div>
+</div>
+<div id="outline-container-orgf894b8a" class="outline-2">
+<h2 id="orgf894b8a"><span class="section-number-2">8</span> Mount</h2>
+<div class="outline-text-2" id="text-8">
+</div><div id="outline-container-org2d13b5f" class="outline-3">
+<h3 id="org2d13b5f"><span class="section-number-3">8.1</span> Top Mount</h3>
+</div>
+<div id="outline-container-org412b70c" class="outline-3">
+<h3 id="org412b70c"><span class="section-number-3">8.2</span> Bottom Mount</h3>
+</div>
+</div>
+<div id="outline-container-orgb88027e" class="outline-2">
+<h2 id="orgb88027e"><span class="section-number-2">9</span> CACC Notes</h2>
+<div class="outline-text-2" id="text-9">
+</div><div id="outline-container-org02771df" class="outline-3">
+<h3 id="org02771df"><span class="section-number-3">9.1</span> From Billy Riley documentary <a href="https://youtu.be/wqq_LWudBek?t=4m23s">Billy Riley teaches turtle attack</a></h3>
+<div class="outline-text-3" id="text-9-1">
+<p>
+From Turtle with a forearm on the ground.
+</p>
+<ol class="org-ol">
+<li>Grab the far arm from under the armpit to control that side</li>
+<li>With the other hand, push OPs head down to the ground</li>
+<li>Swing your topside leg over the head and pull as you fall to that side</li>
+<li>Post on the far arm as you fall so you do not flop to your side but you are upright and ready</li>
+<li>This will roll OP over and you still have the arm</li>
+<li>This can lead to topside position or a reverse triangle based on having the head and arm trapped.</li>
+</ol>
+
+<p>
+Later in the same video is a good fireman throw followed through to side control
+</p>
+</div>
+</div>
+<div id="outline-container-org41c86aa" class="outline-3">
+<h3 id="org41c86aa"><span class="section-number-3">9.2</span> <span class="todo TODO">TODO</span> Eric Paulson <a href="https://www.youtube.com/watch?v=Y_B7Wd4LF28&amp;feature=youtu.be">4 Catch Wrestling Moves</a></h3>
+<div class="outline-text-3" id="text-9-2">
+<p>
+Add notes later
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org4414b09" class="outline-2">
+<h2 id="org4414b09"><span class="section-number-2">10</span> Notes</h2>
+<div class="outline-text-2" id="text-10">
+</div><div id="outline-container-orge8bd0d5" class="outline-3">
+<h3 id="orge8bd0d5"><span class="section-number-3">10.1</span> Concepts</h3>
+<div class="outline-text-3" id="text-10-1">
+</div><div id="outline-container-org3ff2947" class="outline-4">
+<h4 id="org3ff2947"><span class="section-number-4">10.1.1</span> On a line</h4>
+<div class="outline-text-4" id="text-10-1-1">
+<p>
+Coach Doug uses the term On a line in his side control series. This means that the OP is in a position that does not allow him to base on one side. In judo this can be called a dead angle.
+</p>
+</div>
+</div>
+<div id="outline-container-org9cd0d47" class="outline-4">
+<h4 id="org9cd0d47"><span class="section-number-4">10.1.2</span> Hip Heist</h4>
+</div>
+<div id="outline-container-orgb641de4" class="outline-4">
+<h4 id="orgb641de4"><span class="section-number-4">10.1.3</span> Stone Squirrel</h4>
+</div>
+<div id="outline-container-org455c7fa" class="outline-4">
+<h4 id="org455c7fa"><span class="section-number-4">10.1.4</span> Top Single leg</h4>
+<div class="outline-text-4" id="text-10-1-4">
+<p>
+Closest to your head instead of closest to your hips
+</p>
+</div>
+</div>
+<div id="outline-container-org50d18c8" class="outline-4">
+<h4 id="org50d18c8"><span class="section-number-4">10.1.5</span> Bottom Single leg</h4>
+<div class="outline-text-4" id="text-10-1-5">
+<p>
+Closest to your hips instead of your head. You need to hip heist to get this leg.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgab44b27" class="outline-3">
+<h3 id="orgab44b27"><span class="section-number-3">10.2</span> Styles</h3>
+<div class="outline-text-3" id="text-10-2">
+</div><div id="outline-container-org7036a9f" class="outline-4">
+<h4 id="org7036a9f"><span class="section-number-4">10.2.1</span> <a href="https://www.jiujitsutimes.com/purple-belt-k-rolling-belt/">How to Roll as a purple belt</a> by Eddie Fyvie</h4>
+<div class="outline-text-4" id="text-10-2-1">
+</div><ol class="org-ol"><li><a id="org6955cc2"></a>Crush you opponents: Focus on using heavy weight and really “crushing” on top.<br  /></li>
+<li><a id="org4ba1ed4"></a>Don’t finish anyone: Try to roll in a way where you catch and release submissions. Focus mainly on positions.<br  /></li>
+<li><a id="org4c1b7a2"></a>Don’t give anything: Don’t give an inch to anyone.<br  /></li>
+<li><a id="org3783f8e"></a>Keep it playful, but with a purpose: Keep it playful, but adhere to the principles and pick a goal.<br  /></li>
+<li><a id="org8712fff"></a>Float: Don’t hold positions long; hop around and move quickly.<br  /></li>
+<li><a id="orgfbd291c"></a>Allow bad positions, but with a purpose: Allow bad positions with the purpose of escaping and defending. Find comfort in discomfort.<br  /></li>
+<li><a id="org5eece99"></a>Go for a “marathon round”: Just roll. Roll so long you have to change your attire. Time limits = sport. No time limits = life<br  /></li>
+<li><a id="orgce655d0"></a>Trade moves for concepts<br  /><div class="outline-text-5" id="text-10-2-1-8">
+<p>
+You should be utilizing the principles and concepts passed down by our BJJ forefathers from DAY ONE of your training!
+</p>
+
+<p>
+However, at the purple belt, it is time to kick your understanding of concepts into high gear.
+</p>
+
+<p>
+Imagine it like art; white belt and blue belt are learning how the artists’ tools work. You learn how to draw, paint, sketch, and at the end of blue belt, you have picked your “style” of art. The white belt and blue belt level doesn’t allow much room for personal thought. You need a concrete foundation and must master the artists’ tools!
+</p>
+
+<p>
+When you reach purple belt, you have earned the right to start exploring the “abstract”. You should always experiment and stay fascinated by the difficulty!
+</p>
+
+<p>
+“You can listen to me now or wait until you are 65.” – Frank Popolizio
+</p>
+
+<p>
+You are now freeing yourself from the stress of mastering the basics and can start opening up and allowing the abstract form of rolling to take shape. You should be seeing the “big picture” of jiu-jitsu much more clearly and have blended the hundreds of techniques you know into concepts that allow you to start applying them rapidly. You must see the “blend” of techniques in the various situations.
+</p>
+
+<p>
+The figurative samurai sword has been sharpened once you hit black belt. The purple belt has acquired the sword and has the skills, but still needs to smooth out the blade for extreme precision.
+</p>
+</div></li></ol>
+</div>
+</div>
+<div id="outline-container-org3077efc" class="outline-3">
+<h3 id="org3077efc"><span class="section-number-3">10.3</span> TrumpetDan Brownbelt Series</h3>
+<div class="outline-text-3" id="text-10-3">
+<p>
+TrumpetDan is a great teacher and these videos are full of great technical details that need to be mined. I remember watching these videos when I was a whitebelt and this information was mostly above my head. Other things in these vidoes are things I only just realized I learned from this video series. They are just things I have done for the last 4 years.
+</p>
+</div>
+<div id="outline-container-org99226e4" class="outline-4">
+<h4 id="org99226e4"><span class="section-number-4">10.3.1</span> <a href="https://www.youtube.com/watch?v=GKbphzgo0sc">TD Brownbelt Series Part 1</a></h4>
+<div class="outline-text-4" id="text-10-3-1">
+</div><ol class="org-ol"><li><a id="org37ce8d9"></a>Standing Up from guard passing paths<br  /><div class="outline-text-5" id="text-10-3-1-1">
+<p>
+Get a sleeve and lapel grip and stand to pass while keeping the lapel arm stiff.
+Push open the guard and point your foot out while pressuring forward with your knee
+The other arm leaves the sleeve grip and "hikes" the knee to prevent a foot on my hip.
+</p>
+</div>
+<ol class="org-ol"><li><a id="orgd7bfa77"></a>From DLR<br  /><ol class="org-ol"><li><a id="org20f689b"></a>OP has DLR hook<br  /><ol class="org-ol"><li><a id="org35a8f3f"></a>Backstep and pivot forward<br  /><div class="outline-text-8" id="text-10-3-1-1-1-1-1">
+<p>
+When you backsetup you are avoiding the far leg
+</p>
+</div></li>
+<li><a id="orgce349e8"></a>Pivot back to HQ position and get on top of the far foot<br  /><div class="outline-text-8" id="text-10-3-1-1-1-1-2">
+<p>
+This move defeated the far foot on my leg/hip
+</p>
+</div></li></ol></li></ol></li></ol></li>
+<li><a id="org7e18aea"></a>Torendo Pass<br  /><div class="outline-text-5" id="text-10-3-1-2">
+<p>
+Great detail on the torendo/bullfighter pass. If OP sits up when you grab the knees, step the the side and throw the legs down to that side. OP will be shelled to that side making it hard to pass. Hop to the far side that is undefended to take the back or side control.
+</p>
+</div></li>
+<li><a id="orge1878f2"></a>Deep Halfguard passing sequence<br  /><div class="outline-text-5" id="text-10-3-1-3">
+<ol class="org-ol">
+<li>From deep halfguard, OP has the underhook for the backtake and an underhook on the far leg for the sweep.</li>
+<li>First, cross your feet and sit on your underhooked foot and sitback.</li>
+<li>Grab OPs bottom foot to avoid the backtake.</li>
+<li>Stablize</li>
+<li>Bring your arm in front to crossface and remove the underhook on your leg. Crossface hard and grab deep.</li>
+<li>Switch hips and sprawl to a standard half guard</li>
+<li>Walk across the OPs hips to get to quarter guard</li>
+<li>To remove the foot from quarter guard&#x2026; Using head pressure and a crawling hand from the underhook, stretch out OPs posture. When OP is stretched out he cannot keep your foot when you kick it free.</li>
+</ol>
+</div></li></ol>
+</div>
+<div id="outline-container-org3e8119d" class="outline-4">
+<h4 id="org3e8119d"><span class="section-number-4">10.3.2</span> <a href="https://www.youtube.com/watch?v=PJTrJjIV-CM">TD Brownbelt Series Part 2</a></h4>
+<div class="outline-text-4" id="text-10-3-2">
+<p>
+This video is about the open half guard.
+The "open half guard" "93 guard" is a halfguard with a foot on your hip and a knee shield.
+Dan starts by explaining that he values positions based on how much weight he can put on the opponent. I think this is a great concept.
+</p>
+<ol class="org-ol">
+<li>Attack/Distract the leg: Get an ankle lock on the foot by pressing the toes into your torso while getting an RNC grip on the ankle. This can be used as a distraction if it does not work.</li>
+<li>Pass: Swim the arm in and grab the pants after pushing the knee down. This pinning the OPs heel to his butt is exactly the same as an excape from KOB where you trap the kneeling leg with an underhook grip. This is an underhook on the ankle instead of an overhook. The overhook on the ankle is next and it is used when OP has a sleeve grip.</li>
+</ol>
+<p>
+2a. After the leg is pinned, turn the corner with your front side knee to get a knee into OPs hips.
+2b. Grab behind his back with a crossface and backstep. You can pin the leg with your leg.
+2c. Walk OP across his hips to finish the pass.
+</p>
+<ol class="org-ol">
+<li>Over-underpass: Establish the grip over his leg to grab his belt and break the grip on your sleeve.</li>
+</ol>
+<p>
+3a. Keep your head to the OVER side of the over under to avoid getting stuffed.
+3b. Get up on your toes and walk OP to the Over side to limit movement. (This changing his hip position is a key theme) :theme
+3c. Raise your leg to escape half guard to side control nad put he leg under OPs legs to keep his hips out of play.
+</p>
+
+<p>
+(This is similar to the passing concept that Jason Scully showed me at the Montreal seminar. Finishing the pass with a foot posted and OPs legs hanging off of your leg prevents scrambles)
+</p>
+
+<p>
+I had to stop the video <a href="https://youtu.be/PJTrJjIV-CM?t=6m49s">here</a> on 12/3 so I can get to class :)
+</p>
+</div>
+</div>
+<div id="outline-container-org7cda9c2" class="outline-4">
+<h4 id="org7cda9c2"><span class="section-number-4">10.3.3</span> <a href="https://www.youtube.com/watch?v=UUqH4rb7WBc">TD Brownbelt Series Part 3</a></h4>
+</div>
+<div id="outline-container-org2354faf" class="outline-4">
+<h4 id="org2354faf"><span class="section-number-4">10.3.4</span> <a href="https://www.youtube.com/watch?v=3H2gpKUHq10">TD Brownbelt Series Part 4</a></h4>
+</div>
+<div id="outline-container-orgd1105d4" class="outline-4">
+<h4 id="orgd1105d4"><span class="section-number-4">10.3.5</span> <a href="https://www.youtube.com/watch?v=3qFwa0ZhV2g">TD Brownbelt Series Part 5</a></h4>
+</div>
+<div id="outline-container-org8507a27" class="outline-4">
+<h4 id="org8507a27"><span class="section-number-4">10.3.6</span> <a href="https://www.youtube.com/watch?v=sm8NKHFlPNI">TD Brownbelt Series Part 6</a></h4>
+</div>
+<div id="outline-container-org0254437" class="outline-4">
+<h4 id="org0254437"><span class="section-number-4">10.3.7</span> <a href="https://www.youtube.com/watch?v=MtPki5X7mrU">TD Brownbelt Series Part 7</a></h4>
+</div>
+<div id="outline-container-org4cf9ac9" class="outline-4">
+<h4 id="org4cf9ac9"><span class="section-number-4">10.3.8</span> <a href="https://www.youtube.com/watch?v=L19elzK79hw">TD Brownbelt Series Part 8</a></h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org708312f" class="outline-2">
+<h2 id="org708312f"><span class="section-number-2">11</span> Class Notes</h2>
+<div class="outline-text-2" id="text-11">
+</div><div id="outline-container-orgcbc9953" class="outline-3">
+<h3 id="orgcbc9953"><span class="section-number-3">11.1</span> Topic taught Passing 93 Guard (halfguard with knee-sheild)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></h3>
+<div class="outline-text-3" id="text-11-1">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2016-12-03 Sat 11:07]</span></span>
+In this class, I took notes and I will type them in later&#x2026;
+</p>
+</div>
+</div>
+<div id="outline-container-org89710b0" class="outline-3">
+<h3 id="org89710b0"><span class="section-number-3">11.2</span> Topic taught Chokes from TopBack/Escape from BottomBack&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></h3>
+<div class="outline-text-3" id="text-11-2">
+<p>
+Chokes from Back - From Back control with over/under keep the bottom hand covering the top. Get a collar grip with the choking hand and use one of the following options for the other hand.
+</p>
+<ol class="org-ol">
+<li>Grab the lower lapel and complete the classic collar choke</li>
+<li>Switch to an eziekiel (spelling?) choke by bringing the non-choking hand behind the head and grabbing the sleeve</li>
+<li>If you have the collar grip, switch to the leg for the bow and arrow choke</li>
+<li>From bow and arrow, switch to moving the arm behind the arm/head to finish the choke</li>
+<li>Feed your Gi lapel from under OPs armpit to the choking hand - setup the same bow and arrow choke or under arm finish.</li>
+</ol>
+
+<p>
+Escape from Back Control
+</p>
+<ol class="org-ol">
+<li>Turn torward the choking arm and post on your hand to get to turtle</li>
+<li>Raise your hips to try to make OP post a hand.</li>
+<li>Grab the hand and move push it to the other side of you head</li>
+<li>Roll to the side away from OP to get your shoulders on the mat</li>
+<li>Grab OPs knee with both hands to prevent the mount and get top position</li>
+<li>Underhook the leg while allowing mount to sneak out of the back door (so to speak)</li>
+</ol>
+
+<p>
+No rolling today, Just positional sparring from positions
+</p>
+
+<p>
+Drilling:
+Drilled Roger Gracie Guard and Vale Tudo Gaurd together. If I cannot get the Vale Tudo setup I try to drag the arm across for the Roger Gracie setup and that ususally leads to a scramble that allows the Vale Tudo setup. The constant work makes it hard for OP to work on thier game.
+</p>
+
+<p>
+Drilled Stone Squirrel w/Mac
+Worked with light resistance and worked on several options
+Sucessfully framed up into Stone Squirrel by bumping and raising my arms up.
+Try to get my knee in to re-guard
+Roll for the hip heist or high single depending on where OP goes
+</p>
+
+<p>
+I was able to work and chain together some escapes but I did not have heavy resistance
+</p>
+
+<p>
+Drilled DLR pass w/Isaac
+</p>
+<ol class="org-ol">
+<li>Starting from DLR</li>
+<li>Get knee grip and lapel grip</li>
+<li>Stepback bringing the knee grip with me to turn OP</li>
+<li>Turn back in to lose the DLR hook and setup Mission Control</li>
+<li>Control "hike" the top leg for control</li>
+<li>Swim down to establish a knee ride on the bottom thigh and pressure the top leg</li>
+<li>Get a back grip and collar grip</li>
+<li>Switch the knee ride from one to the other and post out the far leg</li>
+<li>Pin the top leg at the calf with the posted leg</li>
+<li>Switch hips to setup the hop to the far side</li>
+<li>Hop to the far side and end with KOB or hip</li>
+<li>Be ready to switch if OP shrimps</li>
+</ol>
+
+<p>
+There is a lot of details but it started to make sense as I worked through some reps. I need to get this practice in every week/day
+</p>
+
+
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2016-12-05 Mon 20:47]</span></span>
+</p>
+</div>
+</div>
+<div id="outline-container-orgc72c79c" class="outline-3">
+<h3 id="orgc72c79c"><span class="section-number-3">11.3</span> Topic taught Passing Scissor Guard with leg weave and pressure&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></h3>
+<div class="outline-text-3" id="text-11-3">
+</div>
+<div id="outline-container-org558ac9d" class="outline-4">
+<h4 id="org558ac9d"><span class="section-number-4">11.3.1</span> Steps</h4>
+<div class="outline-text-4" id="text-11-3-1">
+<ol class="org-ol">
+<li>Establish the leg weave while pinning the bottom arm with a sleeve grip.</li>
+<li>Sprawl and use shoulder pressure to collapse OPs legs together</li>
+<li>As you walk around the legs using head pressure, pull the top leg to prevent a hip escape</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org06b7421" class="outline-4">
+<h4 id="org06b7421"><span class="section-number-4">11.3.2</span> Drilling:</h4>
+<div class="outline-text-4" id="text-11-3-2">
+<p>
+Drilled the move from the class with resistance. I had trouble clearing the legs and I could not hop to the far side either. I think I needed to move to the leg switch and to pin the leg better.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgeae6d81" class="outline-4">
+<h4 id="orgeae6d81"><span class="section-number-4">11.3.3</span> Rolling</h4>
+<div class="outline-text-4" id="text-11-3-3">
+<p>
+I rolled in a few rounds from guard switching top and bottom. I had an interesting escape from a triangle. I tried to turn into the hips from my trapped arm side but I was not able to get a good angle. I switched to the feet in the armpit sitback escape I was only able to get the untrapped arm side foot in the armpit but the escape worked when I used both legs. When the triangle broke open, I ended up in a pass by keeping my arm that I used to get out of the triangle.
+</p>
+
+<p>
+From guard I was able to pull the arm across to take the back with white belts. I had a harder time getting into Vale Tudo Guard and the Roger Gracie guard setup. I was able to keep my guard and threaten but I think I needed to push harder on my first move to setup my second and third moves. I show the sweep attempt too much before I go for it and I need to get them moving so I will have momentum to use.
+</p>
+
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2016-12-07 Wed 22:07]</span></span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Brian Cronmiller</p>
+<p class="date">Created: 2016-12-12 Mon 16:51</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
