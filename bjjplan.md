@@ -2,114 +2,115 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org1506e9d">1. Guard</a>
+<li><a href="#org685a7ef">1. Guard</a>
 <ul>
-<li><a href="#org2808b43">1.1. Top Guard</a></li>
-<li><a href="#org2208c02">1.2. Bottom Guard</a></li>
+<li><a href="#orgc79af2f">1.1. Top Guard</a></li>
+<li><a href="#org292691c">1.2. Bottom Guard</a></li>
 </ul>
 </li>
-<li><a href="#org82d7257">2. Half-Guard</a>
+<li><a href="#orgbc928cf">2. Half-Guard</a>
 <ul>
-<li><a href="#org1a9d3d4">2.1. Top Half</a></li>
-<li><a href="#org9312cef">2.2. Bottom Half</a>
+<li><a href="#org45dc59f">2.1. Top Half</a></li>
+<li><a href="#orgdc09465">2.2. Bottom Half</a>
 <ul>
-<li><a href="#org5a4fbbd">2.2.1. Half-Guard roll from bottom to top (Roger Gracie Guard Study)</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#orged5fcb6">3. Side Control</a>
-<ul>
-<li><a href="#org9a93778">3.1. Top Side</a>
-<ul>
-<li><a href="#orgd804df4">3.1.1. Rafael Lovato Jr's Kimura Secrets (Thanks Phil)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bottomside">bottomside</span></span></a></li>
-</ul>
-</li>
-<li><a href="#org5d58fc2">3.2. Bottom Side</a>
-<ul>
-<li><a href="#orgef09dc7">3.2.1. VanGuard Gym Side Control Escape System</a></li>
-<li><a href="#org6cfaaf8">3.2.2. Submissions from Bottom</a></li>
+<li><a href="#org3199b8a">2.2.1. Half-Guard roll from bottom to top (Roger Gracie Guard Study)</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orgd5d9630">4. Scarf</a>
+<li><a href="#org19fe0ea">3. Side Control</a>
 <ul>
-<li><a href="#orgdfe078b">4.1. Top Scarf</a></li>
-<li><a href="#orga37bb6c">4.2. Bottom Scarf</a></li>
+<li><a href="#orgf6c1c72">3.1. Top Side</a>
+<ul>
+<li><a href="#orgc0112aa">3.1.1. Rafael Lovato Jr's Kimura Secrets (Thanks Phil)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bottomside">bottomside</span></span></a></li>
 </ul>
 </li>
-<li><a href="#orgb4a94d3">5. North/South</a>
+<li><a href="#org97ec025">3.2. Bottom Side</a>
 <ul>
-<li><a href="#orgcddd347">5.1. Top NS</a></li>
-<li><a href="#orgd6d881c">5.2. Bottom NS</a></li>
-</ul>
-</li>
-<li><a href="#orgf53934f">6. Knee on Belly</a>
-<ul>
-<li><a href="#org791ddaa">6.1. Top KOB</a></li>
-<li><a href="#org6dbb963">6.2. Bottom KOB</a></li>
-</ul>
-</li>
-<li><a href="#orgfee1855">7. Back</a>
-<ul>
-<li><a href="#orgb5d2bc0">7.1. Top Back</a></li>
-<li><a href="#org598b53c">7.2. Bottom Back</a></li>
-</ul>
-</li>
-<li><a href="#org3c5dafa">8. Mount</a>
-<ul>
-<li><a href="#orgdc19f4a">8.1. Top Mount</a></li>
-<li><a href="#org7159815">8.2. Bottom Mount</a></li>
-</ul>
-</li>
-<li><a href="#org0c8f84d">9. CACC Notes</a>
-<ul>
-<li><a href="#orgb74ebfe">9.1. From Billy Riley documentary Billy Riley teaches turtle attack</a></li>
-<li><a href="#orgcb34d83">9.2. <span class="todo TODO">TODO</span> Eric Paulson 4 Catch Wrestling Moves</a></li>
-</ul>
-</li>
-<li><a href="#org8831890">10. Notes</a>
-<ul>
-<li><a href="#orga987dea">10.1. Concepts</a>
-<ul>
-<li><a href="#orgd33f948">10.1.1. On a line</a></li>
-<li><a href="#org06cb1e3">10.1.2. Hip Heist</a></li>
-<li><a href="#orge45af17">10.1.3. Stone Squirrel</a></li>
-<li><a href="#org992aa09">10.1.4. Top Single leg</a></li>
-<li><a href="#org7b1025c">10.1.5. Bottom Single leg</a></li>
-</ul>
-</li>
-<li><a href="#org66dd239">10.2. Styles</a>
-<ul>
-<li><a href="#org3c9a3a5">10.2.1. How to Roll as a purple belt by Eddie Fyvie</a></li>
-</ul>
-</li>
-<li><a href="#org375398a">10.3. TrumpetDan Brownbelt Series</a>
-<ul>
-<li><a href="#org789ebae">10.3.1. TD Brownbelt Series Part 1</a></li>
-<li><a href="#orgd4f2284">10.3.2. TD Brownbelt Series Part 2</a></li>
-<li><a href="#org24c2293">10.3.3. TD Brownbelt Series Part 3</a></li>
-<li><a href="#org3fac594">10.3.4. TD Brownbelt Series Part 4</a></li>
-<li><a href="#org095293f">10.3.5. TD Brownbelt Series Part 5</a></li>
-<li><a href="#orgc316c89">10.3.6. TD Brownbelt Series Part 6</a></li>
-<li><a href="#org5820fc5">10.3.7. TD Brownbelt Series Part 7</a></li>
-<li><a href="#org7e1056e">10.3.8. TD Brownbelt Series Part 8</a></li>
+<li><a href="#org2b84fda">3.2.1. VanGuard Gym Side Control Escape System</a></li>
+<li><a href="#orgd07a3de">3.2.2. Submissions from Bottom</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org66b42e3">11. Class Notes</a>
+<li><a href="#orgf4c0432">4. Scarf</a>
 <ul>
-<li><a href="#orgd6902b3">11.1. Topic taught Passing 93 Guard (halfguard with knee-sheild)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></a></li>
-<li><a href="#orga374d9e">11.2. Topic taught Chokes from TopBack/Escape from BottomBack&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></a></li>
-<li><a href="#org0193663">11.3. Topic taught Passing Scissor Guard with leg weave and pressure&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></a>
-<ul>
-<li><a href="#orgabc8430">11.3.1. Steps</a></li>
-<li><a href="#org2e743a3">11.3.2. Drilling:</a></li>
-<li><a href="#orga9563c9">11.3.3. Rolling</a></li>
+<li><a href="#orga9a2a85">4.1. Top Scarf</a></li>
+<li><a href="#org7bbbcd4">4.2. Bottom Scarf</a></li>
 </ul>
 </li>
+<li><a href="#org2c0a4fb">5. North/South</a>
+<ul>
+<li><a href="#org3fb082c">5.1. Top NS</a></li>
+<li><a href="#org88d60a6">5.2. Bottom NS</a></li>
+</ul>
+</li>
+<li><a href="#org328ecf9">6. Knee on Belly</a>
+<ul>
+<li><a href="#org8aeb81b">6.1. Top KOB</a></li>
+<li><a href="#org3a9b4af">6.2. Bottom KOB</a></li>
+</ul>
+</li>
+<li><a href="#org9c89047">7. Back</a>
+<ul>
+<li><a href="#org56acaa3">7.1. Top Back</a></li>
+<li><a href="#org259cf96">7.2. Bottom Back</a></li>
+</ul>
+</li>
+<li><a href="#org1b08d2d">8. Mount</a>
+<ul>
+<li><a href="#org9f97990">8.1. Top Mount</a></li>
+<li><a href="#org0d276b2">8.2. Bottom Mount</a></li>
+</ul>
+</li>
+<li><a href="#orge11b129">9. CACC Notes</a>
+<ul>
+<li><a href="#org2c330e5">9.1. From Billy Riley documentary Billy Riley teaches turtle attack</a></li>
+<li><a href="#org88a1ebd">9.2. <span class="todo TODO">TODO</span> Eric Paulson 4 Catch Wrestling Moves</a></li>
+</ul>
+</li>
+<li><a href="#org33d5c02">10. Notes</a>
+<ul>
+<li><a href="#orgc4b20d3">10.1. Concepts</a>
+<ul>
+<li><a href="#org5baab30">10.1.1. On a line</a></li>
+<li><a href="#org7ccae5b">10.1.2. Hip Heist</a></li>
+<li><a href="#orgd6a09e1">10.1.3. Stone Squirrel</a></li>
+<li><a href="#org005a5a5">10.1.4. Top Single leg</a></li>
+<li><a href="#orgaacf9bf">10.1.5. Bottom Single leg</a></li>
+</ul>
+</li>
+<li><a href="#org137a851">10.2. Styles</a>
+<ul>
+<li><a href="#orgc83c1d5">10.2.1. How to Roll as a purple belt by Eddie Fyvie</a></li>
+</ul>
+</li>
+<li><a href="#org412b855">10.3. TrumpetDan Brownbelt Series</a>
+<ul>
+<li><a href="#orgf99fae3">10.3.1. TD Brownbelt Series Part 1</a></li>
+<li><a href="#org851980d">10.3.2. TD Brownbelt Series Part 2</a></li>
+<li><a href="#org24455c2">10.3.3. TD Brownbelt Series Part 3</a></li>
+<li><a href="#org479639c">10.3.4. TD Brownbelt Series Part 4</a></li>
+<li><a href="#org9217510">10.3.5. TD Brownbelt Series Part 5</a></li>
+<li><a href="#org08d4ee6">10.3.6. TD Brownbelt Series Part 6</a></li>
+<li><a href="#org451ea59">10.3.7. TD Brownbelt Series Part 7</a></li>
+<li><a href="#org7f78e3a">10.3.8. TD Brownbelt Series Part 8</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgf4afc1c">11. Class Notes</a>
+<ul>
+<li><a href="#org05dbbbb">11.1. Topic taught Passing 93 Guard (halfguard with knee-sheild)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></a></li>
+<li><a href="#org40c7bf0">11.2. Topic taught Chokes from TopBack/Escape from BottomBack&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></a></li>
+<li><a href="#orgf4ef39d">11.3. Topic taught Passing Scissor Guard with leg weave and pressure&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></a>
+<ul>
+<li><a href="#org8e05dbd">11.3.1. Steps</a></li>
+<li><a href="#org4addae4">11.3.2. Drilling:</a></li>
+<li><a href="#org820a89b">11.3.3. Rolling</a></li>
+</ul>
+</li>
+<li><a href="#org076b93a">11.4. Topic taught Arm drag from closed guard with lapel over arm grip - Julio's class&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></a></li>
 </ul>
 </li>
 </ul>
@@ -122,12 +123,12 @@ I use the term OP and OPs for opponent for shorthand. I am not sure if my notes 
 This page is written in [GNU Emacs](https://www.gnu.org/software/emacs/) and [Org-Mode](http://orgmode.org/) and it is a way to combine two of my hobbies/obsessions. The html for this site is auto generated as I update my notes.
 
 
-<a id="org1506e9d"></a>
+<a id="org685a7ef"></a>
 
 # Guard
 
 
-<a id="org2808b43"></a>
+<a id="orgc79af2f"></a>
 
 ## Top Guard
 
@@ -211,7 +212,7 @@ This page is written in [GNU Emacs](https://www.gnu.org/software/emacs/) and [Or
                 4.  If OPs legs are preventing the pass, keep the same grips and hop to the back side to finish the pass.
 
 
-<a id="org2208c02"></a>
+<a id="org292691c"></a>
 
 ## Bottom Guard
 
@@ -250,22 +251,22 @@ This page is written in [GNU Emacs](https://www.gnu.org/software/emacs/) and [Or
 2.  [Marcelo Garcia elbow push escape (Guard Retention)](https://www.youtube.com/watch?annotation_id=annotation_263863977&feature=iv&src_vid=8F6meOljv-s&v=tmGqgXnuNBE)
 
 
-<a id="org82d7257"></a>
+<a id="orgbc928cf"></a>
 
 # Half-Guard
 
 
-<a id="org1a9d3d4"></a>
+<a id="org45dc59f"></a>
 
 ## Top Half
 
 
-<a id="org9312cef"></a>
+<a id="orgdc09465"></a>
 
 ## Bottom Half
 
 
-<a id="org5a4fbbd"></a>
+<a id="org3199b8a"></a>
 
 ### [Half-Guard roll from bottom to top (Roger Gracie Guard Study)](https://youtu.be/X8Qhl-jmeNs?t=8m34s)
 
@@ -274,17 +275,17 @@ This page is written in [GNU Emacs](https://www.gnu.org/software/emacs/) and [Or
     Roger gets an overhook on the trapped leg side from bottom half-guard. He is on his side with contol of the belt with his top hand and a unknown grip with his bottom hand. He could have the leg or hip. He plants his outside foot and upas hard while pulling up on the belt to get the ops weight foward while Roger gets his body perpendicular. He uses momentum before the upa to load the op and get him moving in the correct direction. Roger also uses the momentum from the upa to swing his outside leg up as he inverts into the roll
 
 
-<a id="orged5fcb6"></a>
+<a id="org19fe0ea"></a>
 
 # Side Control
 
 
-<a id="org9a93778"></a>
+<a id="orgf6c1c72"></a>
 
 ## Top Side
 
 
-<a id="orgd804df4"></a>
+<a id="orgc0112aa"></a>
 
 ### [Rafael Lovato Jr's Kimura Secrets](https://www.youtube.com/watch?v=S1NpPbMGJ6I&feature=youtu.be) (Thanks Phil)     :bottomside:
 
@@ -302,19 +303,74 @@ This page is written in [GNU Emacs](https://www.gnu.org/software/emacs/) and [Or
     8.  Move the arm away up and then behind the back to finish the submission.
 
 
-<a id="org5d58fc2"></a>
+<a id="org97ec025"></a>
 
 ## Bottom Side
 
 
-<a id="orgef09dc7"></a>
+<a id="org2b84fda"></a>
 
 ### [VanGuard Gym Side Control Escape System](https://www.youtube.com/watch?v=8F6meOljv-s&index=1&list=PLLvUtPaoHJDIXWuF18ZKOC-HNdNhuMqks)
 
 It is easy to defend if you only try to re-guard. You need to have various options for different situations. This system will give you a plan for escapes.
 
+1.  Stone Squirrel Posture VanGuard side contol escape system
 
-<a id="org6cfaaf8"></a>
+    The stone squirrel posture is a position from bottom side control. Your hands control the opponents shoulder and your forearms and elbows frame in between your chest and your opponent's chest. This frame allows you to raise your arms over your head (trash truck style) to bring your opponent away from your chest. Putting your forearms on the chest instead of on the neck gives you more control. When combined with a bridge space is created that can be used in the positions that follow.
+
+    1.  Re-Guard
+
+        From Stone Squirrel, feet close to hips, bridge into op and lift op back with a frame. At the same time, shrimp to make room and insert a knee to take up the space you created. Hook behind the leg or under the leg for a butterfly to re-guard
+
+    2.  Sweep
+
+        If you have the overhook control from the guard and the ops posture is broken, you can sweep from guard to mount.
+        Armbar
+
+        If you have a stong underhook on the other arm an armbar is available from the guard with your arm and head pinching the elbow of your opponent.
+
+    3.  Bottom Single Leg to Side Control – Top/Offensive
+
+        From Stone Squirrel, frame with your forearms and elbows and bridge. Ensure that your feet are not all the way into your hips, that space is needed to "hip heist". Hip Heist means you thread your nearside foot under your far side leg and turn belly down. At the same time, windshield wiper and pummel your far side arm to create an underhook
+        Bump and Roll to Side Control – Top/Offensive
+
+        With one arm framed on the hip and the other arm under the chest in stone squirrel, lift and upa into the op to make room for your guard. The op is pressing back to flatten you out. Using this momentum, scoot your hips underneath your op with a hip shovel (do not just roll without getting under the op). The frame on the hip is key to making this work.
+
+    4.  If OP posts on his hand
+
+        The posting opens the OP up so that we can try to reguard or move into another transition. We have to drill all of these defenses so we can link one technique to the others in the system.
+
+    5.  Rainbow Roll to Side Control – Top/Offensive
+
+        The crossface from side control gives us an opportnity to trap that arm. If we can get parrell to the OP we can roll to sweep to top side control from that posistion. This happens naturally when OP is going to North/South. If we feel the bottom arm transerring to 100 kilos that is a cue that OP is going to North/South. Otherwise, we can move ourselves into a North/South posture to get OP "on a line" by changing the angle. Our hand that is not trapping the crossface arm is going over OPs back to grab his belt. We have to shrimp away from OP and put your armpit on OPs shoulder.
+        Armpit/Prayer Posture (APP)
+
+2.  Armpit/Prayer Posture is similar to Stone Squirrel. The farside hand is in the armpit instead of being at the shoulder. This makes it harder to peek your elbow out for the far side underhook but it allows access to the top single leg. HipBump to move farside hand under the armpit.
+
+    1.  Top Leg Single to Side Control – Top/Offensive
+
+        From APP, bump and shrimp to get rid of the crossface and make OP "float" on your forearms by lifting your forearms to fill the space you created with the bump.
+
+    2.  Elbow Push to Open Guard
+
+3.  All Stone Squirrel Escapes
+
+4.  Hands in Front Posture
+
+5.  Turn Away to Turtle 1 – Bottom/Defensive, sit thru to Turtle 2 – Top Offensive
+
+6.  Monkey or Granby Roll to [[\*Bottom][Bottom Guard]
+
+7.  Inside Arm Down Posture
+
+8.  Pant Grab to Guard or Half-Guard – Bottom
+
+9.  Jail Break to Butterfly Guard – Bottom
+
+10. Ghost to Turtle 1 – Top/Offensive
+
+
+<a id="orgd07a3de"></a>
 
 ### Submissions from Bottom
 
@@ -325,12 +381,12 @@ It is easy to defend if you only try to re-guard. You need to have various optio
     You should try for escapes instead of submissions from inferior positions. We cannot assume that every encounter will be 1 on 1 in a controlled environment. Being in top position gives you a better chance to bail out and run if nessesary.
 
 
-<a id="orgd5d9630"></a>
+<a id="orgf4c0432"></a>
 
 # Scarf
 
 
-<a id="orgdfe078b"></a>
+<a id="orga9a2a85"></a>
 
 ## Top Scarf
 
@@ -351,77 +407,77 @@ It is easy to defend if you only try to re-guard. You need to have various optio
     2.  Kesa Katame (judo style without underhook)
 
 
-<a id="orga37bb6c"></a>
+<a id="org7bbbcd4"></a>
 
 ## Bottom Scarf
 
 
-<a id="orgb4a94d3"></a>
+<a id="org2c0a4fb"></a>
 
 # North/South
 
 
-<a id="orgcddd347"></a>
+<a id="org3fb082c"></a>
 
 ## Top NS
 
 
-<a id="orgd6d881c"></a>
+<a id="org88d60a6"></a>
 
 ## Bottom NS
 
 
-<a id="orgf53934f"></a>
+<a id="org328ecf9"></a>
 
 # Knee on Belly
 
 
-<a id="org791ddaa"></a>
+<a id="org8aeb81b"></a>
 
 ## Top KOB
 
 
-<a id="org6dbb963"></a>
+<a id="org3a9b4af"></a>
 
 ## Bottom KOB
 
 
-<a id="orgfee1855"></a>
+<a id="org9c89047"></a>
 
 # Back
 
 
-<a id="orgb5d2bc0"></a>
+<a id="org56acaa3"></a>
 
 ## Top Back
 
 
-<a id="org598b53c"></a>
+<a id="org259cf96"></a>
 
 ## Bottom Back
 
 
-<a id="org3c5dafa"></a>
+<a id="org1b08d2d"></a>
 
 # Mount
 
 
-<a id="orgdc19f4a"></a>
+<a id="org9f97990"></a>
 
 ## Top Mount
 
 
-<a id="org7159815"></a>
+<a id="org0d276b2"></a>
 
 ## Bottom Mount
 
 
-<a id="org0c8f84d"></a>
+<a id="orge11b129"></a>
 
 # CACC Notes
 
 
-<a id="orgb74ebfe"></a>
+<a id="org2c330e5"></a>
 
 ## From Billy Riley documentary [Billy Riley teaches turtle attack](https://youtu.be/wqq_LWudBek?t=4m23s)
 
@@ -437,60 +493,60 @@ From Turtle with a forearm on the ground.
 Later in the same video is a good fireman throw followed through to side control
 
 
-<a id="orgcb34d83"></a>
+<a id="org88a1ebd"></a>
 
 ## Eric Paulson [4 Catch Wrestling Moves](https://www.youtube.com/watch?v=Y_B7Wd4LF28&feature=youtu.be)
 
 Add notes later
 
 
-<a id="org8831890"></a>
+<a id="org33d5c02"></a>
 
 # Notes
 
 
-<a id="orga987dea"></a>
+<a id="orgc4b20d3"></a>
 
 ## Concepts
 
 
-<a id="orgd33f948"></a>
+<a id="org5baab30"></a>
 
 ### On a line
 
 Coach Doug uses the term On a line in his side control series. This means that the OP is in a position that does not allow him to base on one side. In judo this can be called a dead angle.
 
 
-<a id="org06cb1e3"></a>
+<a id="org7ccae5b"></a>
 
 ### Hip Heist
 
 
-<a id="orge45af17"></a>
+<a id="orgd6a09e1"></a>
 
 ### Stone Squirrel
 
 
-<a id="org992aa09"></a>
+<a id="org005a5a5"></a>
 
 ### Top Single leg
 
 Closest to your head instead of closest to your hips
 
 
-<a id="org7b1025c"></a>
+<a id="orgaacf9bf"></a>
 
 ### Bottom Single leg
 
 Closest to your hips instead of your head. You need to hip heist to get this leg.
 
 
-<a id="org66dd239"></a>
+<a id="org137a851"></a>
 
 ## Styles
 
 
-<a id="org3c9a3a5"></a>
+<a id="orgc83c1d5"></a>
 
 ### [How to Roll as a purple belt](https://www.jiujitsutimes.com/purple-belt-k-rolling-belt/) by Eddie Fyvie
 
@@ -525,14 +581,14 @@ Closest to your hips instead of your head. You need to hip heist to get this leg
     The figurative samurai sword has been sharpened once you hit black belt. The purple belt has acquired the sword and has the skills, but still needs to smooth out the blade for extreme precision.
 
 
-<a id="org375398a"></a>
+<a id="org412b855"></a>
 
 ## TrumpetDan Brownbelt Series
 
 TrumpetDan is a great teacher and these videos are full of great technical details that need to be mined. I remember watching these videos when I was a whitebelt and this information was mostly above my head. Other things in these vidoes are things I only just realized I learned from this video series. They are just things I have done for the last 4 years.
 
 
-<a id="org789ebae"></a>
+<a id="orgf99fae3"></a>
 
 ### [TD Brownbelt Series Part 1](https://www.youtube.com/watch?v=GKbphzgo0sc)
 
@@ -570,7 +626,7 @@ TrumpetDan is a great teacher and these videos are full of great technical detai
     8.  To remove the foot from quarter guard&#x2026; Using head pressure and a crawling hand from the underhook, stretch out OPs posture. When OP is stretched out he cannot keep your foot when you kick it free.
 
 
-<a id="orgd4f2284"></a>
+<a id="org851980d"></a>
 
 ### [TD Brownbelt Series Part 2](https://www.youtube.com/watch?v=PJTrJjIV-CM)
 
@@ -596,42 +652,42 @@ Dan starts by explaining that he values positions based on how much weight he ca
 I had to stop the video [here](https://youtu.be/PJTrJjIV-CM?t=6m49s) on 12/3 so I can get to class :)
 
 
-<a id="org24c2293"></a>
+<a id="org24455c2"></a>
 
 ### [TD Brownbelt Series Part 3](https://www.youtube.com/watch?v=UUqH4rb7WBc)
 
 
-<a id="org3fac594"></a>
+<a id="org479639c"></a>
 
 ### [TD Brownbelt Series Part 4](https://www.youtube.com/watch?v=3H2gpKUHq10)
 
 
-<a id="org095293f"></a>
+<a id="org9217510"></a>
 
 ### [TD Brownbelt Series Part 5](https://www.youtube.com/watch?v=3qFwa0ZhV2g)
 
 
-<a id="orgc316c89"></a>
+<a id="org08d4ee6"></a>
 
 ### [TD Brownbelt Series Part 6](https://www.youtube.com/watch?v=sm8NKHFlPNI)
 
 
-<a id="org5820fc5"></a>
+<a id="org451ea59"></a>
 
 ### [TD Brownbelt Series Part 7](https://www.youtube.com/watch?v=MtPki5X7mrU)
 
 
-<a id="org7e1056e"></a>
+<a id="org7f78e3a"></a>
 
 ### [TD Brownbelt Series Part 8](https://www.youtube.com/watch?v=L19elzK79hw)
 
 
-<a id="org66b42e3"></a>
+<a id="orgf4afc1c"></a>
 
 # Class Notes
 
 
-<a id="orgd6902b3"></a>
+<a id="org05dbbbb"></a>
 
 ## Topic taught Passing 93 Guard (halfguard with knee-sheild)     :TOPIC:
 
@@ -639,7 +695,7 @@ I had to stop the video [here](https://youtu.be/PJTrJjIV-CM?t=6m49s) on 12/3 so 
 In this class, I took notes and I will type them in later&#x2026;
 
 
-<a id="orga374d9e"></a>
+<a id="org40c7bf0"></a>
 
 ## Topic taught Chokes from TopBack/Escape from BottomBack     :TOPIC:
 
@@ -693,12 +749,12 @@ There is a lot of details but it started to make sense as I worked through some 
 <span class="timestamp-wrapper"><span class="timestamp">[2016-12-05 Mon 20:47]</span></span>
 
 
-<a id="org0193663"></a>
+<a id="orgf4ef39d"></a>
 
 ## Topic taught Passing Scissor Guard with leg weave and pressure     :TOPIC:
 
 
-<a id="orgabc8430"></a>
+<a id="org8e05dbd"></a>
 
 ### Steps
 
@@ -707,14 +763,14 @@ There is a lot of details but it started to make sense as I worked through some 
 3.  As you walk around the legs using head pressure, pull the top leg to prevent a hip escape
 
 
-<a id="org2e743a3"></a>
+<a id="org4addae4"></a>
 
 ### Drilling:
 
 Drilled the move from the class with resistance. I had trouble clearing the legs and I could not hop to the far side either. I think I needed to move to the leg switch and to pin the leg better.
 
 
-<a id="orga9563c9"></a>
+<a id="org820a89b"></a>
 
 ### Rolling
 
@@ -723,3 +779,30 @@ I rolled in a few rounds from guard switching top and bottom. I had an interesti
 From guard I was able to pull the arm across to take the back with white belts. I had a harder time getting into Vale Tudo Guard and the Roger Gracie guard setup. I was able to keep my guard and threaten but I think I needed to push harder on my first move to setup my second and third moves. I show the sweep attempt too much before I go for it and I need to get them moving so I will have momentum to use.
 
 <span class="timestamp-wrapper"><span class="timestamp">[2016-12-07 Wed 22:07]</span></span>
+
+
+<a id="org076b93a"></a>
+
+## Topic taught Arm drag from closed guard with lapel over arm grip - Julio's class     :TOPIC:
+
+Lesson
+
+1.  From closed guard, open the lapel and get a cross grip over OPs arm with a thumb up grip.
+2.  Grab the wrist of the same arm with your same side hand
+3.  Bridge and break the grip while straigtening you arm
+4.  Pull the arm to the side while using your legs to break his posture to the side
+5.  Shrimp out and reach over OPs head and hand yourself the lapel
+
+Options:
+
+1.  Reach behind the other arm to finish the choke
+2.  Underhook the leg to get the flower sweep
+3.  Climb the guard high and setup the armbar
+
+Drilling:
+Drilled [VanGuard Gym Side Control Escape System](bjjplan.md) with Kyle. I got reps in with the stone squirrel to guard recovery and to hip heist single leg. When drilling it live I had a real hard time. Kyle would sit through to Kesa with a grip on my shoulder. I would need to switch to the armpit push escape but Kyle would step over my head and work the inverted triangle.
+Kyle showed me a good concept to work that was very helpful. \*\* I need to work to get a same side sleeve grip. I started drilling with this and it made everything much easier. In order to set up the grip I am gripping the elbow while working the other escapes. If that arm moves I need to double up on that grip and push while I shrimp.
+I was able to get one reversal completed from that position when fighting for the sleeve everything else opened up.
+
+I drilled the Vale Tudo Guard / RG guard but only one or two reps and today's class was good practice for this same type of work.
+<span class="timestamp-wrapper"><span class="timestamp">[2016-12-12 Mon 20:52]</span></span>
