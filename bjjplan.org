@@ -2,11 +2,11 @@
 #+OPTIONS: toc:nil num:3 H:4 ^:nil pri:t
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="org.css"/>
 
-The following is my current gameplan for bjj. This is mostly based on notes I have made from watching various youtube videos. My idea is to actually take the videos I watch seriously and drill those specific techniques instead of just collecting and forgetting move after move.
+The following is my current gameplan for bjj. This is mostly based on notes I have made from BJJ classes and outside sources. My idea is to actually take the lessons I learn and videos I watch seriously and drill those specific techniques instead of just collecting and forgetting move after move.
 
-I use the term OP and OPs for opponent for shorthand. I am not sure if my notes make sense to anyone but me, but you are free to use what is useful.
+I use the term OP and OPs for opponent for shorthand. I am not sure if my notes make sense to anyone but me, but you are free to use what you find useful.
 
-This page is written in [[https://www.gnu.org/software/emacs/][GNU Emacs]] and [[http://orgmode.org/][Org-Mode]] and it is a way to combine two of my hobbies/obsessions. The html for this site is auto generated as I update my notes.
+This page is written in [[https://www.gnu.org/software/emacs/][GNU Emacs]] and [[http://orgmode.org/][Org-Mode]] and it is a way to combine two of my hobbies/obsessions. The html for this site is auto generated as I update my notes. This site is hosted on github and these files can be downloaded from [[https://github.com/bcronmiller/][my github page]].
 
 #+TOC: headlines 2
 
@@ -387,3 +387,19 @@ I had to stop the video [[https://youtu.be/PJTrJjIV-CM?t=6m49s][here]] on 12/3 s
 
  I drilled the Vale Tudo Guard / RG guard but only one or two reps and today's class was good practice for this same type of work.
  [2016-12-12 Mon 20:52]
+** Topic taught Nothing, I was late                                   :TOPIC:
+   :LOGBOOK:
+ I was stuck at work late and did not get to class until there was only a few minutes left. Julio encouraged me to get changed and he rolled with me for 15-20 minutes. We were working from my guard. Great lessons as usual from rolling with the Master.
+ Posture is important - He keeps a good posture to avoid my game.
+ Stand in guard and keep your feet pointed outward
+ Do not allow grips
+ Fight for outside grip control to avoid armbars.
+
+ I was able to pull him forward but before I could do anything with this he was back in balance.
+
+ Keeping the same side sleeve grip and keeping this grip between our hips helps prevent guard passes.
+
+ It was a good night. Even though I missed 90% of the night, I was able to get something out of small amount of time I had available.
+   CLOCK: [2016-12-14 Wed 21:57]--[2016-12-14 Wed 22:06] =>  0:09
+   :END:
+ [2016-12-14 Wed 21:57]
