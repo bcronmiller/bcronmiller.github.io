@@ -2,7 +2,7 @@
 #+OPTIONS: toc:nil num:3 H:4 ^:nil pri:t
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="org.css"/>
 
-This page was created in 2017 and shortly thereafter abandoned. I wanted to learn how to make a webpage with Emacs and OrgMode. This does work so that suceeded. I am going to change this shortly into something else that is a directory for the subdomains. This domain is just my last name and I have email addresses setup as well.
+This page was created in 2017 and shortly thereafter abandoned. I wanted to learn how to make a webpage with Emacs and OrgMode. This does work so that suceeded. I am going to change this shortly into something else that is a directory for the subdomains. This domain is just my last name and I do not have a real purpose for it yet.
 
 The following is my current gameplan for bjj. This is mostly based on notes I have made from BJJ classes and outside sources. My idea is to actually take the lessons I learn and videos I watch seriously and drill those specific techniques instead of just collecting and forgetting move after move.
 
