@@ -1,3 +1,5 @@
+* September 2020 update
+I am re establishing my git repo on my laptop<2020-09-22 Tue>
 * Guard
 ** Top Guard
 ***** Open Guard
@@ -29,7 +31,7 @@ While standing adjust your feet so that your knee is lined up on OPs centerline.
 Sit back into a combat base (forward leg knee up, back knee down)
 This will break the guard open and leave you in a good base situation.
 Depending on which way OPs shirmps or what side he leans to we will use either Knee Thru or Knee Slice Pass
-******** Knee Thru Pass
+******** TODO Knee Thru Pass
 Knee Thru means that we staple our knee over the OPs thigh on the same side (Right to Right, Left to Left)
 1. As OP shrimps we staple the leg with our forward knee
 2. At the same time, we reach for a crossface control of the neck and underhook OPs farside leg
