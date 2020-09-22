@@ -1,17 +1,3 @@
-#+TITLE:
-#+OPTIONS: toc:nil num:3 H:4 ^:nil pri:t
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="org.css"/>
-
-This page was created in 2017 and shortly thereafter abandoned. I wanted to learn how to make a webpage with Emacs and OrgMode. This does work so that suceeded. I am going to change this shortly into something else that is a directory for the subdomains. This domain is just my last name and I do not have a real purpose for it yet.
-
-The following is my current gameplan for bjj. This is mostly based on notes I have made from BJJ classes and outside sources. My idea is to actually take the lessons I learn and videos I watch seriously and drill those specific techniques instead of just collecting and forgetting move after move.
-
-I use the term OP and OPs for opponent for shorthand. I am not sure if my notes make sense to anyone but me, but you are free to use what you find useful.
-
-This page is written in [[https://www.gnu.org/software/emacs/][GNU Emacs]] and [[http://orgmode.org/][Org-Mode]] and it is a way to combine two of my hobbies/obsessions. The html for this site is auto generated as I update my notes. This site is hosted on github and these files can be downloaded from [[https://github.com/bcronmiller/][my github page]].
-
-#+TOC: headlines 2
-
 * Guard
 ** Top Guard
 ***** Open Guard
@@ -92,6 +78,7 @@ The control of the arm that comes with the 2 on 1 sleeve grip will deprive op of
 ******* [[https://www.youtube.com/watch?v=FP-qEk83DdQ][Cross-side collar grip (Kron Gracie Guard Study) loopchoke, armbar, anklepick]]
 ***** [[https://www.youtube.com/watch?annotation_id=annotation_263863977&feature=iv&src_vid=8F6meOljv-s&v=tmGqgXnuNBE][Marcelo Garcia elbow push escape (Guard Rete
 * Half-Guard
+  SCHEDULED: <2019-10-25 Fri>
 ** Top Half
 ** Bottom Half
 *** [[https://youtu.be/X8Qhl-jmeNs?t=8m34s][Half-Guard roll from bottom to top (Roger Gracie Guard Study)]]
@@ -162,10 +149,10 @@ From APP, bump and shrimp to get rid of the crossface and make OP "float" on you
 *** Submissions from Bottom
 **** [[https://www.youtube.com/watch?v=HLcM9pbELHk][no-gi baseballbat and ezekiel from bottom - josh robinson]]
 **** Last resort                                                :subs:bottom:
-SCHEDULED: <2016-11-26 Sat>
-:PROPERTIES:
-:CREATED:  [2016-11-26 Sat 17:14]
-:END:
+     SCHEDULED: <2016-11-26 Sat>
+     :PROPERTIES:
+     :CREATED:  [2016-11-26 Sat 17:14]
+     :END:
 
 You should try for escapes instead of submissions from inferior positions. We cannot assume that every encounter will be 1 on 1 in a controlled environment. Being in top position gives you a better chance to bail out and run if nessesary.
 
