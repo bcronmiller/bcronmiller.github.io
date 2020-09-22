@@ -3,12 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-02-11 Mon 18:33 -->
+<!-- 2020-09-22 Tue 15:42 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
 <meta name="generator" content="Org mode" />
-<meta name="author" content="Brian Cronmiller" />
+<meta name="author" content="bc" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
@@ -161,19 +161,6 @@
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
-  .equation-container {
-    display: table;
-    text-align: center;
-    width: 100%;
-  }
-  .equation {
-    vertical-align: middle;
-  }
-  .equation-label {
-    display: table-cell;
-    text-align: right;
-    vertical-align: middle;
-  }
   .inlinetask {
     padding: 10px;
     border: 2px solid gray;
@@ -193,7 +180,6 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" type="text/css" href="org.css"/>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -244,1027 +230,219 @@ for the JavaScript code in this tag.
 <body>
 <div id="content">
 <p>
-This page was created in 2017 and shortly thereafter abandoned. I wanted to learn how to make a webpage with Emacs and OrgMode. This does work so that suceeded. I am going to change this shortly into something else that is a directory for the subdomains. This domain is just my last name and I do not have a real purpose for it yet.
+II. SELF-RELIANCE. by Ralph Waldo Emerson
 </p>
 
 <p>
-The following is my current gameplan for bjj. This is mostly based on notes I have made from BJJ classes and outside sources. My idea is to actually take the lessons I learn and videos I watch seriously and drill those specific techniques instead of just collecting and forgetting move after move.
+I READ the other day some verses written by an eminent painter which were original and not conventional. The soul always hears an admonition in such lines, let the subject be what it may. The sentiment they instil is of more value than any thought they may contain. To believe your own thought, to believe that what is true for you in your private heart is true for all men,—that is genius. Speak your latent conviction, and it shall be the universal sense; for the inmost in due time becomes the outmost, and our first thought is rendered back to us by the trumpets of the Last Judgment. Familiar as the voice of the mind is to each, the highest merit we ascribe to Moses, Plato and Milton is that they set at naught books and traditions, and spoke not what men, but what they thought. A man should learn to detect and watch that gleam of light which flashes across his mind from within, more than the lustre of the firmament of bards and sages. Yet he dismisses without notice his thought, because it is his. In every work of genius we recognize our own rejected thoughts; they come back to us with a certain alienated majesty. Great works of art have no more affecting lesson for us than this. They teach us to abide by our spontaneous impression with good-humored inflexibility then most when the whole cry of voices is on the other side. Else to-morrow a stranger will say with masterly good sense precisely what we have thought and felt all the time, and we shall be forced to take with shame our own opinion from another.
 </p>
 
 <p>
-I use the term OP and OPs for opponent for shorthand. I am not sure if my notes make sense to anyone but me, but you are free to use what you find useful.
+There is a time in every man's education when he arrives at the conviction that envy is ignorance; that imitation is suicide; that he must take himself for better for worse as his portion; that though the wide universe is full of good, no kernel of nourishing corn can come to him but through his toil bestowed on that plot of ground which is given to him to till. The power which resides in him is new in nature, and none but he knows what that is which he can do, nor does he know until he has tried. Not for nothing one face, one character, one fact, makes much impression on him, and another none. This sculpture in the memory is not without preestablished harmony. The eye was placed where one ray should fall, that it might testify of that particular ray. We but half express ourselves, and are ashamed of that divine idea which each of us represents. It may be safely trusted as proportionate and of good issues, so it be faithfully imparted, but God will not have his work made manifest by cowards. A man is relieved and gay when he has put his heart into his work and done his best; but what he has said or done otherwise shall give him no peace. It is a deliverance which does not deliver. In the attempt his genius deserts him; no muse befriends; no invention, no hope.
 </p>
 
 <p>
-This page is written in <a href="https://www.gnu.org/software/emacs/">GNU Emacs</a> and <a href="http://orgmode.org/">Org-Mode</a> and it is a way to combine two of my hobbies/obsessions. The html for this site is auto generated as I update my notes. This site is hosted on github and these files can be downloaded from <a href="https://github.com/bcronmiller/">my github page</a>.
-</p>
-
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#org7ef5894">1. Guard</a>
-<ul>
-<li><a href="#org1c0317d">1.1. Top Guard</a></li>
-<li><a href="#orgb6de3c8">1.2. Bottom Guard</a></li>
-</ul>
-</li>
-<li><a href="#orgf31e03d">2. Half-Guard</a>
-<ul>
-<li><a href="#org1632484">2.1. Top Half</a></li>
-<li><a href="#orgbdf075f">2.2. Bottom Half</a></li>
-</ul>
-</li>
-<li><a href="#org6b54c1b">3. Side Control</a>
-<ul>
-<li><a href="#org0c89b57">3.1. Top Side</a></li>
-<li><a href="#org42240b9">3.2. Bottom Side</a></li>
-</ul>
-</li>
-<li><a href="#org9c9510a">4. Scarf</a>
-<ul>
-<li><a href="#org19d6517">4.1. Top Scarf</a></li>
-<li><a href="#orge8c081d">4.2. Bottom Scarf</a></li>
-</ul>
-</li>
-<li><a href="#org030278f">5. North/South</a>
-<ul>
-<li><a href="#org12fa96e">5.1. Top NS</a></li>
-<li><a href="#org015f74e">5.2. Bottom NS</a></li>
-</ul>
-</li>
-<li><a href="#orgc62eb90">6. Knee on Belly</a>
-<ul>
-<li><a href="#org5a788e9">6.1. Top KOB</a></li>
-<li><a href="#org1f7ea0d">6.2. Bottom KOB</a></li>
-</ul>
-</li>
-<li><a href="#org62fe3f9">7. Back</a>
-<ul>
-<li><a href="#orgb454310">7.1. Top Back</a></li>
-<li><a href="#orgce7ae21">7.2. Bottom Back</a></li>
-</ul>
-</li>
-<li><a href="#orgfbff5f6">8. Mount</a>
-<ul>
-<li><a href="#orgc80db6f">8.1. Top Mount</a></li>
-<li><a href="#org8c66b62">8.2. Bottom Mount</a></li>
-</ul>
-</li>
-<li><a href="#orgf987af0">9. CACC Notes</a>
-<ul>
-<li><a href="#orgef397d5">9.1. From Billy Riley documentary Billy Riley teaches turtle attack</a></li>
-<li><a href="#org644c687">9.2. <span class="todo TODO">TODO</span> Eric Paulson 4 Catch Wrestling Moves</a></li>
-</ul>
-</li>
-<li><a href="#orga3f2657">10. Notes</a>
-<ul>
-<li><a href="#orgbf6f9b0">10.1. Concepts</a></li>
-<li><a href="#org05d479b">10.2. Styles</a></li>
-<li><a href="#org8e84c3b">10.3. TrumpetDan Brownbelt Series</a></li>
-</ul>
-</li>
-<li><a href="#org43da6b1">11. Class Notes</a>
-<ul>
-<li><a href="#orgf58dfa6">11.1. Topic taught Passing 93 Guard (halfguard with knee-sheild)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></a></li>
-<li><a href="#org8c67f6c">11.2. Topic taught Chokes from TopBack/Escape from BottomBack&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></a></li>
-<li><a href="#org81272ac">11.3. Topic taught Passing Scissor Guard with leg weave and pressure&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></a></li>
-<li><a href="#orgc672ed1">11.4. Topic taught Arm drag from closed guard with lapel over arm grip - Julio's class&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></a></li>
-<li><a href="#orgb215c45">11.5. Topic taught Nothing, I was late&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org7ef5894" class="outline-2">
-<h2 id="org7ef5894"><span class="section-number-2">1</span> Guard</h2>
-<div class="outline-text-2" id="text-1">
-</div>
-<div id="outline-container-org1c0317d" class="outline-3">
-<h3 id="org1c0317d"><span class="section-number-3">1.1</span> Top Guard</h3>
-<div class="outline-text-3" id="text-1-1">
-</div>
-<ul class="org-ul">
-<li><a id="org23c3fd2"></a>Open Guard<br />
-<ul class="org-ul">
-<li><a id="org5858198"></a><a href="https://www.youtube.com/watch?v=APzRFmKyIhQ">Passing Open Guard -josh robinson</a><br />
-<div class="outline-text-7" id="text-org5858198">
-<p>
-In this link from Ronin Submissions Josh Robinson, Josh explains how to establish a good position from open guard before allowing the opponent to control your hips or sleeves. Step one is to establish a knee ride on the thigh of the opponent and allow the knee shield. This immobilizes the hips and stops inversions. Step two is to connect your hands and arms under the thighs and pass to one side or the other.
-</p>
-</div>
-</li>
-</ul>
-</li>
-<li><a id="org5ee8e7f"></a>Closed Guard Passing<br />
-<ul class="org-ul">
-<li><a id="orgd270d08"></a><a href="https://www.youtube.com/watch?v=DZL7pmQjmyU&amp;list=PLLvUtPaoHJDIXWuF18ZKOC-HNdNhuMqks&amp;index=2">Basic Guard Passing System (VanGuard Gym Coach Doug)</a><br />
-<ul class="org-ul">
-<li><a id="orgfd91a87"></a>Basic Guard Break (Guard Break)<br />
-<ul class="org-ul">
-<li><a id="orge0183d1"></a>Double Meathead Pass<br />
-<div class="outline-text-9" id="text-orge0183d1">
-<p>
-After the Basic Guard break you have moved away from OPs hips. This allows OP to put his feet on your hips and create space and control.
-The Double Meathead Pass answers this problem. Your arms pummel under the OPs legs and you connect your hands in front of his hips.
-This pops OPs feet off of your hips.
-Next, pull OP up on your lap to isoloate OPs hips. Grab the far side lapel in the direction you want to pass.
-Stand up and drive into the legs as you walk around to the side.
-Drive your shoulder into the legs with good posture to pass.
-The far side lapel grip will prevent the OP from rolling away.
+Trust thyself: every heart vibrates to that iron string. Accept the place the divine providence has found for you, the society of your contemporaries, the connection of events. Great men have always done so, and confided themselves childlike to the genius of their age, betraying their perception that the absolutely trustworthy was seated at their heart, working through their hands, predominating in all their being. And we are now men, and must accept in the highest mind the same transcendent destiny; and not minors and invalids in a protected corner, not cowards fleeing before a revolution, but guides, redeemers and benefactors, obeying the Almighty effort and advancing on Chaos and the Dark.
 </p>
 
 <p>
-Note: Doug recommends not grabbing the collar. (This is what I do most times). The collar grab opens you up to the elbow push escape while the lower lapel grip controls the hips better and is not as suseptable to the elbow push because your arm is not as extended.
+What pretty oracles nature yields us on this text in the face and behavior of children, babes, and even brutes! That divided and rebel mind, that distrust of a sentiment because our arithmetic has computed the strength and means opposed to our purpose, these have not. Their mind being whole, their eye is as yet unconquered, and when we look in their faces we are disconcerted. Infancy conforms to nobody; all conform to it; so that one babe commonly makes four or five out of the adults who prattle and play to it. So God has armed youth and puberty and manhood no less with its own piquancy and charm, and made it enviable and gracious and its claims not to be put by, if it will stand by itself. Do not think the youth has no force, because he cannot speak to you and me. Hark! in the next room his voice is sufficiently clear and emphatic. It seems he knows how to speak to his contemporaries. Bashful or bold then, he will know how to make us seniors very unnecessary.
 </p>
-</div>
-</li>
-<li><a id="orgdd60337"></a>Shoulder in Belly Pass (Over/Under pass)<br />
-<div class="outline-text-9" id="text-orgdd60337">
+
 <p>
-From the break, You grab one pant grip at OPs knee and the other arm underhooks the leg.
-Keep both grips while you drop your shoulder into OPs missection and walk around the guard.
-After your knee is established on the hip you are cleared to move the knee grip to a crossface control of the neck.
-After that is established you can release the underhook of the leg to secure side control.
-Note: You are on your toes and not your knees during this pass
+The nonchalance of boys who are sure of a dinner, and would disdain as much as a lord to do or say aught to conciliate one, is the healthy attitude of human nature. A boy is in the parlor what the pit is in the playhouse; independent, irresponsible, looking out from his corner on such people and facts as pass by, he tries and sentences them on their merits, in the swift, summary way of boys, as good, bad, interesting, silly, eloquent, troublesome. He cumbers himself never about consequences, about interests; he gives an independent, genuine verdict. You must court him; he does not court you. But the man is as it were clapped into jail by his consciousness. As soon as he has once acted or spoken with eclat he is a committed person, watched by the sympathy or the hatred of hundreds, whose affections must now enter into his account. There is no Lethe for this. Ah, that he could pass again into his neutrality! Who can thus avoid all pledges and, having observed, observe again from the same unaffected, unbiased, unbribable, unaffrighted innocence,—must always be formidable. He would utter opinions on all passing affairs, which being seen to be not private but necessary, would sink like darts into the ear of men and put them in fear.
 </p>
-</div>
-</li>
-</ul>
-</li>
-<li><a id="orgea9bcc4"></a>Violator/Combat Knee Break<br />
-<div class="outline-text-8" id="text-orgea9bcc4">
+
 <p>
-From closed guard establish double bicep control on the OPs closed guard. Stand up and stack the OPs guard.
-While standing adjust your feet so that your knee is lined up on OPs centerline.
-Sit back into a combat base (forward leg knee up, back knee down)
-This will break the guard open and leave you in a good base situation.
-Depending on which way OPs shirmps or what side he leans to we will use either Knee Thru or Knee Slice Pass
+These are the voices which we hear in solitude, but they grow faint and inaudible as we enter into the world. Society everywhere is in conspiracy against the manhood of every one of its members. Society is a joint-stock company, in which the members agree, for the better securing of his bread to each shareholder, to surrender the liberty and culture of the eater. The virtue in most request is conformity. Self-reliance is its aversion. It loves not realities and creators, but names and customs.
 </p>
-</div>
-<ul class="org-ul">
-<li><a id="orgfd4b4d5"></a>Knee Thru Pass<br />
-<div class="outline-text-9" id="text-orgfd4b4d5">
+
 <p>
-Knee Thru means that we staple our knee over the OPs thigh on the same side (Right to Right, Left to Left)
+Whoso would be a man, must be a nonconformist. He who would gather immortal palms must not be hindered by the name of goodness, but must explore if it be goodness. Nothing is at last sacred but the integrity of your own mind. Absolve you to yourself, and you shall have the suffrage of the world. I remember an answer which when quite young I was prompted to make to a valued adviser who was wont to importune me with the dear old doctrines of the church. On my saying, "What have I to do with the sacredness of traditions, if I live wholly from within?" my friend suggested,—"But these impulses may be from below, not from above." I replied, "They do not seem to me to be such; but if I am the Devil's child, I will live then from the Devil." No law can be sacred to me but that of my nature. Good and bad are but names very readily transferable to that or this; the only right is what is after my constitution; the only wrong what is against it. A man is to carry himself in the presence of all opposition as if every thing were titular and ephemeral but he. I am ashamed to think how easily we capitulate to badges and names, to large societies and dead institutions. Every decent and well-spoken individual affects and sways me more than is right. I ought to go upright and vital, and speak the rude truth in all ways. If malice and vanity wear the coat of philanthropy, shall that pass? If an angry bigot assumes this bountiful cause of Abolition, and comes to me with his last news from Barbadoes, why should I not say to him, 'Go love thy infant; love thy wood-chopper; be good-natured and modest; have that grace; and never varnish your hard, uncharitable ambition with this incredible tenderness for black folk a thousand miles off. Thy love afar is spite at home.' Rough and graceless would be such greeting, but truth is handsomer than the affectation of love. Your goodness must have some edge to it,—else it is none. The doctrine of hatred must be preached, as the counteraction of the doctrine of love, when that pules and whines. I shun father and mother and wife and brother when my genius calls me. I would write on the lintels of the door-post, Whim. I hope it is somewhat better than whim at last, but we cannot spend the day in explanation. Expect me not to show cause why I seek or why I exclude company. Then again, do not tell me, as a good man did to-day, of my obligation to put all poor men in good situations. Are they my poor? I tell thee thou foolish philanthropist that I grudge the dollar, the dime, the cent, I give to such men as do not belong to me and to whom I do not belong. There is a class of persons to whom by all spiritual affinity I am bought and sold; for them I will go to prison if need be; but your miscellaneous popular charities; the education at college of fools; the building of meeting-houses to the vain end to which many now stand; alms to sots, and the thousand-fold Relief Societies;—though I confess with shame I sometimes succumb and give the dollar, it is a wicked dollar which by and by I shall have the manhood to withhold.
 </p>
+
+<p>
+Virtues are, in the popular estimate, rather the exception than the rule. There is the man and his virtues. Men do what is called a good action, as some piece of courage or charity, much as they would pay a fine in expiation of daily non-appearance on parade. Their works are done as an apology or extenuation of their living in the world,—as invalids and the insane pay a high board. Their virtues are penances. I do not wish to expiate, but to live. My life is for itself and not for a spectacle. I much prefer that it should be of a lower strain, so it be genuine and equal, than that it should be glittering and unsteady. I wish it to be sound and sweet, and not to need diet and bleeding. I ask primary evidence that you are a man, and refuse this appeal from the man to his actions. I know that for myself it makes no difference whether I do or forbear those actions which are reckoned excellent. I cannot consent to pay for a privilege where I have intrinsic right. Few and mean as my gifts may be, I actually am, and do not need for my own assurance or the assurance of my fellows any secondary testimony.
+</p>
+
+<p>
+What I must do is all that concerns me, not what the people think. This rule, equally arduous in actual and in intellectual life, may serve for the whole distinction between greatness and meanness. It is the harder because you will always find those who think they know what is your duty better than you know it. It is easy in the world to live after the world's opinion; it is easy in solitude to live after our own; but the great man is he who in the midst of the crowd keeps with perfect sweetness the independence of solitude.
+</p>
+
+<p>
+The objection to conforming to usages that have become dead to you is that it scatters your force. It loses your time and blurs the impression of your character. If you maintain a dead church, contribute to a dead Bible-society, vote with a great party either for the government or against it, spread your table like base housekeepers,—under all these screens I have difficulty to detect the precise man you are: and of course so much force is withdrawn from your proper life. But do your work, and I shall know you. Do your work, and you shall reinforce yourself. A man must consider what a blindman's-buff is this game of conformity. If I know your sect, I anticipate your argument. I hear a preacher announce for his text and topic the expediency of one of the institutions of his church. Do I not know beforehand that not possibly can he say a new and spontaneous word? Do I not know that with all this ostentation of examining the grounds of the institution he will do no such thing? Do I not know that he is pledged to himself not to look but at one side, the permitted side, not as a man, but as a parish minister? He is a retained attorney, and these airs of the bench are the emptiest affectation. Well, most men have bound their eyes with one or another handkerchief, and attached themselves to some one of these communities of opinion. This conformity makes them not false in a few particulars, authors of a few lies, but false in all particulars. Their every truth is not quite true. Their two is not the real two, their four not the real four; so that every word they say chagrins us and we know not where to begin to set them right. Meantime nature is not slow to equip us in the prison-uniform of the party to which we adhere. We come to wear one cut of face and figure, and acquire by degrees the gentlest asinine expression. There is a mortifying experience in particular, which does not fail to wreak itself also in the general history; I mean "the foolish face of praise," the forced smile which we put on in company where we do not feel at ease in answer to conversation which does not interest us. The muscles, not spontaneously moved but moved by a low usurping wilfulness, grow tight about the outline of the face with the most disagreeable sensation.
+</p>
+
+<p>
+For nonconformity the world whips you with its displeasure. And therefore a man must know how to estimate a sour face. The by-standers look askance on him in the public street or in the friend's parlor. If this aversation had its origin in contempt and resistance like his own he might well go home with a sad countenance; but the sour faces of the multitude, like their sweet faces, have no deep cause, but are put on and off as the wind blows and a newspaper directs. Yet is the discontent of the multitude more formidable than that of the senate and the college. It is easy enough for a firm man who knows the world to brook the rage of the cultivated classes. Their rage is decorous and prudent, for they are timid, as being very vulnerable themselves. But when to their feminine rage the indignation of the people is added, when the ignorant and the poor are aroused, when the unintelligent brute force that lies at the bottom of society is made to growl and mow, it needs the habit of magnanimity and religion to treat it godlike as a trifle of no concernment.
+</p>
+
+<p>
+The other terror that scares us from self-trust is our consistency; a reverence for our past act or word because the eyes of others have no other data for computing our orbit than our past acts, and we are loath to disappoint them.
+</p>
+
+<p>
+But why should you keep your head over your shoulder? Why drag about this corpse of your memory, lest you contradict somewhat you have stated in this or that public place? Suppose you should contradict yourself; what then? It seems to be a rule of wisdom never to rely on your memory alone, scarcely even in acts of pure memory, but to bring the past for judgment into the thousand-eyed present, and live ever in a new day. In your metaphysics you have denied personality to the Deity, yet when the devout motions of the soul come, yield to them heart and life, though they should clothe God with shape and color. Leave your theory, as Joseph his coat in the hand of the harlot, and flee.
+</p>
+
+<p>
+A foolish consistency is the hobgoblin of little minds, adored by little statesmen and philosophers and divines. With consistency a great soul has simply nothing to do. He may as well concern himself with his shadow on the wall. Speak what you think now in hard words and to-morrow speak what to-morrow thinks in hard words again, though it contradict every thing you said to-day.—'Ah, so you shall be sure to be misunderstood.'—Is it so bad then to be misunderstood? Pythagoras was misunderstood, and Socrates, and Jesus, and Luther, and Copernicus, and Galileo, and Newton, and every pure and wise spirit that ever took flesh. To be great is to be misunderstood.
+</p>
+
+<p>
+I suppose no man can violate his nature. All the sallies of his will are rounded in by the law of his being, as the inequalities of Andes and Himmaleh are insignificant in the curve of the sphere. Nor does it matter how you gauge and try him. A character is like an acrostic or Alexandrian stanza;—read it forward, backward, or across, it still spells the same thing. In this pleasing contrite wood-life which God allows me, let me record day by day my honest thought without prospect or retrospect, and, I cannot doubt, it will be found symmetrical, though I mean it not and see it not. My book should smell of pines and resound with the hum of insects. The swallow over my window should interweave that thread or straw he carries in his bill into my web also. We pass for what we are. Character teaches above our wills. Men imagine that they communicate their virtue or vice only by overt actions, and do not see that virtue or vice emit a breath every moment.
+</p>
+
+<p>
+There will be an agreement in whatever variety of actions, so they be each honest and natural in their hour. For of one will, the actions will be harmonious, however unlike they seem. These varieties are lost sight of at a little distance, at a little height of thought. One tendency unites them all. The voyage of the best ship is a zigzag line of a hundred tacks. See the line from a sufficient distance, and it straightens itself to the average tendency. Your genuine action will explain itself and will explain your other genuine actions. Your conformity explains nothing. Act singly, and what you have already done singly will justify you now. Greatness appeals to the future. If I can be firm enough to-day to do right and scorn eyes, I must have done so much right before as to defend me now. Be it how it will, do right now. Always scorn appearances and you always may. The force of character is cumulative. All the foregone days of virtue work their health into this. What makes the majesty of the heroes of the senate and the field, which so fills the imagination? The consciousness of a train of great days and victories behind. They shed an united light on the advancing actor. He is attended as by a visible escort of angels. That is it which throws thunder into Chatham's voice, and dignity into Washington's port, and America into Adams's eye. Honor is venerable to us because it is no ephemera. It is always ancient virtue. We worship it to-day because it is not of to-day. We love it and pay it homage because it is not a trap for our love and homage, but is self-dependent, self-derived, and therefore of an old immaculate pedigree, even if shown in a young person.
+</p>
+
+<p>
+I hope in these days we have heard the last of conformity and consistency. Let the words be gazetted and ridiculous henceforward. Instead of the gong for dinner, let us hear a whistle from the Spartan fife. Let us never bow and apologize more. A great man is coming to eat at my house. I do not wish to please him; I wish that he should wish to please me. I will stand here for humanity, and though I would make it kind, I would make it true. Let us affront and reprimand the smooth mediocrity and squalid contentment of the times, and hurl in the face of custom and trade and office, the fact which is the upshot of all history, that there is a great responsible Thinker and Actor working wherever a man works; that a true man belongs to no other time or place, but is the centre of things. Where he is, there is nature. He measures you and all men and all events. Ordinarily, every body in society reminds us of somewhat else, or of some other person. Character, reality, reminds you of nothing else; it takes place of the whole creation. The man must be so much that he must make all circumstances indifferent. Every true man is a cause, a country, and an age; requires infinite spaces and numbers and time fully to accomplish his design;—and posterity seem to follow his steps as a train of clients. A man Caesar is born, and for ages after we have a Roman Empire. Christ is born, and millions of minds so grow and cleave to his genius that he is confounded with virtue and the possible of man. An institution is the lengthened shadow of one man; as, Monachism, of the Hermit Antony; the Reformation, of Luther; Quakerism, of Fox; Methodism, of Wesley; Abolition, of Clarkson. Scipio, Milton called "the height of Rome"; and all history Resolves itself very easily into the biography of a few stout and earnest persons.
+</p>
+
+<p>
+Let a man then know his worth, and keep things under his feet. Let him not peep or steal, or skulk up and down with the air of a charity-boy, a bastard, or an interloper in the world which exists for him. But the man in the street, finding no worth in himself which corresponds to the force which built a tower or sculptured a marble god, feels poor when he looks on these. To him a palace, a statue, or a costly book have an alien and forbidding air, much like a gay equipage, and seem to say like that, 'Who are you, Sir?' Yet they all are his, suitors for his notice, petitioners to his faculties that they will come out and take possession. The picture waits for my verdict; it is not to command me, but I am to settle its claims to praise. That popular fable of the sot who was picked up dead drunk in the street, carried to the duke's house, washed and dressed and laid in the duke's bed, and, on his waking, treated with all obsequious ceremony like the duke, and assured that he had been insane, owes its popularity to the fact that it symbolizes so well the state of man, who is in the world a sort of sot, but now and then wakes up, exercises his reason and finds himself a true prince.
+</p>
+
+<p>
+Our reading is mendicant and sycophantic. In history our imagination plays us false. Kingdom and lordship, power and estate, are a gaudier vocabulary than private John and Edward in a small house and common day's work; but the things of life are the same to both; the sum total of both is the same. Why all this deference to Alfred and Scanderbeg and Gustavus? Suppose they were virtuous; did they wear out virtue? As great a stake depends on your private act to-day, as followed their public and renowned steps. When private men shall act with original views, the lustre will be transferred from the actions of kings to those of gentlemen.
+</p>
+
+<p>
+The world has been instructed by its kings, who have so magnetized the eyes of nations. It has been taught by this colossal symbol the mutual reverence that is due from man to man. The joyful loyalty with which men have everywhere suffered the king, the noble, or the great proprietor to walk among them by a law of his own, make his own scale of men and things and reverse theirs, pay for benefits not with money but with honor, and represent the law in his person, was the hieroglyphic by which they obscurely signified their consciousness of their own right and comeliness, the right of every man.
+</p>
+
+<p>
+The magnetism which all original action exerts is explained when we inquire the reason of self-trust. Who is the Trustee? What is the aboriginal Self, on which a universal reliance may be grounded? What is the nature and power of that science-baffling star, without parallax, without calculable elements, which shoots a ray of beauty even into trivial and impure actions, if the least mark of independence appear? The inquiry leads us to that source, at once the essence of genius, of virtue, and of life, which we call Spontaneity or Instinct. We denote this primary wisdom as Intuition, whilst all later teachings are tuitions. In that deep force, the last fact behind which analysis cannot go, all things find their common origin. For the sense of being which in calm hours rises, we know not how, in the soul, is not diverse from things, from space, from light, from time, from man, but one with them and proceeds obviously from the same source whence their life and being also proceed. We first share the life by which things exist and afterwards see them as appearances in nature and forget that we have shared their cause. Here is the fountain of action and of thought. Here are the lungs of that inspiration which giveth man wisdom and which cannot be denied without impiety and atheism. We lie in the lap of immense intelligence, which makes us receivers of its truth and organs of its activity. When we discern justice, when we discern truth, we do nothing of ourselves, but allow a passage to its beams. If we ask whence this comes, if we seek to pry into the soul that causes, all philosophy is at fault. Its presence or its absence is all we can affirm. Every man discriminates between the voluntary acts of his mind and his involuntary perceptions, and knows that to his involuntary perceptions a perfect faith is due. He may err in the expression of them, but he knows that these things are so, like day and night, not to be disputed. My wilful actions and acquisitions are but roving;—the idlest reverie, the faintest native emotion, command my curiosity and respect. Thoughtless people contradict as readily the statement of perceptions as of opinions, or rather much more readily; for they do not distinguish between perception and notion. They fancy that I choose to see this or that thing. But perception is not whimsical, but fatal. If I see a trait, my children will see it after me, and in course of time all mankind,—although it may chance that no one has seen it before me. For my perception of it is as much a fact as the sun.
+</p>
+
+<p>
+The relations of the soul to the divine spirit are so pure that it is profane to seek to interpose helps. It must be that when God speaketh he should communicate, not one thing, but all things; should fill the world with his voice; should scatter forth light, nature, time, souls, from the centre of the present thought; and new date and new create the whole. Whenever a mind is simple and receives a divine wisdom, old things pass away,—means, teachers, texts, temples fall; it lives now, and absorbs past and future into the present hour. All things are made sacred by relation to it,—one as much as another. All things are dissolved to their centre by their cause, and in the universal miracle petty and particular miracles disappear. If therefore a man claims to know and speak of God and carries you backward to the phraseology of some old mouldered nation in another country, in another world, believe him not. Is the acorn better than the oak which is its fulness and completion? Is the parent better than the child into whom he has cast his ripened being? Whence then this worship of the past? The centuries are conspirators against the sanity and authority of the soul. Time and space are but physiological colors which the eye makes, but the soul is light: where it is, is day; where it was, is night; and history is an impertinence and an injury if it be any thing more than a cheerful apologue or parable of my being and becoming.
+</p>
+
+<p>
+Man is timid and apologetic; he is no longer upright; he dares not say 'I think,' 'I am,' but quotes some saint or sage. He is ashamed before the blade of grass or the blowing rose. These roses under my window make no reference to former roses or to better ones; they are for what they are; they exist with God to-day. There is no time to them. There is simply the rose; it is perfect in every moment of its existence. Before a leaf-bud has burst, its whole life acts; in the full-blown flower there is no more; in the leafless root there is no less. Its nature is satisfied and it satisfies nature in all moments alike. But man postpones or remembers; he does not live in the present, but with reverted eye laments the past, or, heedless of the riches that surround him, stands on tiptoe to foresee the future. He cannot be happy and strong until he too lives with nature in the present, above time.
+</p>
+
+<p>
+This should be plain enough. Yet see what strong intellects dare not yet hear God himself unless he speak the phraseology of I know not what David, or Jeremiah, or Paul. We shall not always set so great a price on a few texts, on a few lives. We are like children who repeat by rote the sentences of grandames and tutors, and, as they grow older, of the men of talents and character they chance to see,—painfully recollecting the exact words they spoke; afterwards, when they come into the point of view which those had who uttered these sayings, they understand them and are willing to let the words go; for at any time they can use words as good when occasion comes. If we live truly, we shall see truly. It is as easy for the strong man to be strong, as it is for the weak to be weak. When we have new perception, we shall gladly disburden the memory of its hoarded treasures as old rubbish. When a man lives with God, his voice shall be as sweet as the murmur of the brook and the rustle of the corn.
+</p>
+
+<p>
+And now at last the highest truth on this subject remains unsaid; probably cannot be said; for all that we say is the far-off remembering of the intuition. That thought by what I can now nearest approach to say it, is this. When good is near you, when you have life in yourself, it is not by any known or accustomed way; you shall not discern the footprints of any other; you shall not see the face of man; you shall not hear any name;—the way, the thought, the good shall be wholly strange and new. It shall exclude example and experience. You take the way from man, not to man. All persons that ever existed are its forgotten ministers. Fear and hope are alike beneath it. There is somewhat low even in hope. In the hour of vision there is nothing that can be called gratitude, nor properly joy. The soul raised over passion beholds identity and eternal causation, perceives the self-existence of Truth and Right, and calms itself with knowing that all things go well. Vast spaces of nature, the Atlantic Ocean, the South Sea; long intervals of time, years, centuries, are of no account. This which I think and feel underlay every former state of life and circumstances, as it does underlie my present, and what is called life, and what is called death.
+</p>
+
+<p>
+Life only avails, not the having lived. Power ceases in the instant of repose; it resides in the moment of transition from a past to a new state, in the shooting of the gulf, in the darting to an aim. This one fact the world hates; that the soul becomes; for that for ever degrades the past, turns all riches to poverty, all reputation to a shame, confounds the saint with the rogue, shoves Jesus and Judas equally aside. Why then do we prate of self-reliance? Inasmuch as the soul is present there will be power not confident but agent. To talk of reliance is a poor external way of speaking. Speak rather of that which relies because it works and is. Who has more obedience than I masters me, though he should not raise his finger. Round him I must revolve by the gravitation of spirits. We fancy it rhetoric when we speak of eminent virtue. We do not yet see that virtue is Height, and that a man or a company of men, plastic and permeable to principles, by the law of nature must overpower and ride all cities, nations, kings, rich men, poets, who are not.
+</p>
+
+<p>
+This is the ultimate fact which we so quickly reach on this, as on every topic, the resolution of all into the ever-blessed ONE. Self-existence is the attribute of the Supreme Cause, and it constitutes the measure of good by the degree in which it enters into all lower forms. All things real are so by so much virtue as they contain. Commerce, husbandry, hunting, whaling, war, eloquence, personal weight, are somewhat, and engage my respect as examples of its presence and impure action. I see the same law working in nature for conservation and growth. Power is, in nature, the essential measure of right. Nature suffers nothing to remain in her kingdoms which cannot help itself. The genesis and maturation of a planet, its poise and orbit, the bended tree recovering itself from the strong wind, the vital resources of every animal and vegetable, are demonstrations of the self-sufficing and therefore self-relying soul.
+</p>
+
+<p>
+Thus all concentrates: let us not rove; let us sit at home with the cause. Let us stun and astonish the intruding rabble of men and books and institutions, by a simple declaration of the divine fact. Bid the invaders take the shoes from off their feet, for God is here within. Let our simplicity judge them, and our docility to our own law demonstrate the poverty of nature and fortune beside our native riches.
+</p>
+
+<p>
+But now we are a mob. Man does not stand in awe of man, nor is his genius admonished to stay at home, to put itself in communication with the internal ocean, but it goes abroad to beg a cup of water of the urns of other men. We must go alone. I like the silent church before the service begins, better than any preaching. How far off, how cool, how chaste the persons look, begirt each one with a precinct or sanctuary! So let us always sit. Why should we assume the faults of our friend, or wife, or father, or child, because they sit around our hearth, or are said to have the same blood? All men have my blood and I have all men's. Not for that will I adopt their petulance or folly, even to the extent of being ashamed of it. But your isolation must not be mechanical, but spiritual, that is, must be elevation. At times the whole world seems to be in conspiracy to importune you with emphatic trifles. Friend, client, child, sickness, fear, want, charity, all knock at once at thy closet door and say,—'Come out unto us.' But keep thy state; come not into their confusion. The power men possess to annoy me I give them by a weak curiosity. No man can come near me but through my act. "What we love that we have, but by desire we bereave ourselves of the love."
+</p>
+
+<p>
+If we cannot at once rise to the sanctities of obedience and faith, let us at least resist our temptations; let us enter into the state of war and wake Thor and Woden, courage and constancy, in our Saxon breasts. This is to be done in our smooth times by speaking the truth. Check this lying hospitality and lying affection. Live no longer to the expectation of these deceived and deceiving people with whom we converse. Say to them, 'O father, O mother, O wife, O brother, O friend, I have lived with you after appearances hitherto. Henceforward I am the truth's. Be it known unto you that henceforward I obey no law less than the eternal law. I will have no covenants but proximities. I shall endeavour to nourish my parents, to support my family, to be the chaste husband of one wife,—but these relations I must fill after a new and unprecedented way. I appeal from your customs. I must be myself. I cannot break myself any longer for you, or you. If you can love me for what I am, we shall be the happier. If you cannot, I will still seek to deserve that you should. I will not hide my tastes or aversions. I will so trust that what is deep is holy, that I will do strongly before the sun and moon whatever inly rejoices me and the heart appoints. If you are noble, I will love you: if you are not, I will not hurt you and myself by hypocritical attentions. If you are true, but not in the same truth with me, cleave to your companions; I will seek my own. I do this not selfishly but humbly and truly. It is alike your interest, and mine, and all men's, however long we have dwelt in lies, to live in truth. Does this sound harsh to-day? You will soon love what is dictated by your nature as well as mine, and if we follow the truth it will bring us out safe at last.'—But so may you give these friends pain. Yes, but I cannot sell my liberty and my power, to save their sensibility. Besides, all persons have their moments of reason, when they look out into the region of absolute truth; then will they justify me and do the same thing.
+</p>
+
+<p>
+The populace think that your rejection of popular standards is a rejection of all standard, and mere antinomianism; and the bold sensualist will use the name of philosophy to gild his crimes. But the law of consciousness abides. There are two confessionals, in one or the other of which we must be shriven. You may fulfil your round of duties by clearing yourself in the direct, or in the reflex way. Consider whether you have satisfied your relations to father, mother, cousin, neighbor, town, cat, and dog; whether any of these can upbraid you. But I may also neglect this reflex standard and absolve me to myself. I have my own stern claims and perfect circle. It denies the name of duty to many offices that are called duties. But if I can discharge its debts it enables me to dispense with the popular code. If any one imagines that this law is lax, let him keep its commandment one day.
+</p>
+
+<p>
+And truly it demands something godlike in him who has cast off the common motives of humanity and has ventured to trust himself for a taskmaster. High be his heart, faithful his will, clear his sight, that he may in good earnest be doctrine, society, law, to himself, that a simple purpose may be to him as strong as iron necessity is to others!
+</p>
+
+<p>
+If any man consider the present aspects of what is called by distinction society, he will see the need of these ethics. The sinew and heart of man seem to be drawn out, and we are become timorous, desponding whimperers. We are afraid of truth, afraid of fortune, afraid of death and afraid of each other. Our age yields no great and perfect persons. We want men and women who shall renovate life and our social state, but we see that most natures are insolvent, cannot satisfy their own wants, have an ambition out of all proportion to their practical force and do lean and beg day and night continually. Our housekeeping is mendicant, our arts, our occupations, our marriages, our religion we have not chosen, but society has chosen for us. We are parlor soldiers. We shun the rugged battle of fate, where strength is born.
+</p>
+
+<p>
+If our young men miscarry in their first enterprises they lose all heart. If the young merchant fails, men say he is ruined. If the finest genius studies at one of our colleges and is not installed in an office within one year afterwards in the cities or suburbs of Boston or New York, it seems to his friends and to himself that he is right in being disheartened and in complaining the rest of his life. A sturdy lad from New Hampshire or Vermont, who in turn tries all the professions, who teams it, farms it, peddles, keeps a school, preaches, edits a newspaper, goes to Congress, buys a township, and so forth, in successive years, and always like a cat falls on his feet, is worth a hundred of these city dolls. He walks abreast with his days and feels no shame in not 'studying a profession,' for he does not postpone his life, but lives already. He has not one chance, but a hundred chances. Let a Stoic open the resources of man and tell men they are not leaning willows, but can and must detach themselves; that with the exercise of self-trust, new powers shall appear; that a man is the word made flesh, born to shed healing to the nations; that he should be ashamed of our compassion, and that the moment he acts from himself, tossing the laws, the books, idolatries and customs out of the window, we pity him no more but thank and revere him;—and that teacher shall restore the life of man to splendor and make his name dear to all history.
+</p>
+
+<p>
+It is easy to see that a greater self-reliance must work a revolution in all the offices and relations of men; in their religion; in their education; in their pursuits; their modes of living; their association; in their property; in their speculative views.
+</p>
+
 <ol class="org-ol">
-<li>As OP shrimps we staple the leg with our forward knee</li>
-<li>At the same time, we reach for a crossface control of the neck and underhook OPs farside leg</li>
-<li>Pin your knee to control the near side hip</li>
-<li>Backstep with strong shoulder pressure and a deep crossface grabbing the back of the gi</li>
-</ol>
-<p>
-4a. Extend your hips into the armpit to dominate the side
-</p>
-<ol class="org-ol">
-<li>Replace your knee on the hip with your top side hand</li>
-<li>Switch your knee from the hip to the armpit while pressing OPs face away with shoulder pressure.</li>
-</ol>
-</div>
-</li>
-<li><a id="org2959e16"></a>Cross Knee Pass (Knee Slice Pass)<br />
-<div class="outline-text-9" id="text-org2959e16">
-<p>
-Cross Knee means we are going from Right to Left or Left to Right with the knee across OPs hips. The key to this pass is to get the underhook on the same side as our knee is coming from to avoid a backtake.
-</p>
-<ol class="org-ol">
-<li>As OP shrimps we staple across to the opposite side of our knee.</li>
-<li>Underhook the far side armpit while pulling up on the near side sleeve</li>
-<li>Step around OPs bottom leg as you baseball slide into the pass with full pressure on your OP.</li>
-<li>End at [[*Top][Scarf Control Top]</li>
-</ol>
-</div>
-</li>
-<li><a id="org951b3ab"></a>Turk Pass (Leg Weave)<br />
-<div class="outline-text-9" id="text-org951b3ab">
-<p>
-From OPs scissor guard (open guard with a setup for a scissor sweep, knee sheild top leg with a bottom leg outside my legs.
-</p>
-<ol class="org-ol">
-<li>Weave your arm under the knee of the knee shield and grip on top of OPs bottom knee.</li>
-<li>Get to your feet and stack into OP</li>
-<li>Press forehead and shoulders down and forward to collapse OPs legs together</li>
-<li>As you press your shoulder into OP, spring up and hop around the legs.</li>
-</ol>
-<p>
-This kills OPs hips and limit his movement
-</p>
-<ol class="org-ol">
-<li>Turn the leg weave hand the other way to make room at OPs hips</li>
-<li>Place your bottom knee into the hip and finish the pass.</li>
-<li>If OP gets the top knee in between before you finish the pass. Use the leg weave hand to cup the top knee fast and pull it away while you replace your knee and finish the pass.</li>
-<li>If OPs legs are preventing the pass, keep the same grips and hop to the back side to finish the pass.</li>
-</ol>
-</div>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-<div id="outline-container-orgb6de3c8" class="outline-3">
-<h3 id="orgb6de3c8"><span class="section-number-3">1.2</span> Bottom Guard</h3>
-<div class="outline-text-3" id="text-1-2">
-</div>
-<ul class="org-ul">
-<li><a id="org821c8f6"></a>Overhook Guard game<br />
-<ul class="org-ul">
-<li><a id="orgd28575f"></a>Vale Tudo Guard<br />
-<ul class="org-ul">
-<li><a id="org1b0e7b4"></a><a href="https://www.youtube.com/watch?v=CGDdWRRtGDw">Vale Tudo Guard Vale Tudo Guard -josh robinson</a> (similar to my overhook game with a better setup)<br />
-<div class="outline-text-8" id="text-org1b0e7b4">
-<p>
-Josh explains that you would use your wrists connecting to the back of the neck to break posture instead of pulling collars. I like this because I am getting spiderguard fingers from pulling lapels so if I can be less dependant on those grips it will be better for my hands. I will be able to use my grips for chokes instead of breaking posture as well. It also has the benefit of being able to translate to a no-gi game.
-</p>
-</div>
-</li>
-
-<li><a id="org5bca05c"></a><a href="https://www.youtube.com/watch?v=1t_0crasE_4">Vale Tudo Guard no-gi -josh robinson</a> (setup triangle, gogoplata and straight jacket)<br />
-<div class="outline-text-8" id="text-org5bca05c">
-<p>
-In this video Josh explains how to setup the Vale Tudo guard (from the hip instead of being flat on the back). Bicep control is better than wrist control. Feet on hips can be exchanged for a formal closed guard. The overhook keeps the posture broken with a collar tie at times. "Clear the head" means we get the forearm to the overhook side and the foot comes in front for a gogoplata. The triange is available because you are on your hip. The straightjacket submission follows the gogoplata setup when the arm defends the choke. The far arm is pulled through to increase pressure on the choke. This is similar to the collar choke with the far arm pulled across to allow the shoulder to finish the choke. This also leads to an omaplata choke.
-</p>
-</div>
-</li>
-<li><a id="orgf336084"></a><a href="https://www.youtube.com/watch?v=X8Qhl-jmeNs">Closed Guard Arm-drag (Roger Gracie Guard Study)</a> (Arm-drag with 2 on 1 grip to setup, back-take, armbar or flower sweep)<br />
-<div class="outline-text-8" id="text-orgf336084">
-<p>
-The guard is closed and you grab the ops sleve at the wrist and elbow. Using a bridge and a foot on the arm side hip, pull the elbow across your centerline to pin it the side. When the elbow is across teh centerline, three options are available depending on what the op does. 1. take the back 2. arm bar (scrambles into triangle, oomaplata etc) 3. sweep (flower sweep shown in the video)
-</p>
-</div>
-<ul class="org-ul">
-<li><a id="orga5fb8b3"></a>Back-Take<br />
-<div class="outline-text-9" id="text-orga5fb8b3">
-<p>
-The backtake is availble by pushing the arm away from your center line as you crawl to the back. Be careful to not fall too far forward. In the video, Roger uses an underhook on the legs and strong collar control to stay tight to the op. Roger also tries to hand off the sleeve grip to the far side hand from the armpit. This creates a strong "gift-wrap" style grip around the back and it helps the back take.
-</p>
-</div>
-</li>
-<li><a id="org868520b"></a>Arm Bar<br />
-<div class="outline-text-9" id="text-org868520b">
-<p>
-The op will raise the head to avoid the backtake. Additionally the op will extend thier neck and use head pressue to prevent the backtake. When this happens, it is possible to go for the armbar instead. If the armbar fails be ready to scramble into the sweep, triangle or oomaplata. Before transitioning from the back take to the armbar, it is nessesary to get your hips out to the side. Roger also sets up the armbar with a far side collar grip. This allows him to anchor and helps get the foot in front of the face. It may also be useful if an opportunity for a choke happens. Keep the back take threat alive while setting up the armbar.
+<li><p>
+In what prayers do men allow themselves! That which they call a holy office is not so much as brave and manly. Prayer looks abroad and asks for some foreign addition to come through some foreign virtue, and loses itself in endless mazes of natural and supernatural, and mediatorial and miraculous. Prayer that craves a particular commodity, any thing less than all good, is vicious. Prayer is the contemplation of the facts of life from the highest point of view. It is the soliloquy of a beholding and jubilant soul. It is the spirit of God pronouncing his works good. But prayer as a means to effect a private end is meanness and theft. It supposes dualism and not unity in nature and consciousness. As soon as the man is at one with God, he will not beg. He will then see prayer in all action. The prayer of the farmer kneeling in his field to weed it, the prayer of the rower kneeling with the stroke of his oar, are true prayers heard throughout nature, though for cheap ends. Caratach, in Fletcher's Bonduca, when admonished to inquire the mind of the god Audate, replies,—
 </p>
 
 <p>
-When Roger broke Jacare's arm he climbed his legs up into a high guard that covered the far side shoulder before he committed to the armbar. This allowed Jacare less time to react to the armbar before it was secured.
-</p>
-</div>
-</li>
-<li><a id="orgad0c36d"></a>Flower-sweep<br />
-<div class="outline-text-9" id="text-orgad0c36d">
-<p>
-The control of the arm that comes with the 2 on 1 sleeve grip will deprive op of base on that side. The example of Roger using the flower sweep in this video is the same climbing guard that Roger used to armbar Jacare. The op had nee raised on the same side as the 2 on 1 arm that Roger controlled. While climbing up and threatening the armbar, Roger used the movement to underhook the ops far side leg (opposite of the controlled arm) and swept to mount. This would have worked with a gi grip as well if he could not get the underhook on the leg.
-</p>
-</div>
-</li>
-</ul>
-</li>
-<li><a id="orgcfa80e5"></a><a href="https://www.youtube.com/watch?v=FP-qEk83DdQ">Cross-side collar grip (Kron Gracie Guard Study) loopchoke, armbar, anklepick</a><br /></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a id="org04640d2"></a>[[<a href="https://www.youtube.com/watch?annotation_id=annotation_263863977&amp;feature=iv&amp;src_vid=8F6meOljv-s&amp;v=tmGqgXnuNBE">https://www.youtube.com/watch?annotation_id=annotation_263863977&amp;feature=iv&amp;src_vid=8F6meOljv-s&amp;v=tmGqgXnuNBE</a>][Marcelo Garcia elbow push escape (Guard Rete<br /></li>
-</ul>
-</div>
-</div>
-<div id="outline-container-orgf31e03d" class="outline-2">
-<h2 id="orgf31e03d"><span class="section-number-2">2</span> Half-Guard</h2>
-<div class="outline-text-2" id="text-2">
-</div>
-<div id="outline-container-org1632484" class="outline-3">
-<h3 id="org1632484"><span class="section-number-3">2.1</span> Top Half</h3>
-</div>
-<div id="outline-container-orgbdf075f" class="outline-3">
-<h3 id="orgbdf075f"><span class="section-number-3">2.2</span> Bottom Half</h3>
-<div class="outline-text-3" id="text-2-2">
-</div>
-<div id="outline-container-org964097b" class="outline-4">
-<h4 id="org964097b"><span class="section-number-4">2.2.1</span> <a href="https://youtu.be/X8Qhl-jmeNs?t=8m34s">Half-Guard roll from bottom to top (Roger Gracie Guard Study)</a></h4>
-<div class="outline-text-4" id="text-2-2-1">
-</div>
-<div id="outline-container-org86344a7" class="outline-5">
-<h5 id="org86344a7">From Bottom Half-Guard get perpendicular and reverse the position</h5>
-<div class="outline-text-5" id="text-org86344a7">
-<p>
-Roger gets an overhook on the trapped leg side from bottom half-guard. He is on his side with contol of the belt with his top hand and a unknown grip with his bottom hand. He could have the leg or hip. He plants his outside foot and upas hard while pulling up on the belt to get the ops weight foward while Roger gets his body perpendicular. He uses momentum before the upa to load the op and get him moving in the correct direction. Roger also uses the momentum from the upa to swing his outside leg up as he inverts into the roll
-</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="outline-container-org6b54c1b" class="outline-2">
-<h2 id="org6b54c1b"><span class="section-number-2">3</span> Side Control</h2>
-<div class="outline-text-2" id="text-3">
-</div>
-<div id="outline-container-org0c89b57" class="outline-3">
-<h3 id="org0c89b57"><span class="section-number-3">3.1</span> Top Side</h3>
-<div class="outline-text-3" id="text-3-1">
-</div>
-<div id="outline-container-org2762f94" class="outline-4">
-<h4 id="org2762f94"><span class="section-number-4">3.1.1</span> <a href="https://www.youtube.com/watch?v=S1NpPbMGJ6I&amp;feature=youtu.be">Rafael Lovato Jr's Kimura Secrets</a> (Thanks Phil)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bottomside">bottomside</span></span></h4>
-<div class="outline-text-4" id="text-3-1-1">
-</div>
-<div id="outline-container-org5aa3783" class="outline-5">
-<h5 id="org5aa3783">Notes</h5>
-<div class="outline-text-5" id="text-org5aa3783">
-<p>
-From Side Control Top with an Underhook on the far arm
-</p>
-<ol class="org-ol">
-<li>Pin the near arm under your shin by first pushing the arm down</li>
-<li>Windshield Wiper your legs to switch to your other leg and begin to move to North/South</li>
-<li>Step over and pull OP to his side to setup the North/South position</li>
-<li>Keep a strong underhook on the far arm and put weight on the arm</li>
-<li>Step over and settle into the North/South</li>
-<li>Use a "mouse trap" move to switch the grip for the Kimura and use the grip at the hand so the wrist lock is available. Make sure you use a no thumb "monkey grip". Using thumbs makes is possible to lose the arm. (I like the wrist lock option to help break the grip)</li>
-<li>Lean forward to setup the grip break instead of just using your arms. Use the torso turn to break the grip and move the arm instead of using your arms</li>
-<li>Move the arm away up and then behind the back to finish the submission.</li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-<div id="outline-container-org42240b9" class="outline-3">
-<h3 id="org42240b9"><span class="section-number-3">3.2</span> Bottom Side</h3>
-<div class="outline-text-3" id="text-3-2">
-<p>
-<a href="https://www.youtube.com/watch?v=8F6meOljv-s&amp;index=1&amp;list=PLLvUtPaoHJDIXWuF18ZKOC-HNdNhuMqks">Side Control system from VanGuard Gym (Coach Doug Esposito)</a>
-It is easy to defend if you only try to re-guard. You need to have various options for different situations. This system will give you a plan for escapes.
-</p>
-</div>
-
-<div id="outline-container-orga73f1eb" class="outline-4">
-<h4 id="orga73f1eb"><span class="section-number-4">3.2.1</span> Stone Squirrel Posture <a href="https://www.youtube.com/watch?v=8F6meOljv-s&amp;index=1&amp;list=PLLvUtPaoHJDIXWuF18ZKOC-HNdNhuMqks">VanGuard side contol escape system</a></h4>
-<div class="outline-text-4" id="text-3-2-1">
-<p>
-The stone squirrel posture is a position from bottom side control. Your hands
-control the opponents shoulder and your forearms and elbows frame in between
-your chest and your opponent's chest. This frame allows you to raise your arms
-over your head (trash truck style) to bring your opponent away from your chest.
-Putting your forearms on the chest instead of on the neck gives you more
-control. When combined with a bridge space is created that can be used in the positions that follow.
-</p>
-</div>
-
-<div id="outline-container-org27fc89a" class="outline-5">
-<h5 id="org27fc89a">Re-Guard</h5>
-<div class="outline-text-5" id="text-org27fc89a">
-<p>
-From Stone Squirrel, feet close to hips, bridge into op and lift op back with a
-frame. At the same time, shrimp to make room and insert a knee to take up the
-space you created. Hook behind the leg or under the leg for a butterfly to re-guard
-</p>
-</div>
-<ul class="org-ul">
-<li><a id="org41ca43e"></a>Sweep<br />
-<div class="outline-text-7" id="text-org41ca43e">
-<p>
-If you have the overhook control from the guard and the ops posture is broken, you can sweep from guard to mount.
-</p>
-</div>
-</li>
-<li><a id="org160f2d6"></a>Armbar<br />
-<div class="outline-text-7" id="text-org160f2d6">
-<p>
-If you have a stong underhook on the other arm an armbar is available from the guard with your arm and head pinching the elbow of your opponent.
-</p>
-</div>
-</li>
-</ul>
-</div>
-<div id="outline-container-org9607a5d" class="outline-5">
-<h5 id="org9607a5d">Bottom Single Leg to Side Control – Top/Offensive</h5>
-<div class="outline-text-5" id="text-org9607a5d">
-<p>
-From Stone Squirrel, frame with your forearms and elbows and bridge. Ensure that
-your feet are not all the way into your hips, that space is needed to "hip
-heist". Hip Heist means you thread your nearside foot under your far side leg
-and turn belly down. At the same time, windshield wiper and pummel your far side arm to
-create an underhook
-</p>
-</div>
-</div>
-
-<div id="outline-container-org92ac925" class="outline-5">
-<h5 id="org92ac925">Bump and Roll to Side Control – Top/Offensive</h5>
-<div class="outline-text-5" id="text-org92ac925">
-<p>
-With one arm framed on the hip and the other arm under the chest in stone squirrel, lift and upa into the op to make room for your guard. The op is pressing back to flatten you out. Using this momentum, scoot your hips underneath your op with a hip shovel (do not just roll without getting under the op). The frame on the hip is key to making this work.
-</p>
-</div>
-<ul class="org-ul">
-<li><a id="org2a607f0"></a>If OP posts on his hand<br />
-<div class="outline-text-6" id="text-org2a607f0">
-<p>
-The posting opens the OP up so that we can try to reguard or move into another transition. We have to drill all of these defenses so we can link one technique to the others in the system.
-</p>
-</div>
-</li>
-</ul>
-</div>
-<div id="outline-container-org80f4902" class="outline-5">
-<h5 id="org80f4902">Rainbow Roll to Side Control – Top/Offensive</h5>
-<div class="outline-text-5" id="text-org80f4902">
-<p>
-The crossface from side control gives us an opportnity to trap that arm. If we can get parrell to the OP we can roll to sweep to top side control from that posistion. This happens naturally when OP is going to North South If we feel the bottom arm transerring to 100 kilos that is a cue that OP is going to North/South. Otherwise, we can move ourselves into a North/South posture to get OP "on a line" by changing the angle. Our hand that is not trapping the crossface arm is going over OPs back to grab his belt. We have to shrimp away from OP and put your armpit on OPs shoulder.
-</p>
-</div>
-</div>
-</div>
-<div id="outline-container-org5dc2677" class="outline-4">
-<h4 id="org5dc2677"><span class="section-number-4">3.2.2</span> Armpit/Prayer Posture (APP)</h4>
-<div class="outline-text-4" id="text-3-2-2">
-<p>
-Armpit/Prayer Posture is similar to Stone Squirrel. The farside hand is in the armpit instead of being at the shoulder. This makes it harder to peek your elbow out for the far side underhook but it allows access to the top single leg. HipBump to move farside hand under the armpit.
-</p>
-</div>
-<div id="outline-container-org703029a" class="outline-5">
-<h5 id="org703029a">Top Leg Single to Side Control – Top/Offensive</h5>
-<div class="outline-text-5" id="text-org703029a">
-<p>
-From APP, bump and shrimp to get rid of the crossface and make OP "float" on your forearms by lifting your forearms to fill the space you created with the bump.
-</p>
-</div>
-</div>
-<div id="outline-container-orgc1cc42f" class="outline-5">
-<h5 id="orgc1cc42f">Elbow Push to Open Guard</h5>
-</div>
-<div id="outline-container-orgec93e03" class="outline-5">
-<h5 id="orgec93e03">All Stone Squirrel Escapes</h5>
-</div>
-</div>
-<div id="outline-container-orga9b61dc" class="outline-4">
-<h4 id="orga9b61dc"><span class="section-number-4">3.2.3</span> Hands in Front Posture</h4>
-<div class="outline-text-4" id="text-3-2-3">
-</div>
-<div id="outline-container-org644f01f" class="outline-5">
-<h5 id="org644f01f">Turn Away to Turtle 1 – Bottom/Defensive, sit thru to Turtle 2 – Top Offensive</h5>
-</div>
-<div id="outline-container-orgd14056d" class="outline-5">
-<h5 id="orgd14056d">Monkey or Granby Roll to Bottom Guard</h5>
-</div>
-</div>
-<div id="outline-container-org7d454e8" class="outline-4">
-<h4 id="org7d454e8"><span class="section-number-4">3.2.4</span> Inside Arm Down Posture</h4>
-<div class="outline-text-4" id="text-3-2-4">
-</div>
-<div id="outline-container-orga296409" class="outline-5">
-<h5 id="orga296409">Pant Grab to Guard or Half-Guard – Bottom</h5>
-</div>
-<div id="outline-container-orgf6bc8c6" class="outline-5">
-<h5 id="orgf6bc8c6">Jail Break to Butterfly Guard – Bottom</h5>
-</div>
-<div id="outline-container-orgc6d575e" class="outline-5">
-<h5 id="orgc6d575e">Ghost to Turtle 1 – Top/Offensive</h5>
-</div>
-</div>
-<div id="outline-container-org8c3eca9" class="outline-4">
-<h4 id="org8c3eca9"><span class="section-number-4">3.2.5</span> Submissions from Bottom</h4>
-<div class="outline-text-4" id="text-3-2-5">
-</div>
-<div id="outline-container-org315bded" class="outline-5">
-<h5 id="org315bded"><a href="https://www.youtube.com/watch?v=HLcM9pbELHk">no-gi baseballbat and ezekiel from bottom - josh robinson</a></h5>
-</div>
-<div id="outline-container-orgc18752f" class="outline-5">
-<h5 id="orgc18752f">Last resort&#xa0;&#xa0;&#xa0;<span class="tag"><span class="subs">subs</span>&#xa0;<span class="bottom">bottom</span></span></h5>
-<div class="outline-text-5" id="text-orgc18752f">
-<p>
-You should try for escapes instead of submissions from inferior positions. We cannot assume that every encounter will be 1 on 1 in a controlled environment. Being in top position gives you a better chance to bail out and run if nessesary.
-</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-<div id="outline-container-org9c9510a" class="outline-2">
-<h2 id="org9c9510a"><span class="section-number-2">4</span> Scarf</h2>
-<div class="outline-text-2" id="text-4">
-</div>
-<div id="outline-container-org19d6517" class="outline-3">
-<h3 id="org19d6517"><span class="section-number-3">4.1</span> Top Scarf</h3>
-<div class="outline-text-3" id="text-4-1">
-</div>
-<div id="outline-container-orgd007abb" class="outline-5">
-<h5 id="orgd007abb"><span class="todo TODO">TODO</span> <a href="https://www.youtube.com/watch?v=efox3xBLk50">Josh Robinson Side Control flow from Kesa Katame (with underhook)</a> (Stopped at 3:56 on notes - pick up from here)</h5>
-<div class="outline-text-5" id="text-orgd007abb">
-<p>
-From side control immediately sit through to the underhook Kesa Katame (scarf hold) with or without the underhook
-Staying in side control will be met with a lot of squirming so scarf hold is better
-</p>
-</div>
-<ul class="org-ul">
-<li><a id="org0f1a3cf"></a>Modified Kesa Katame (with underhook)<br />
-<div class="outline-text-6" id="text-org0f1a3cf">
-<ol class="org-ol">
-<li>Step over the head right away and look for the armpit armbar on the near side arm In order to sit through, post on your far elbow and pull under his near side elbow to get him to turn. This makes your legs light enought to step over the head. The sitthrough and stepover should be a one two punch.</li>
-<li>Op pushes the leg away</li>
-<li>Step back while following the arm to setup a modified gift wrap (Big Rich style) apply pressure for a choke. (similar to the arm triangle)</li>
-<li>From Big Rich gift wrap, place your bottom side arm on the other side of OPs face to setup the straight armbar</li>
-<li>Setup the wrist lock from here</li>
-<li>If OP fights that off, follow the wrist to to setup the keylock (americana arm lock) Make sure to step over the shoulder for the americana, do not stay flat.</li>
-</ol>
-</div>
-</li>
-<li><a id="org1538f35"></a>Kesa Katame (judo style without underhook)<br /></li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-orge8c081d" class="outline-3">
-<h3 id="orge8c081d"><span class="section-number-3">4.2</span> Bottom Scarf</h3>
-</div>
-</div>
-
-<div id="outline-container-org030278f" class="outline-2">
-<h2 id="org030278f"><span class="section-number-2">5</span> North/South</h2>
-<div class="outline-text-2" id="text-5">
-</div>
-<div id="outline-container-org12fa96e" class="outline-3">
-<h3 id="org12fa96e"><span class="section-number-3">5.1</span> Top NS</h3>
-</div>
-<div id="outline-container-org015f74e" class="outline-3">
-<h3 id="org015f74e"><span class="section-number-3">5.2</span> Bottom NS</h3>
-</div>
-</div>
-<div id="outline-container-orgc62eb90" class="outline-2">
-<h2 id="orgc62eb90"><span class="section-number-2">6</span> Knee on Belly</h2>
-<div class="outline-text-2" id="text-6">
-</div>
-<div id="outline-container-org5a788e9" class="outline-3">
-<h3 id="org5a788e9"><span class="section-number-3">6.1</span> Top KOB</h3>
-</div>
-<div id="outline-container-org1f7ea0d" class="outline-3">
-<h3 id="org1f7ea0d"><span class="section-number-3">6.2</span> Bottom KOB</h3>
-</div>
-</div>
-<div id="outline-container-org62fe3f9" class="outline-2">
-<h2 id="org62fe3f9"><span class="section-number-2">7</span> Back</h2>
-<div class="outline-text-2" id="text-7">
-</div>
-<div id="outline-container-orgb454310" class="outline-3">
-<h3 id="orgb454310"><span class="section-number-3">7.1</span> Top Back</h3>
-</div>
-<div id="outline-container-orgce7ae21" class="outline-3">
-<h3 id="orgce7ae21"><span class="section-number-3">7.2</span> Bottom Back</h3>
-</div>
-</div>
-<div id="outline-container-orgfbff5f6" class="outline-2">
-<h2 id="orgfbff5f6"><span class="section-number-2">8</span> Mount</h2>
-<div class="outline-text-2" id="text-8">
-</div>
-<div id="outline-container-orgc80db6f" class="outline-3">
-<h3 id="orgc80db6f"><span class="section-number-3">8.1</span> Top Mount</h3>
-</div>
-<div id="outline-container-org8c66b62" class="outline-3">
-<h3 id="org8c66b62"><span class="section-number-3">8.2</span> Bottom Mount</h3>
-</div>
-</div>
-<div id="outline-container-orgf987af0" class="outline-2">
-<h2 id="orgf987af0"><span class="section-number-2">9</span> CACC Notes</h2>
-<div class="outline-text-2" id="text-9">
-</div>
-<div id="outline-container-orgef397d5" class="outline-3">
-<h3 id="orgef397d5"><span class="section-number-3">9.1</span> From Billy Riley documentary <a href="https://youtu.be/wqq_LWudBek?t=4m23s">Billy Riley teaches turtle attack</a></h3>
-<div class="outline-text-3" id="text-9-1">
-<p>
-From Turtle with a forearm on the ground.
-</p>
-<ol class="org-ol">
-<li>Grab the far arm from under the armpit to control that side</li>
-<li>With the other hand, push OPs head down to the ground</li>
-<li>Swing your topside leg over the head and pull as you fall to that side</li>
-<li>Post on the far arm as you fall so you do not flop to your side but you are upright and ready</li>
-<li>This will roll OP over and you still have the arm</li>
-<li>This can lead to topside position or a reverse triangle based on having the head and arm trapped.</li>
+"His hidden meaning lies in our endeavors;
+ Our valors are our best gods."
+</p></li>
 </ol>
 
 <p>
-Later in the same video is a good fireman throw followed through to side control
-</p>
-</div>
-</div>
-<div id="outline-container-org644c687" class="outline-3">
-<h3 id="org644c687"><span class="section-number-3">9.2</span> <span class="todo TODO">TODO</span> Eric Paulson <a href="https://www.youtube.com/watch?v=Y_B7Wd4LF28&amp;feature=youtu.be">4 Catch Wrestling Moves</a></h3>
-<div class="outline-text-3" id="text-9-2">
-<p>
-Add notes later
-</p>
-</div>
-</div>
-</div>
-
-<div id="outline-container-orga3f2657" class="outline-2">
-<h2 id="orga3f2657"><span class="section-number-2">10</span> Notes</h2>
-<div class="outline-text-2" id="text-10">
-</div>
-<div id="outline-container-orgbf6f9b0" class="outline-3">
-<h3 id="orgbf6f9b0"><span class="section-number-3">10.1</span> Concepts</h3>
-<div class="outline-text-3" id="text-10-1">
-</div>
-<div id="outline-container-orgb3fb27e" class="outline-4">
-<h4 id="orgb3fb27e"><span class="section-number-4">10.1.1</span> On a line</h4>
-<div class="outline-text-4" id="text-10-1-1">
-<p>
-Coach Doug uses the term On a line in his side control series. This means that the OP is in a position that does not allow him to base on one side. In judo this can be called a dead angle.
-</p>
-</div>
-</div>
-<div id="outline-container-org8f1d85c" class="outline-4">
-<h4 id="org8f1d85c"><span class="section-number-4">10.1.2</span> Hip Heist</h4>
-</div>
-<div id="outline-container-orgf23ef82" class="outline-4">
-<h4 id="orgf23ef82"><span class="section-number-4">10.1.3</span> Stone Squirrel</h4>
-</div>
-<div id="outline-container-orgce6c4ea" class="outline-4">
-<h4 id="orgce6c4ea"><span class="section-number-4">10.1.4</span> Top Single leg</h4>
-<div class="outline-text-4" id="text-10-1-4">
-<p>
-Closest to your head instead of closest to your hips
-</p>
-</div>
-</div>
-<div id="outline-container-org9d224d7" class="outline-4">
-<h4 id="org9d224d7"><span class="section-number-4">10.1.5</span> Bottom Single leg</h4>
-<div class="outline-text-4" id="text-10-1-5">
-<p>
-Closest to your hips instead of your head. You need to hip heist to get this leg.
-</p>
-</div>
-</div>
-</div>
-<div id="outline-container-org05d479b" class="outline-3">
-<h3 id="org05d479b"><span class="section-number-3">10.2</span> Styles</h3>
-<div class="outline-text-3" id="text-10-2">
-</div>
-<div id="outline-container-org28791a6" class="outline-4">
-<h4 id="org28791a6"><span class="section-number-4">10.2.1</span> <a href="https://www.jiujitsutimes.com/purple-belt-k-rolling-belt/">How to Roll as a purple belt</a> by Eddie Fyvie</h4>
-<div class="outline-text-4" id="text-10-2-1">
-</div>
-<div id="outline-container-org7704ace" class="outline-5">
-<h5 id="org7704ace">Crush you opponents: Focus on using heavy weight and really “crushing” on top.</h5>
-</div>
-<div id="outline-container-orgbd9723e" class="outline-5">
-<h5 id="orgbd9723e">Don’t finish anyone: Try to roll in a way where you catch and release submissions. Focus mainly on positions.</h5>
-</div>
-<div id="outline-container-org1a9788d" class="outline-5">
-<h5 id="org1a9788d">Don’t give anything: Don’t give an inch to anyone.</h5>
-</div>
-<div id="outline-container-orgda6f9b7" class="outline-5">
-<h5 id="orgda6f9b7">Keep it playful, but with a purpose: Keep it playful, but adhere to the principles and pick a goal.</h5>
-</div>
-<div id="outline-container-org931021f" class="outline-5">
-<h5 id="org931021f">Float: Don’t hold positions long; hop around and move quickly.</h5>
-</div>
-<div id="outline-container-org72bb917" class="outline-5">
-<h5 id="org72bb917">Allow bad positions, but with a purpose: Allow bad positions with the purpose of escaping and defending. Find comfort in discomfort.</h5>
-</div>
-<div id="outline-container-org12185e8" class="outline-5">
-<h5 id="org12185e8">Go for a “marathon round”: Just roll. Roll so long you have to change your attire. Time limits = sport. No time limits = life</h5>
-</div>
-<div id="outline-container-org96d3742" class="outline-5">
-<h5 id="org96d3742">Trade moves for concepts</h5>
-<div class="outline-text-5" id="text-org96d3742">
-<p>
-You should be utilizing the principles and concepts passed down by our BJJ forefathers from DAY ONE of your training!
+Another sort of false prayers are our regrets. Discontent is the want of self-reliance: it is infirmity of will. Regret calamities if you can thereby help the sufferer; if not, attend your own work and already the evil begins to be repaired. Our sympathy is just as base. We come to them who weep foolishly and sit down and cry for company, instead of imparting to them truth and health in rough electric shocks, putting them once more in communication with their own reason. The secret of fortune is joy in our hands. Welcome evermore to gods and men is the self-helping man. For him all doors are flung wide; him all tongues greet, all honors crown, all eyes follow with desire. Our love goes out to him and embraces him because he did not need it. We solicitously and apologetically caress and celebrate him because he held on his way and scorned our disapprobation. The gods love him because men hated him. "To the persevering mortal," said Zoroaster, "the blessed Immortals are swift."
 </p>
 
 <p>
-However, at the purple belt, it is time to kick your understanding of concepts into high gear.
+As men's prayers are a disease of the will, so are their creeds a disease of the intellect. They say with those foolish Israelites, 'Let not God speak to us, lest we die. Speak thou, speak any man with us, and we will obey.' Everywhere I am hindered of meeting God in my brother, because he has shut his own temple doors and recites fables merely of his brother's, or his brother's brother's God. Every new mind is a new classification. If it prove a mind of uncommon activity and power, a Locke, a Lavoisier, a Hutton, a Bentham, a Fourier, it imposes its classification on other men, and lo! a new system. In proportion to the depth of the thought, and so to the number of the objects it touches and brings within reach of the pupil, is his complacency. But chiefly is this apparent in creeds and churches, which are also classifications of some powerful mind acting on the elemental thought of duty, and man's relation to the Highest. Such is Calvinism, Quakerism, Swedenborgism. The pupil takes the same delight in subordinating every thing to the new terminology as a girl who has just learned botany in seeing a new earth and new seasons thereby. It will happen for a time that the pupil will find his intellectual power has grown by the study of his master's mind. But in all unbalanced minds the classification is idolized, passes for the end and not for a speedily exhaustible means, so that the walls of the system blend to their eye in the remote horizon with the walls of the universe; the luminaries of heaven seem to them hung on the arch their master built. They cannot imagine how you aliens have any right to see,—how you can see; 'It must be somehow that you stole the light from us.' They do not yet perceive that light, unsystematic, indomitable, will break into any cabin, even into theirs. Let them chirp awhile and call it their own. If they are honest and do well, presently their neat new pinfold will be too strait and low, will crack, will lean, will rot and vanish, and the immortal light, all young and joyful, million-orbed, million-colored, will beam over the universe as on the first morning.
 </p>
 
-<p>
-Imagine it like art; white belt and blue belt are learning how the artists’ tools work. You learn how to draw, paint, sketch, and at the end of blue belt, you have picked your “style” of art. The white belt and blue belt level doesn’t allow much room for personal thought. You need a concrete foundation and must master the artists’ tools!
-</p>
-
-<p>
-When you reach purple belt, you have earned the right to start exploring the “abstract”. You should always experiment and stay fascinated by the difficulty!
-</p>
-
-<p>
-“You can listen to me now or wait until you are 65.” – Frank Popolizio
-</p>
-
-<p>
-You are now freeing yourself from the stress of mastering the basics and can start opening up and allowing the abstract form of rolling to take shape. You should be seeing the “big picture” of jiu-jitsu much more clearly and have blended the hundreds of techniques you know into concepts that allow you to start applying them rapidly. You must see the “blend” of techniques in the various situations.
-</p>
-
-<p>
-The figurative samurai sword has been sharpened once you hit black belt. The purple belt has acquired the sword and has the skills, but still needs to smooth out the blade for extreme precision.
-</p>
-</div>
-</div>
-</div>
-</div>
-<div id="outline-container-org8e84c3b" class="outline-3">
-<h3 id="org8e84c3b"><span class="section-number-3">10.3</span> TrumpetDan Brownbelt Series</h3>
-<div class="outline-text-3" id="text-10-3">
-<p>
-TrumpetDan is a great teacher and these videos are full of great technical details that need to be mined. I remember watching these videos when I was a whitebelt and this information was mostly above my head. Other things in these vidoes are things I only just realized I learned from this video series. They are just things I have done for the last 4 years.
-</p>
-</div>
-<div id="outline-container-org7a6120c" class="outline-4">
-<h4 id="org7a6120c"><span class="section-number-4">10.3.1</span> <a href="https://www.youtube.com/watch?v=GKbphzgo0sc">TD Brownbelt Series Part 1</a></h4>
-<div class="outline-text-4" id="text-10-3-1">
-</div>
-<div id="outline-container-orga3c172e" class="outline-5">
-<h5 id="orga3c172e">Standing Up from guard passing paths</h5>
-<div class="outline-text-5" id="text-orga3c172e">
-<p>
-Get a sleeve and lapel grip and stand to pass while keeping the lapel arm stiff.
-Push open the guard and point your foot out while pressuring forward with your knee
-The other arm leaves the sleeve grip and "hikes" the knee to prevent a foot on my hip.
-</p>
-</div>
-<ul class="org-ul">
-<li><a id="org86e97a9"></a>From DLR<br />
-<ul class="org-ul">
-<li><a id="org4234a57"></a>OP has DLR hook<br />
-<ul class="org-ul">
-<li><a id="orgbca0c38"></a>Backstep and pivot forward<br />
-<div class="outline-text-8" id="text-orgbca0c38">
-<p>
-When you backsetup you are avoiding the far leg
-</p>
-</div>
-</li>
-<li><a id="orgbd188b3"></a>Pivot back to HQ position and get on top of the far foot<br />
-<div class="outline-text-8" id="text-orgbd188b3">
-<p>
-This move defeated the far foot on my leg/hip
-</p>
-</div>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-<div id="outline-container-org160fda8" class="outline-5">
-<h5 id="org160fda8">Torendo Pass</h5>
-<div class="outline-text-5" id="text-org160fda8">
-<p>
-Great detail on the torendo/bullfighter pass. If OP sits up when you grab the knees, step the the side and throw the legs down to that side. OP will be shelled to that side making it hard to pass. Hop to the far side that is undefended to take the back or side control.
-</p>
-</div>
-</div>
-<div id="outline-container-orgba86445" class="outline-5">
-<h5 id="orgba86445">Deep Halfguard passing sequence</h5>
-<div class="outline-text-5" id="text-orgba86445">
 <ol class="org-ol">
-<li>From deep halfguard, OP has the underhook for the backtake and an underhook on the far leg for the sweep.</li>
-<li>First, cross your feet and sit on your underhooked foot and sitback.</li>
-<li>Grab OPs bottom foot to avoid the backtake.</li>
-<li>Stablize</li>
-<li>Bring your arm in front to crossface and remove the underhook on your leg. Crossface hard and grab deep.</li>
-<li>Switch hips and sprawl to a standard half guard</li>
-<li>Walk across the OPs hips to get to quarter guard</li>
-<li>To remove the foot from quarter guard&#x2026; Using head pressure and a crawling hand from the underhook, stretch out OPs posture. When OP is stretched out he cannot keep your foot when you kick it free.</li>
-</ol>
-</div>
-</div>
-</div>
-<div id="outline-container-orgc273953" class="outline-4">
-<h4 id="orgc273953"><span class="section-number-4">10.3.2</span> <a href="https://www.youtube.com/watch?v=PJTrJjIV-CM">TD Brownbelt Series Part 2</a></h4>
-<div class="outline-text-4" id="text-10-3-2">
-<p>
-This video is about the open half guard.
-The "open half guard" "93 guard" is a halfguard with a foot on your hip and a knee shield.
-Dan starts by explaining that he values positions based on how much weight he can put on the opponent. I think this is a great concept.
-</p>
-<ol class="org-ol">
-<li>Attack/Distract the leg: Get an ankle lock on the foot by pressing the toes into your torso while getting an RNC grip on the ankle. This can be used as a distraction if it does not work.</li>
-<li>Pass: Swim the arm in and grab the pants after pushing the knee down. This pinning the OPs heel to his butt is exactly the same as an excape from KOB where you trap the kneeling leg with an underhook grip. This is an underhook on the ankle instead of an overhook. The overhook on the ankle is next and it is used when OP has a sleeve grip.</li>
-</ol>
-<p>
-2a. After the leg is pinned, turn the corner with your front side knee to get a knee into OPs hips.
-2b. Grab behind his back with a crossface and backstep. You can pin the leg with your leg.
-2c. Walk OP across his hips to finish the pass.
-</p>
-<ol class="org-ol">
-<li>Over-underpass: Establish the grip over his leg to grab his belt and break the grip on your sleeve.</li>
-</ol>
-<p>
-3a. Keep your head to the OVER side of the over under to avoid getting stuffed.
-3b. Get up on your toes and walk OP to the Over side to limit movement. (This changing his hip position is a key theme) :theme
-3c. Raise your leg to escape half guard to side control nad put he leg under OPs legs to keep his hips out of play.
-</p>
-
-<p>
-(This is similar to the passing concept that Jason Scully showed me at the Montreal seminar. Finishing the pass with a foot posted and OPs legs hanging off of your leg prevents scrambles)
-</p>
-
-<p>
-I had to stop the video <a href="https://youtu.be/PJTrJjIV-CM?t=6m49s">here</a> on 12/3 so I can get to class :)
-</p>
-</div>
-</div>
-<div id="outline-container-orge9cd736" class="outline-4">
-<h4 id="orge9cd736"><span class="section-number-4">10.3.3</span> <a href="https://www.youtube.com/watch?v=UUqH4rb7WBc">TD Brownbelt Series Part 3</a></h4>
-</div>
-<div id="outline-container-org284b744" class="outline-4">
-<h4 id="org284b744"><span class="section-number-4">10.3.4</span> <a href="https://www.youtube.com/watch?v=3H2gpKUHq10">TD Brownbelt Series Part 4</a></h4>
-</div>
-<div id="outline-container-org413e4de" class="outline-4">
-<h4 id="org413e4de"><span class="section-number-4">10.3.5</span> <a href="https://www.youtube.com/watch?v=3qFwa0ZhV2g">TD Brownbelt Series Part 5</a></h4>
-</div>
-<div id="outline-container-orgd1ebea8" class="outline-4">
-<h4 id="orgd1ebea8"><span class="section-number-4">10.3.6</span> <a href="https://www.youtube.com/watch?v=sm8NKHFlPNI">TD Brownbelt Series Part 6</a></h4>
-</div>
-<div id="outline-container-org01f299f" class="outline-4">
-<h4 id="org01f299f"><span class="section-number-4">10.3.7</span> <a href="https://www.youtube.com/watch?v=MtPki5X7mrU">TD Brownbelt Series Part 7</a></h4>
-</div>
-<div id="outline-container-org5fcb97a" class="outline-4">
-<h4 id="org5fcb97a"><span class="section-number-4">10.3.8</span> <a href="https://www.youtube.com/watch?v=L19elzK79hw">TD Brownbelt Series Part 8</a></h4>
-</div>
-</div>
-</div>
-<div id="outline-container-org43da6b1" class="outline-2">
-<h2 id="org43da6b1"><span class="section-number-2">11</span> Class Notes</h2>
-<div class="outline-text-2" id="text-11">
-</div>
-<div id="outline-container-orgf58dfa6" class="outline-3">
-<h3 id="orgf58dfa6"><span class="section-number-3">11.1</span> Topic taught Passing 93 Guard (halfguard with knee-sheild)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></h3>
-<div class="outline-text-3" id="text-11-1">
-<p>
-<span class="timestamp-wrapper"><span class="timestamp">[2016-12-03 Sat 11:07]</span></span>
-In this class, I took notes and I will type them in later&#x2026;
-</p>
-</div>
-</div>
-<div id="outline-container-org8c67f6c" class="outline-3">
-<h3 id="org8c67f6c"><span class="section-number-3">11.2</span> Topic taught Chokes from TopBack/Escape from BottomBack&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></h3>
-<div class="outline-text-3" id="text-11-2">
-<p>
-Chokes from Back - From Back control with over/under keep the bottom hand covering the top. Get a collar grip with the choking hand and use one of the following options for the other hand.
-</p>
-<ol class="org-ol">
-<li>Grab the lower lapel and complete the classic collar choke</li>
-<li>Switch to an eziekiel (spelling?) choke by bringing the non-choking hand behind the head and grabbing the sleeve</li>
-<li>If you have the collar grip, switch to the leg for the bow and arrow choke</li>
-<li>From bow and arrow, switch to moving the arm behind the arm/head to finish the choke</li>
-<li>Feed your Gi lapel from under OPs armpit to the choking hand - setup the same bow and arrow choke or under arm finish.</li>
+<li>It is for want of self-culture that the superstition of Travelling, whose idols are Italy, England, Egypt, retains its fascination for all educated Americans. They who made England, Italy, or Greece venerable in the imagination did so by sticking fast where they were, like an axis of the earth. In manly hours we feel that duty is our place. The soul is no traveller; the wise man stays at home, and when his necessities, his duties, on any occasion call him from his house, or into foreign lands, he is at home still and shall make men sensible by the expression of his countenance that he goes, the missionary of wisdom and virtue, and visits cities and men like a sovereign and not like an interloper or a valet.</li>
 </ol>
 
 <p>
-Escape from Back Control
+I have no churlish objection to the circumnavigation of the globe for the purposes of art, of study, and benevolence, so that the man is first domesticated, or does not go abroad with the hope of finding somewhat greater than he knows. He who travels to be amused, or to get somewhat which he does not carry, travels away from himself, and grows old even in youth among old things. In Thebes, in Palmyra, his will and mind have become old and dilapidated as they. He carries ruins to ruins.
 </p>
+
+<p>
+Travelling is a fool's paradise. Our first journeys discover to us the indifference of places. At home I dream that at Naples, at Rome, I can be intoxicated with beauty and lose my sadness. I pack my trunk, embrace my friends, embark on the sea and at last wake up in Naples, and there beside me is the stern fact, the sad self, unrelenting, identical, that I fled from. I seek the Vatican and the palaces. I affect to be intoxicated with sights and suggestions, but I am not intoxicated. My giant goes with me wherever I go.
+</p>
+
 <ol class="org-ol">
-<li>Turn torward the choking arm and post on your hand to get to turtle</li>
-<li>Raise your hips to try to make OP post a hand.</li>
-<li>Grab the hand and move push it to the other side of you head</li>
-<li>Roll to the side away from OP to get your shoulders on the mat</li>
-<li>Grab OPs knee with both hands to prevent the mount and get top position</li>
-<li>Underhook the leg while allowing mount to sneak out of the back door (so to speak)</li>
+<li>But the rage of travelling is a symptom of a deeper unsoundness affecting the whole intellectual action. The intellect is vagabond, and our system of education fosters restlessness. Our minds travel when our bodies are forced to stay at home. We imitate; and what is imitation but the travelling of the mind? Our houses are built with foreign taste; our shelves are garnished with foreign ornaments; our opinions, our tastes, our faculties, lean, and follow the Past and the Distant. The soul created the arts wherever they have flourished. It was in his own mind that the artist sought his model. It was an application of his own thought to the thing to be done and the conditions to be observed. And why need we copy the Doric or the Gothic model? Beauty, convenience, grandeur of thought and quaint expression are as near to us as to any, and if the American artist will study with hope and love the precise thing to be done by him, considering the climate, the soil, the length of the day, the wants of the people, the habit and form of the government, he will create a house in which all these will find themselves fitted, and taste and sentiment will be satisfied also.</li>
 </ol>
 
 <p>
-No rolling today, Just positional sparring from positions
+Insist on yourself; never imitate. Your own gift you can present every moment with the cumulative force of a whole life's cultivation; but of the adopted talent of another you have only an extemporaneous half possession. That which each can do best, none but his Maker can teach him. No man yet knows what it is, nor can, till that person has exhibited it. Where is the master who could have taught Shakspeare? Where is the master who could have instructed Franklin, or Washington, or Bacon, or Newton? Every great man is a unique. The Scipionism of Scipio is precisely that part he could not borrow. Shakspeare will never be made by the study of Shakspeare. Do that which is assigned you, and you cannot hope too much or dare too much. There is at this moment for you an utterance brave and grand as that of the colossal chisel of Phidias, or trowel of the Egyptians, or the pen of Moses or Dante, but different from all these. Not possibly will the soul, all rich, all eloquent, with thousand-cloven tongue, deign to repeat itself; but if you can hear what these patriarchs say, surely you can reply to them in the same pitch of voice; for the ear and the tongue are two organs of one nature. Abide in the simple and noble regions of thy life, obey thy heart and thou shalt reproduce the Foreworld again.
 </p>
 
-<p>
-Drilling:
-Drilled Roger Gracie Guard and Vale Tudo Gaurd together. If I cannot get the Vale Tudo setup I try to drag the arm across for the Roger Gracie setup and that ususally leads to a scramble that allows the Vale Tudo setup. The constant work makes it hard for OP to work on thier game.
-</p>
-
-<p>
-Drilled Stone Squirrel w/Mac
-Worked with light resistance and worked on several options
-Sucessfully framed up into Stone Squirrel by bumping and raising my arms up.
-Try to get my knee in to re-guard
-Roll for the hip heist or high single depending on where OP goes
-</p>
-
-<p>
-I was able to work and chain together some escapes but I did not have heavy resistance
-</p>
-
-<p>
-Drilled DLR pass w/Isaac
-</p>
 <ol class="org-ol">
-<li>Starting from DLR</li>
-<li>Get knee grip and lapel grip</li>
-<li>Stepback bringing the knee grip with me to turn OP</li>
-<li>Turn back in to lose the DLR hook and setup Mission Control</li>
-<li>Control "hike" the top leg for control</li>
-<li>Swim down to establish a knee ride on the bottom thigh and pressure the top leg</li>
-<li>Get a back grip and collar grip</li>
-<li>Switch the knee ride from one to the other and post out the far leg</li>
-<li>Pin the top leg at the calf with the posted leg</li>
-<li>Switch hips to setup the hop to the far side</li>
-<li>Hop to the far side and end with KOB or hip</li>
-<li>Be ready to switch if OP shrimps</li>
+<li>As our Religion, our Education, our Art look abroad, so does our spirit of society. All men plume themselves on the improvement of society, and no man improves.</li>
 </ol>
 
 <p>
-There is a lot of details but it started to make sense as I worked through some reps. I need to get this practice in every week/day
-</p>
-
-
-<p>
-<span class="timestamp-wrapper"><span class="timestamp">[2016-12-05 Mon 20:47]</span></span>
-</p>
-</div>
-</div>
-<div id="outline-container-org81272ac" class="outline-3">
-<h3 id="org81272ac"><span class="section-number-3">11.3</span> Topic taught Passing Scissor Guard with leg weave and pressure&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></h3>
-<div class="outline-text-3" id="text-11-3">
-</div>
-<div id="outline-container-orgf356439" class="outline-4">
-<h4 id="orgf356439"><span class="section-number-4">11.3.1</span> Steps</h4>
-<div class="outline-text-4" id="text-11-3-1">
-<ol class="org-ol">
-<li>Establish the leg weave while pinning the bottom arm with a sleeve grip.</li>
-<li>Sprawl and use shoulder pressure to collapse OPs legs together</li>
-<li>As you walk around the legs using head pressure, pull the top leg to prevent a hip escape</li>
-</ol>
-</div>
-</div>
-
-<div id="outline-container-orge3b8eb8" class="outline-4">
-<h4 id="orge3b8eb8"><span class="section-number-4">11.3.2</span> Drilling:</h4>
-<div class="outline-text-4" id="text-11-3-2">
-<p>
-Drilled the move from the class with resistance. I had trouble clearing the legs and I could not hop to the far side either. I think I needed to move to the leg switch and to pin the leg better.
-</p>
-</div>
-</div>
-
-<div id="outline-container-org1a6b564" class="outline-4">
-<h4 id="org1a6b564"><span class="section-number-4">11.3.3</span> Rolling</h4>
-<div class="outline-text-4" id="text-11-3-3">
-<p>
-I rolled in a few rounds from guard switching top and bottom. I had an interesting escape from a triangle. I tried to turn into the hips from my trapped arm side but I was not able to get a good angle. I switched to the feet in the armpit sitback escape I was only able to get the untrapped arm side foot in the armpit but the escape worked when I used both legs. When the triangle broke open, I ended up in a pass by keeping my arm that I used to get out of the triangle.
+Society never advances. It recedes as fast on one side as it gains on the other. It undergoes continual changes; it is barbarous, it is civilized, it is christianized, it is rich, it is scientific; but this change is not amelioration. For every thing that is given something is taken. Society acquires new arts and loses old instincts. What a contrast between the well-clad, reading, writing, thinking American, with a watch, a pencil and a bill of exchange in his pocket, and the naked New Zealander, whose property is a club, a spear, a mat and an undivided twentieth of a shed to sleep under! But compare the health of the two men and you shall see that the white man has lost his aboriginal strength. If the traveller tell us truly, strike the savage with a broad axe and in a day or two the flesh shall unite and heal as if you struck the blow into soft pitch, and the same blow shall send the white to his grave.
 </p>
 
 <p>
-From guard I was able to pull the arm across to take the back with white belts. I had a harder time getting into Vale Tudo Guard and the Roger Gracie guard setup. I was able to keep my guard and threaten but I think I needed to push harder on my first move to setup my second and third moves. I show the sweep attempt too much before I go for it and I need to get them moving so I will have momentum to use.
+The civilized man has built a coach, but has lost the use of his feet. He is supported on crutches, but lacks so much support of muscle. He has a fine Geneva watch, but he fails of the skill to tell the hour by the sun. A Greenwich nautical almanac he has, and so being sure of the information when he wants it, the man in the street does not know a star in the sky. The solstice he does not observe; the equinox he knows as little; and the whole bright calendar of the year is without a dial in his mind. His note-books impair his memory; his libraries overload his wit; the insurance-office increases the number of accidents; and it may be a question whether machinery does not encumber; whether we have not lost by refinement some energy, by a Christianity entrenched in establishments and forms some vigor of wild virtue. For every Stoic was a Stoic; but in Christendom where is the Christian?
 </p>
 
 <p>
-<span class="timestamp-wrapper"><span class="timestamp">[2016-12-07 Wed 22:07]</span></span>
-</p>
-</div>
-</div>
-</div>
-<div id="outline-container-orgc672ed1" class="outline-3">
-<h3 id="orgc672ed1"><span class="section-number-3">11.4</span> Topic taught Arm drag from closed guard with lapel over arm grip - Julio's class&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></h3>
-<div class="outline-text-3" id="text-11-4">
-<p>
-Lesson
-</p>
-<ol class="org-ol">
-<li>From closed guard, open the lapel and get a cross grip over OPs arm with a thumb up grip.</li>
-<li>Grab the wrist of the same arm with your same side hand</li>
-<li>Bridge and break the grip while straigtening you arm</li>
-<li>Pull the arm to the side while using your legs to break his posture to the side</li>
-<li>Shrimp out and reach over OPs head and hand yourself the lapel</li>
-</ol>
-<p>
-Options:
-</p>
-<ol class="org-ol">
-<li>Reach behind the other arm to finish the choke</li>
-<li>Underhook the leg to get the flower sweep</li>
-<li>Climb the guard high and setup the armbar</li>
-</ol>
-
-<p>
-Drilling:
-Drilled Side Control escapes with Kyle. I got reps in with the stone squirrel to guard recovery and to hip heist single leg. When drilling it live I had a real hard time. Kyle would sit through to Kesa with a grip on my shoulder. I would need to switch to the armpit push escape but Kyle would step over my head and work the inverted triangle.
-Kyle showed me a good concept to work that was very helpful. ** I need to work to get a same side sleeve grip. I started drilling with this and it made everything much easier. In order to set up the grip I am gripping the elbow while working the other escapes. If that arm moves I need to double up on that grip and push while I shrimp.
-I was able to get one reversal completed from that position when fighting for the sleeve everything else opened up.
+There is no more deviation in the moral standard than in the standard of height or bulk. No greater men are now than ever were. A singular equality may be observed between the great men of the first and of the last ages; nor can all the science, art, religion, and philosophy of the nineteenth century avail to educate greater men than Plutarch's heroes, three or four and twenty centuries ago. Not in time is the race progressive. Phocion, Socrates, Anaxagoras, Diogenes, are great men, but they leave no class. He who is really of their class will not be called by their name, but will be his own man, and in his turn the founder of a sect. The arts and inventions of each period are only its costume and do not invigorate men. The harm of the improved machinery may compensate its good. Hudson and Behring accomplished so much in their fishing-boats as to astonish Parry and Franklin, whose equipment exhausted the resources of science and art. Galileo, with an opera-glass, discovered a more splendid series of celestial phenomena than any one since. Columbus found the New World in an undecked boat. It is curious to see the periodical disuse and perishing of means and machinery which were introduced with loud laudation a few years or centuries before. The great genius returns to essential man. We reckoned the improvements of the art of war among the triumphs of science, and yet Napoleon conquered Europe by the bivouac, which consisted of falling back on naked valor and disencumbering it of all aids. The Emperor held it impossible to make a perfect army, says Las Cases, "without abolishing our arms, magazines, commissaries and carriages, until, in imitation of the Roman custom, the soldier should receive his supply of corn, grind it in his hand-mill, and bake his bread himself."
 </p>
 
 <p>
-I drilled the Vale Tudo Guard / RG guard but only one or two reps and today's class was good practice for this same type of work.
-<span class="timestamp-wrapper"><span class="timestamp">[2016-12-12 Mon 20:52]</span></span>
+Society is a wave. The wave moves onward, but the water of which it is composed does not. The same particle does not rise from the valley to the ridge. Its unity is only phenomenal. The persons who make up a nation to-day, next year die, and their experience with them.
 </p>
-</div>
-</div>
-<div id="outline-container-orgb215c45" class="outline-3">
-<h3 id="orgb215c45"><span class="section-number-3">11.5</span> Topic taught Nothing, I was late&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TOPIC">TOPIC</span></span></h3>
-<div class="outline-text-3" id="text-11-5">
+
 <p>
-<span class="timestamp-wrapper"><span class="timestamp">[2016-12-14 Wed 21:57]</span></span>
+And so the reliance on Property, including the reliance on governments which protect it, is the want of self-reliance. Men have looked away from themselves and at things so long that they have come to esteem the religious, learned and civil institutions as guards of property, and they deprecate assaults on these, because they feel them to be assaults on property. They measure their esteem of each other by what each has, and not by what each is. But a cultivated man becomes ashamed of his property, out of new respect for his nature. Especially he hates what he has if he see that it is accidental,—came to him by inheritance, or gift, or crime; then he feels that it is not having; it does not belong to him, has no root in him and merely lies there because no revolution or no robber takes it away. But that which a man is, does always by necessity acquire, and what the man acquires is living property, which does not wait the beck of rulers, or mobs, or revolutions, or fire, or storm, or bankruptcies, but perpetually renews itself wherever the man breathes. "Thy lot or portion of life," said the Caliph Ali, "is seeking after thee; therefore be at rest from seeking after it." Our dependence on these foreign goods leads us to our slavish respect for numbers. The political parties meet in numerous conventions; the greater the concourse and with each new uproar of announcement, The delegation from Essex! The Democrats from New Hampshire! The Whigs of Maine! the young patriot feels himself stronger than before by a new thousand of eyes and arms. In like manner the reformers summon conventions and vote and resolve in multitude. Not so, O friends! will the God deign to enter and inhabit you, but by a method precisely the reverse. It is only as a man puts off all foreign support and stands alone that I see him to be strong and to prevail. He is weaker by every recruit to his banner. Is not a man better than a town? Ask nothing of men, and, in the endless mutation, thou only firm column must presently appear the upholder of all that surrounds thee. He who knows that power is inborn, that he is weak because he has looked for good out of him and elsewhere, and so perceiving, throws himself unhesitatingly on his thought, instantly rights himself, stands in the erect position, commands his limbs, works miracles; just as a man who stands on his feet is stronger than a man who stands on his head.
 </p>
-</div>
-</div>
-</div>
+
+<p>
+So use all that is called Fortune. Most men gamble with her, and gain all, and lose all, as her wheel rolls. But do thou leave as unlawful these winnings, and deal with Cause and Effect, the chancellors of God. In the Will work and acquire, and thou hast chained the wheel of Chance, and shalt sit hereafter out of fear from her rotations. A political victory, a rise of rents, the recovery of your sick or the return of your absent friend, or some other favorable event raises your spirits, and you think good days are preparing for you. Do not believe it. Nothing can bring you peace but yourself. Nothing can bring you peace but the triumph of principles.
+</p>
 </div>
 <div id="postamble" class="status">
-<p class="author">Author: Brian Cronmiller</p>
-<p class="date">Created: 2019-02-11 Mon 18:33</p>
+<p class="author">Author: bc</p>
+<p class="date">Created: 2020-09-22 Tue 15:42</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
